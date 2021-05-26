@@ -1,4 +1,41 @@
-h2 {
-  background-color: blue;
-  border: rgb(124, 0, 0) dotted 10px;
+body {
+  margin: 0;
+}
+a:link {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+a:visited {
+  color: #568ece;
+}
+.main-menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  background-color: #040404;
+}
+.menu,
+a:link {
+  text-decoration: underline;
+  margin: 0;
+  padding: 100;
+  list-style: none;
+  display: flex;
+  gap: 3vmin;
+}
+.container {
+  background: url("/img/photo.jpeg");
+  background-size: cover;
+  width: 100vw;
+  min-height: 400px;
+  object-position: bottom;
+}
+.center {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #8e8e8e;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
