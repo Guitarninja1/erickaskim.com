@@ -8,13 +8,13 @@ const app = express();
 const port = 3333;
 
 app.use(express.static('public'));
-app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
 
 app.use('/', routes);
 
-app.get('/', (req, res) => {
-});
+
+
 
 app.listen(port, () => {
     console.log(`Express app listening at http://localhost:${port}`);
