@@ -1,16 +1,14 @@
-.about {
-  border-radius: 25px;
-}
 body {
   margin: 0;
   background-color: #040404;
 }
-.about {
+img.about {
   max-inline-size: 20vmax;
-  border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
 }
 .contactinfo,
 .address1,
@@ -24,6 +22,7 @@ body {
   color: #8e8e8e;
   padding: 0;
   margin: 3px;
+  font-family: CrimsonText;
 }
 a:link {
   color: #8e8e8e;
@@ -39,7 +38,7 @@ a:link {
   padding: 15px;
   list-style: none;
   display: flex;
-  gap: 0vmin;
+  gap: vmin;
   align-items: center;
 }
 .sub-menu {
@@ -54,18 +53,21 @@ a:visited {
   color: #568ece;
 }
 .main-menu {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: CrimsonText;
   display: flex;
   align-items: center;
   background-color: #040404;
 }
 h1.about {
+  font-weight: normal;
   color: #8e8e8e;
   text-align: center;
   font-size: 50px;
+  margin-bottom: 15px;
+  font-family: CrimsonText;
 }
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: CrimsonText;
   font-size: 18px;
   font-weight: normal;
   color: #8e8e8e;
@@ -73,4 +75,8 @@ p {
   padding: 15px;
   border-radius: 25px;
   margin: 2vw;
+  text-align: center;
+}
+h1.ea {
+  font-weight: normal;
 }
