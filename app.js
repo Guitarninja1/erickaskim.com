@@ -5,7 +5,7 @@ const routes = require('./index');
 const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3333;
+const port = 8080;
 
 app.use(express.static('public'));
 app.set('view engine', 'pug');
