@@ -1,0 +1,34 @@
+a:link {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+a:visited {
+  color: #568ece;
+}
+.main-menu {
+  font-family: CrimsonText;
+  display: flex;
+  align-items: center;
+  background-color: #040404;
+  font-weight: normal;
+}
+.sub-menu {
+  display: flex;
+  flex: 1;
+}
+.menu,
+a:link {
+  text-decoration: underline;
+  margin: 0px;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  gap: 0vmin;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 320px), (max-width: 593px) {
+  .center {
+    top: 34%;
+  }
+}

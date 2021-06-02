@@ -45,13 +45,6 @@ a:link {
   display: flex;
   flex: 1;
 }
-a:link {
-  color: #8e8e8e;
-  text-decoration: underline;
-}
-a:visited {
-  color: #568ece;
-}
 .main-menu {
   font-family: CrimsonText;
   display: flex;

@@ -61,6 +61,7 @@ div.blogs {
   padding: 15px;
   border-radius: 25px;
   margin: 2vw;
+  /* flex-wrap: wrap; */
 }
 h1.blog {
   color: #8e8e8e;
@@ -76,9 +77,10 @@ h2.blog1 {
   font-family: CrimsonText;
 }
 img {
-  max-width: 25vh;
+  max-width: 20rem;
   padding: inherit;
-  align-content: inherit;
+  align-content: top;
+  max-height: 10rem;
 }
 p {
   display: flex;
@@ -91,4 +93,16 @@ p {
   border-radius: 25px;
   margin: 2vw;
   text-align: left;
+}
+
+@media screen and (max-width: 638px) {
+  img {
+    max-height: 10rem;
+    align-content: top;
+    max-width: inherit;
+  }
+  div.blogs {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
