@@ -1,8 +1,12 @@
+import Header from "./Header";
+import Footer from "./Footer";
+
 export default function Page({ children }) {
     return (
         <div>
-            <p> page component </p>
+            <Header />
             {children}
+            <Footer />
         </div>
     )
 }
