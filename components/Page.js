@@ -1,12 +1,12 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from './Header';
+import Footer from './Footer';
 
 export default function Page({ children }) {
-    return (
-        <div>
-            <Header />
-            {children}
-            <Footer />
-        </div>
-    )
+	return (
+		<div>
+			<Header />
+			{children}
+			<Footer />
+		</div>
+	);
 }
