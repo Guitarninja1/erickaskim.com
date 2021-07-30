@@ -4,9 +4,7 @@ import Link from 'next/link';
 export default function Header() {
 	return (
 		<header>
-			<div className='header'>
-				<Link href='/'>Erick Askim</Link>
-			</div>
+			<Link href='/'>Erick Askim</Link>
 			<Nav />
 		</header>
 	);
