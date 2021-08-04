@@ -1,0 +1,113 @@
+html {
+	height: 100%;
+}
+h2 {
+	color: #f3f3f3;
+	font-family: raleway;
+	padding-left: 20px;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 43.2px;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 7rem;
+	align-content: center;
+	margin: 0px 17px;
+}
+h2.ea-title {
+	color: #f3f3f3;
+	font-family: raleway;
+	font-size: 20px;
+	padding: 0%;
+	text-align: center;
+	flex-grow: 1;
+}
+ul {
+	color: mintcream;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	font-family: mulish;
+	color: #989cac;
+	font-size: 1.5rem;
+}
+li {
+	margin: 20px;
+}
+a:hover {
+	color: rgb(223, 222, 224);
+}
+
+.footer {
+	color: #989cac;
+	text-align: center;
+	font-family: mulish;
+	margin: 0px 0px;
+	padding: 0px;
+	font-size: 14px;
+	line-height: 160%;
+}
+.Page-component {
+	background: radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+div.children {
+	min-height: calc(100vh - 143px);
+}
+body {
+	background: #0d0f16;
+	margin: -20px 0;
+}
+.nav--menu {
+	transition: transform 0.2s ease-in;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 700;
+	background-color: #0f1118;
+}
+.nav--menu__on_screen {
+	top: 0px;
+	left: 0vw;
+}
+.nav--menu__off_screen {
+	top: -110vh;
+	left: 0vw;
+}
+button {
+	padding: 0%;
+}
+button.bmenu {
+	background-color: transparent;
+	border: none;
+}
+button.call {
+	background-color: transparent;
+	border: none;
+}
+button.exit-button {
+	background-color: transparent;
+	border: none;
+	padding: 17px;
+}
+input {
+	background-color: #0f1118;
+	color: #989cac;
+}
