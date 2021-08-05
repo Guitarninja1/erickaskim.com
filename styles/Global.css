@@ -24,16 +24,6 @@ body {
 button {
 	padding: 0;
 }
-.nav--list {
-	color: mintcream;
-	display: flex;
-	list-style: none;
-	justify-content: space-around;
-	padding: 0;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: center;
-}
 a {
 	text-decoration: none;
 	font-family: mulish;
@@ -48,6 +38,14 @@ a:hover {
 	padding: 0;
 	text-align: center;
 	flex-grow: 1;
+}
+.header--menu {
+	background-color: transparent;
+	border: none;
+}
+.header--call {
+	background-color: transparent;
+	border: none;
 }
 .footer--footer {
 	color: #989cac;
@@ -69,6 +67,16 @@ a:hover {
 .page--children {
 	min-height: calc(100vh - 143px);
 }
+.nav--list {
+	color: mintcream;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
 .nav--menu {
 	transition: transform 0.2s ease-in;
 	position: absolute;
@@ -84,14 +92,6 @@ a:hover {
 .nav--menu__off_screen {
 	top: -110vh;
 	left: 0;
-}
-.header--menu {
-	background-color: transparent;
-	border: none;
-}
-.header--call {
-	background-color: transparent;
-	border: none;
 }
 .nav--exit {
 	background-color: transparent;
