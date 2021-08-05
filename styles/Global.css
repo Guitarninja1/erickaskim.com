@@ -58,7 +58,7 @@ a:hover {
 	font-size: 14px;
 	line-height: 1.6;
 }
-.Page--wrapper {
+.page--wrapper {
 	background: radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	height: 100%;
 	margin: 0;
@@ -85,15 +85,15 @@ a:hover {
 	top: -110vh;
 	left: 0;
 }
-.header--menu__button {
+.header--menu {
 	background-color: transparent;
 	border: none;
 }
-.header--call__button {
+.header--call {
 	background-color: transparent;
 	border: none;
 }
-.nav--exit__button {
+.nav--exit {
 	background-color: transparent;
 	border: none;
 	padding: 17px;

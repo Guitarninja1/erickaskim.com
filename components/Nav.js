@@ -9,7 +9,7 @@ export default function Nav(props) {
 				open ? 'nav--menu__on_screen' : 'nav--menu__off_screen'
 			}`}
 		>
-			<button className='nav--exit__button' onClick={() => setOpen(!open)}>
+			<button className='nav--exit' onClick={() => setOpen(!open)}>
 				<ExitB />
 			</button>
 			<ul className='nav--list'>

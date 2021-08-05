@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 export default function Page({ children }) {
 	return (
-		<div className='Page--wrapper'>
+		<div className='page--wrapper'>
 			<Header />
 			<div className='page--children'>{children}</div>
 			<Footer />
