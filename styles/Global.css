@@ -16,27 +16,28 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 7rem;
-	align-content: center;
-	margin: 0px 17px;
+	margin: 0 17px;
 }
-h2.ea-title {
-	color: #f3f3f3;
-	font-family: raleway;
-	font-size: 20px;
-	padding: 0%;
-	text-align: center;
-	flex-grow: 1;
+body {
+	background: #0d0f16;
+	margin: -20px 0;
 }
-ul {
+input {
+	background-color: #0f1118;
+	color: #989cac;
+}
+button {
+	padding: 0;
+}
+.ul--menu {
 	color: mintcream;
 	display: flex;
 	list-style: none;
 	justify-content: space-around;
-	padding: 0px;
+	padding: 0;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: center;
-	padding: 0px;
 }
 a {
 	text-decoration: none;
@@ -44,23 +45,25 @@ a {
 	color: #989cac;
 	font-size: 1.5rem;
 }
-li {
-	margin: 20px;
-}
 a:hover {
 	color: rgb(223, 222, 224);
 }
-
-.footer {
+.ea--title {
+	font-size: 20px;
+	padding: 0;
+	text-align: center;
+	flex-grow: 1;
+}
+.footer--footer {
 	color: #989cac;
 	text-align: center;
 	font-family: mulish;
-	margin: 0px 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-size: 14px;
-	line-height: 160%;
+	line-height: 1.6;
 }
-.Page-component {
+.Page--component {
 	background: radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	height: 100%;
 	margin: 0;
@@ -68,12 +71,8 @@ a:hover {
 	background-attachment: fixed;
 	overflow: hidden;
 }
-div.children {
+.children--children {
 	min-height: calc(100vh - 143px);
-}
-body {
-	background: #0d0f16;
-	margin: -20px 0;
 }
 .nav--menu {
 	transition: transform 0.2s ease-in;
@@ -84,30 +83,23 @@ body {
 	background-color: #0f1118;
 }
 .nav--menu__on_screen {
-	top: 0px;
-	left: 0vw;
+	top: 0;
+	left: 0;
 }
 .nav--menu__off_screen {
 	top: -110vh;
-	left: 0vw;
+	left: 0;
 }
-button {
-	padding: 0%;
-}
-button.bmenu {
+.bmenu--button {
 	background-color: transparent;
 	border: none;
 }
-button.call {
+.call--button {
 	background-color: transparent;
 	border: none;
 }
-button.exit-button {
+.exit--button {
 	background-color: transparent;
 	border: none;
 	padding: 17px;
-}
-input {
-	background-color: #0f1118;
-	color: #989cac;
 }

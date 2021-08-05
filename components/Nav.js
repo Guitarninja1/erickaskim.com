@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import ExitB from './ExitB';
-import MagGlass from './MagGlass';
 
 export default function Nav(props) {
 	const { open, setOpen } = props;
@@ -10,10 +9,10 @@ export default function Nav(props) {
 				open ? 'nav--menu__on_screen' : 'nav--menu__off_screen'
 			}`}
 		>
-			<button className='exit-button' onClick={() => setOpen(!open)}>
+			<button className='exit--button' onClick={() => setOpen(!open)}>
 				<ExitB />
 			</button>
-			<ul>
+			<ul className='ul--menu'>
 				<li>
 					<Link href='/'>Home</Link>
 				</li>
@@ -26,11 +25,13 @@ export default function Nav(props) {
 				<li>
 					<Link href='/contact'>Contact</Link>
 				</li>
-				<input
-					className='search'
-					type='search'
-					defaultValue='Search...                 '
-				></input>
+				<li>
+					<input
+						className='nav--search'
+						type='search'
+						defaultValue='Search...                 '
+					></input>
+				</li>
 			</ul>
 		</nav>
 	);
