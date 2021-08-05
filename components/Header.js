@@ -8,11 +8,11 @@ export default function Header() {
 	return (
 		<header>
 			<Nav open={open} setOpen={setOpen} />
-			<button className='bmenu--button' onClick={() => setOpen(!open)}>
+			<button className='header--menu__button' onClick={() => setOpen(!open)}>
 				<Bmenu />
 			</button>
-			<h2 className='ea--title'>Erick Askim</h2>
-			<button className='call--button'>
+			<h2 className='header--title'>Erick Askim</h2>
+			<button className='header--call__button'>
 				<Call />
 			</button>
 		</header>

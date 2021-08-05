@@ -9,10 +9,10 @@ export default function Nav(props) {
 				open ? 'nav--menu__on_screen' : 'nav--menu__off_screen'
 			}`}
 		>
-			<button className='exit--button' onClick={() => setOpen(!open)}>
+			<button className='nav--exit__button' onClick={() => setOpen(!open)}>
 				<ExitB />
 			</button>
-			<ul className='ul--menu'>
+			<ul className='nav--list'>
 				<li>
 					<Link href='/'>Home</Link>
 				</li>
@@ -29,7 +29,7 @@ export default function Nav(props) {
 					<input
 						className='nav--search'
 						type='search'
-						defaultValue='Search...                 '
+						defaultValue='Search...'
 					></input>
 				</li>
 			</ul>

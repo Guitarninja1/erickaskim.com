@@ -4,11 +4,10 @@ html {
 h2 {
 	color: #f3f3f3;
 	font-family: raleway;
-	padding-left: 20px;
 	font-size: 36px;
 	font-weight: 700;
 	font-style: normal;
-	line-height: 43.2px;
+	line-height: 2.1;
 }
 header {
 	display: flex;
@@ -22,14 +21,10 @@ body {
 	background: #0d0f16;
 	margin: -20px 0;
 }
-input {
-	background-color: #0f1118;
-	color: #989cac;
-}
 button {
 	padding: 0;
 }
-.ul--menu {
+.nav--list {
 	color: mintcream;
 	display: flex;
 	list-style: none;
@@ -48,7 +43,7 @@ a {
 a:hover {
 	color: rgb(223, 222, 224);
 }
-.ea--title {
+.header--title {
 	font-size: 20px;
 	padding: 0;
 	text-align: center;
@@ -63,7 +58,7 @@ a:hover {
 	font-size: 14px;
 	line-height: 1.6;
 }
-.Page--component {
+.Page--wrapper {
 	background: radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	height: 100%;
 	margin: 0;
@@ -71,7 +66,7 @@ a:hover {
 	background-attachment: fixed;
 	overflow: hidden;
 }
-.children--children {
+.page--children {
 	min-height: calc(100vh - 143px);
 }
 .nav--menu {
@@ -90,16 +85,20 @@ a:hover {
 	top: -110vh;
 	left: 0;
 }
-.bmenu--button {
+.header--menu__button {
 	background-color: transparent;
 	border: none;
 }
-.call--button {
+.header--call__button {
 	background-color: transparent;
 	border: none;
 }
-.exit--button {
+.nav--exit__button {
 	background-color: transparent;
 	border: none;
 	padding: 17px;
+}
+.nav--search {
+	background-color: #0f1118;
+	color: #989cac;
 }
