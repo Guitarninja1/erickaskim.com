@@ -1,11 +1,20 @@
 import Nav from './Nav';
-import Link from 'next/link';
+import { useState } from 'react';
+import Bmenu from './Bmenu.js';
+import Call from './Call';
 
 export default function Header() {
+	const [open, setOpen] = useState(false);
 	return (
 		<header>
-			<Link href='/'>Erick Askim</Link>
-			<Nav />
+			<Nav open={open} setOpen={setOpen} />
+			<button className='header--menu' onClick={() => setOpen(!open)}>
+				<Bmenu />
+			</button>
+			<h2 className='header--title'>Erick Askim</h2>
+			<button className='header--call'>
+				<Call />
+			</button>
 		</header>
 	);
 }

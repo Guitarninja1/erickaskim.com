@@ -3,9 +3,9 @@ import Footer from './Footer';
 
 export default function Page({ children }) {
 	return (
-		<div>
+		<div className='page--wrapper'>
 			<Header />
-			{children}
+			<div className='page--children'>{children}</div>
 			<Footer />
 		</div>
 	);
