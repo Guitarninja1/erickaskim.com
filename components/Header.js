@@ -13,7 +13,9 @@ export default function Header() {
 			</button>
 			<h2 className='header--title'>Erick Askim</h2>
 			<button className='header--call'>
-				<Call />
+				<a href='tel:530-828-2706'>
+					<Call />
+				</a>
 			</button>
 		</header>
 	);
