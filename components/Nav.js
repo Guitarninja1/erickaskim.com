@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ExitB from './ExitB';
+import ExitB from './svg/ExitB';
 
 export default function Nav(props) {
 	const { open, setOpen } = props;
@@ -20,7 +20,7 @@ export default function Nav(props) {
 					<Link href='/blog'>Blog</Link>
 				</li>
 				<li>
-					<Link href='/about'>About Me</Link>
+					<Link href='/about'>About</Link>
 				</li>
 				<li>
 					<Link href='/contact'>Contact</Link>
@@ -29,7 +29,7 @@ export default function Nav(props) {
 					<input
 						className='nav--search'
 						type='search'
-						defaultValue='Search...'
+						placeholder='Search'
 					></input>
 				</li>
 			</ul>
