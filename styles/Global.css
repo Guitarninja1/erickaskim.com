@@ -6,8 +6,10 @@ h2 {
 	font-family: raleway;
 	font-size: 36px;
 	font-weight: 700;
-	font-style: normal;
+	font-style: bold;
 	line-height: 2.1;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 header {
 	display: flex;
@@ -15,11 +17,22 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 7rem;
-	margin: 0 17px;
+	margin: 0 17px 80px;
 }
 body {
 	background: #0d0f16;
 	margin: -20px 0;
+}
+.index--bg {
+	position: fixed;
+	background-image: url('../Public/Mountain.svg');
+	background-repeat: no-repeat;
+	width: 360px;
+	height: 380px;
+	left: 0px;
+	bottom: 0px;
+	background-position: right bottom;
+	opacity: 2%;
 }
 button {
 	padding: 0;
@@ -34,7 +47,7 @@ a:hover {
 	color: rgb(223, 222, 224);
 }
 .header--title {
-	font-size: 20px;
+	font-size: 16px;
 	padding: 0;
 	text-align: center;
 	flex-grow: 1;
@@ -47,11 +60,46 @@ a:hover {
 	background-color: transparent;
 	border: none;
 }
+.index--ft__wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	text-indent: 8px;
+	color: #ff455b;
+	font-family: 'Mulish';
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: -45px;
+}
+.p--resume,
+.p--blog,
+.p--about {
+	font-family: mulish;
+	color: #989cac;
+	font-size: 20px;
+	margin: 0;
+}
+.about--wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about--h3 {
+	color: #ff455b;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.6%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
 .footer--footer {
 	color: #989cac;
 	text-align: center;
 	font-family: mulish;
-	margin: 0;
+	margin: 17px 0 0 0;
 	padding: 0;
 	font-size: 14px;
 	line-height: 1.6;
@@ -65,10 +113,12 @@ a:hover {
 	overflow: hidden;
 }
 .page--children {
-	min-height: calc(100vh - 143px);
+	min-height: calc(100vh - 231px);
+	margin: 17px;
+	margin-top: 100px;
 }
 .nav--list {
-	color: mintcream;
+	color: #989cac;
 	display: flex;
 	list-style: none;
 	justify-content: space-around;
@@ -76,10 +126,11 @@ a:hover {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: center;
+	min-height: 80vh;
 }
 .nav--menu {
-	transition: transform 0.2s ease-in;
-	position: absolute;
+	transition: transform 0.5s ease-in;
+	position: fixed;
 	height: 100vh;
 	width: 100vw;
 	z-index: 700;
@@ -88,6 +139,7 @@ a:hover {
 .nav--menu__on_screen {
 	top: 0;
 	left: 0;
+	position: fixed;
 }
 .nav--menu__off_screen {
 	top: -110vh;
@@ -96,9 +148,15 @@ a:hover {
 .nav--exit {
 	background-color: transparent;
 	border: none;
-	padding: 17px;
+	margin: 17px 0 0 17px;
 }
 .nav--search {
 	background-color: #0f1118;
-	color: #989cac;
+	color: #626367;
+	min-width: 90vw;
+	min-height: 8vh;
+	border: solid #2c2e33;
+	font-family: mulish;
+	font-size: 20px;
+	text-indent: 40px;
 }
