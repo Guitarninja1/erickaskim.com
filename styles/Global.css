@@ -23,17 +23,6 @@ body {
 	background: #0d0f16;
 	margin: -20px 0;
 }
-.index--bg {
-	position: fixed;
-	background-image: url('../Public/Mountain.svg');
-	background-repeat: no-repeat;
-	width: 360px;
-	height: 380px;
-	left: 0px;
-	bottom: 0px;
-	background-position: right bottom;
-	opacity: 2%;
-}
 button {
 	padding: 0;
 }
@@ -72,6 +61,14 @@ a:hover {
 	font-size: 12px;
 	margin-bottom: -45px;
 }
+.index--ul {
+	margin-top: 39vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	list-style: none;
+	color: #989cac;
+}
 .p--resume,
 .p--blog,
 .p--about {
@@ -79,6 +76,13 @@ a:hover {
 	color: #989cac;
 	font-size: 20px;
 	margin: 0;
+}
+.index--first {
+	background: url(../Public/Mountain.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 400px; */
+	min-height: calc(100vh - 170px);
 }
 .about--wrapper {
 	display: flex;
@@ -114,8 +118,6 @@ a:hover {
 }
 .page--children {
 	min-height: calc(100vh - 231px);
-	margin: 17px;
-	margin-top: 100px;
 }
 .nav--list {
 	color: #989cac;
