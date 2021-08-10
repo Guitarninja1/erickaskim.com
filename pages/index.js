@@ -3,14 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Service from '../components/Service';
 import WhatWeDo from '../components/WhatWeDo';
-import Blog from '../components/Blog-link';
+import BlogLink from '../components/BlogLink';
 
-export default function Home() {
+export default function home() {
 	return (
 		<main>
 			<div className='index--wrapper'>
 				<div className='index--first'>
-					<div className='index--first__slider'>
+					<div className='index--slider'>
 						<div className='index--wrapper__flavortext'>
 							<Triangle></Triangle>
 							<h3 className='index--flavortext'>Digital Dominance</h3>
@@ -28,8 +28,8 @@ export default function Home() {
 					</ul>
 				</div>
 				<div className='index--second'>
-					<div className='index--second__services'>
-						<Triangle></Triangle>
+					<div className='index--services'>
+						<Triangle className='triangle'></Triangle>
 						<h3 className='index--second__flavortext'>Digital Dominance</h3>
 						<h2>Develop Digital Products</h2>
 						<p>
@@ -67,7 +67,7 @@ export default function Home() {
 				</div>
 				<div className='index--third'>
 					<Triangle></Triangle>
-					<h3 className='index--third__portfolio'>Portfolio</h3>
+					<h3 className='index--portfolio'>Portfolio</h3>
 					<h2>Check Our Latest Cases</h2>
 					<Link href='#'>
 						<a>View All ➡️</a>
@@ -92,7 +92,7 @@ export default function Home() {
 					></Image>
 				</div>
 				<div className='index--fourth'>
-					<h2 className='index--fourth__cases'>CASES</h2>
+					<h2 className='index--cases'>CASES</h2>
 					<h2>Always be in touch</h2>
 					<label htmlFor='email'>email</label>
 					<input type='email' id='email' />
@@ -103,7 +103,7 @@ export default function Home() {
 					<h1>DIGITAL</h1>
 				</div>
 				<div className='index--sixth'>
-					<div className='index--sixth__whatwedo'>
+					<div className='index--whatwedo'>
 						<Triangle />
 						<h3 className='index--digital__flavortxt'>What We Do</h3>
 						<p>
@@ -143,14 +143,14 @@ export default function Home() {
 					</div>
 				</div>
 				<div className='index--seventh'>
-					<div className='index--blog__head'>
+					<div className='index--blog-head'>
 						<Triangle />
 						<h3 className='index--digital__flavortxt'>Blog</h3>
 						<h2>The Latest News In Digital</h2>
 						<Link href='#'>READ BLOG ➡️</Link>
 					</div>
-					<div className='index--blog__body'>
-						<Blog
+					<div className='index--blog-body'>
+						<BlogLink
 							image='https://picsum.photos/200/300'
 							imageAlt='alt'
 							name='Erick Askim'
@@ -159,7 +159,7 @@ export default function Home() {
 							title='Lorem Ipsum'
 							link='#'
 						/>
-						<Blog
+						<BlogLink
 							image='https://picsum.photos/200/300'
 							imageAlt='alt'
 							name='Erick Askim'
@@ -168,7 +168,7 @@ export default function Home() {
 							title='Lorem Ipsum'
 							link='#'
 						/>
-						<Blog
+						<BlogLink
 							image='https://picsum.photos/200/300'
 							imageAlt='alt'
 							name='Erick Askim'

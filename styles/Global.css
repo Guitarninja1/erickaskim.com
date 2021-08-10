@@ -51,15 +51,13 @@ a:hover {
 }
 .index--wrapper__flavortext {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
 	align-items: center;
-	text-indent: 8px;
 	color: #ff455b;
 	font-family: 'Mulish';
 	text-transform: uppercase;
 	font-size: 12px;
-	margin-bottom: -45px;
+	margin-bottom: -40px;
+	text-indent: 16px;
 }
 .index--ul {
 	margin-top: 39vh;
@@ -75,9 +73,12 @@ a:hover {
 	background-size: cover;
 	min-height: calc(100vh - 170px);
 }
+.index--slider {
+	margin: 0 17px;
+}
 .index--resume,
 .blog--p,
-.p--about {
+.about--p {
 	font-family: mulish;
 	color: #989cac;
 	font-size: 20px;

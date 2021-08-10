@@ -1,25 +1,24 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Component } from 'react';
 import {
 	FacebookShareButton,
 	FacebookIcon,
 	TwitterShareButton,
 	TwitterIcon,
-	FacebookMessengerIcon,
 } from 'react-share';
 
-export default function News(props) {
+export default function BlogLink(props) {
 	const { image, imageAlt, name, date, share, title, link } = props;
 	return (
-		<div className='blog--wrapper'>
+		<div className='bloglink--wrapper'>
 			<Image src={image} alt={imageAlt} height='100%' width='100%' />
 			<h2>{name}</h2>
 			<p>{date}</p>
-			<FacebookShareButton url={props.children}>
+			<FacebookShareButton url={Component}>
 				<FacebookIcon size={32} round={true} />
-				{''}
 			</FacebookShareButton>
-			<TwitterShareButton url={props.children}>
+			<TwitterShareButton url={Component}>
 				<TwitterIcon size={32} round={true} />
 			</TwitterShareButton>
 			<h3>{title}</h3>

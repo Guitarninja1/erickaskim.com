@@ -1,9 +1,7 @@
 export default function WebDevIcon() {
 	return (
 		<svg
-			width='12.5vw'
-			height='7.9vh'
-			viewBox='0 0 125 79'
+			viewBox='0 0 12.5vw 7.9vh'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 		>
