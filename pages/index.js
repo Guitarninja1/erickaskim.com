@@ -3,20 +3,20 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Service from '../components/Service';
 import WhatWeDo from '../components/WhatWeDo';
-import Blog from '../components/Blog';
+import Blog from '../components/Blog-link';
 
 export default function Home() {
 	return (
 		<main>
 			<div className='index--wrapper'>
 				<div className='index--first'>
-					<div className='index--slider'>
-						<div className='index--ft__wrapper'>
+					<div className='index--first__slider'>
+						<div className='index--wrapper__flavortext'>
 							<Triangle></Triangle>
 							<h3 className='index--flavortext'>Digital Dominance</h3>
 						</div>
 						<h2>Resume</h2>
-						<p className='p--resume'>
+						<p className='index--resume'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
 							eget erat luctus, condimentum lectus eu, egestas tortor.
 						</p>
@@ -28,9 +28,9 @@ export default function Home() {
 					</ul>
 				</div>
 				<div className='index--second'>
-					<div className='index--services'>
+					<div className='index--second__services'>
 						<Triangle></Triangle>
-						<h3 className='index--services'>Digital Dominance</h3>
+						<h3 className='index--second__flavortext'>Digital Dominance</h3>
 						<h2>Develop Digital Products</h2>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -67,45 +67,43 @@ export default function Home() {
 				</div>
 				<div className='index--third'>
 					<Triangle></Triangle>
-					<h3 className='index--portfolio'>Portfolio</h3>
+					<h3 className='index--third__portfolio'>Portfolio</h3>
 					<h2>Check Our Latest Cases</h2>
 					<Link href='#'>
 						<a>View All ➡️</a>
 					</Link>
 					<Image
 						src='https://picsum.photos/200/300'
-						width='200'
-						height='300'
+						width='100%'
+						height='100%'
 						alt='rando'
 					></Image>
 					<Image
 						src='https://picsum.photos/200/300'
-						width='200'
-						height='300'
+						width='100%'
+						height='100%'
 						alt='rando'
 					></Image>
 					<Image
 						src='https://picsum.photos/200/300'
-						width='200'
-						height='300'
+						width='100%'
+						height='100%'
 						alt='rando'
 					></Image>
 				</div>
 				<div className='index--fourth'>
-					<h2 className='cases'>CASES</h2>
-					<h3>cases</h3>
+					<h2 className='index--fourth__cases'>CASES</h2>
 					<h2>Always be in touch</h2>
 					<label htmlFor='email'>email</label>
 					<input type='email' id='email' />
 					<label htmlFor='checkbox'>I accept all Terms and Conditions</label>
 					<input type='checkbox' id='checkbox' />
 				</div>
-				<div className='fifth'>
+				<div className='index--fifth'>
 					<h1>DIGITAL</h1>
-					<h2>DIGITAL</h2>
 				</div>
 				<div className='index--sixth'>
-					<div className='index-whatwedo'>
+					<div className='index--sixth__whatwedo'>
 						<Triangle />
 						<h3 className='index--digital__flavortxt'>What We Do</h3>
 						<p>
@@ -145,13 +143,13 @@ export default function Home() {
 					</div>
 				</div>
 				<div className='index--seventh'>
-					<div className='index--bloghead'>
+					<div className='index--blog__head'>
 						<Triangle />
 						<h3 className='index--digital__flavortxt'>Blog</h3>
 						<h2>The Latest News In Digital</h2>
-						<div>READ BLOG ➡️</div>
+						<Link href='#'>READ BLOG ➡️</Link>
 					</div>
-					<div className='index--blogbody'>
+					<div className='index--blog__body'>
 						<Blog
 							image='https://picsum.photos/200/300'
 							imageAlt='alt'

@@ -1,9 +1,9 @@
 export default function about() {
 	return (
-		<>
+		<main>
 			<h2>About</h2>
 			<h3 className='about--h3'>Who I Am</h3>
-			<p className='p--about'>
+			<p className='about--p'>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget erat
 				luctus, condimentum lectus eu, egestas tortor. Donec posuere vestibulum
 				eros. Pellentesque elementum eleifend mollis. Fusce ac risus ut mauris
@@ -56,6 +56,6 @@ export default function about() {
 				venenatis quam. Phasellus lacus ipsum, dapibus eu odio sit amet,
 				facilisis volutpat augue.
 			</p>
-		</>
+		</main>
 	);
 }

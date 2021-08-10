@@ -49,7 +49,7 @@ a:hover {
 	background-color: transparent;
 	border: none;
 }
-.index--ft__wrapper {
+.index--wrapper__flavortext {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -69,20 +69,19 @@ a:hover {
 	list-style: none;
 	color: #989cac;
 }
-.p--resume,
-.p--blog,
+.index--first {
+	background: url(../Public/Mountain.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: calc(100vh - 170px);
+}
+.index--resume,
+.blog--p,
 .p--about {
 	font-family: mulish;
 	color: #989cac;
 	font-size: 20px;
 	margin: 0;
-}
-.index--first {
-	background: url(../Public/Mountain.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	/* height: 400px; */
-	min-height: calc(100vh - 170px);
 }
 .about--wrapper {
 	display: flex;
@@ -141,7 +140,6 @@ a:hover {
 .nav--menu__on_screen {
 	top: 0;
 	left: 0;
-	position: fixed;
 }
 .nav--menu__off_screen {
 	top: -110vh;
