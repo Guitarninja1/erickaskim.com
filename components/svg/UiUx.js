@@ -1,6 +1,6 @@
 export default function UiUx() {
 	return (
-		<svg viewBox='0 0 125v 79' fill='none' xmlns='http://www.w3.org/2000/svg'>
+		<svg viewBox='0 0 125 79' fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<g opacity='0.5'>
 				<path
 					d='M70.0001 48.0234C70.5395 48.0234 70.9767 47.5862 70.9767 47.0469C70.9767 46.5075 70.5395 46.0703 70.0001 46.0703C69.4608 46.0703 69.0236 46.5075 69.0236 47.0469C69.0236 47.5862 69.4608 48.0234 70.0001 48.0234Z'
