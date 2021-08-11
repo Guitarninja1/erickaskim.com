@@ -1,7 +1,7 @@
 import Nav from './Nav';
 import { useState } from 'react';
-import Bmenu from './Bmenu.js';
-import Call from './Call';
+import Bmenu from './svg/Bmenu.js';
+import Call from './svg/Call';
 
 export default function Header() {
 	const [open, setOpen] = useState(false);
@@ -13,7 +13,9 @@ export default function Header() {
 			</button>
 			<h2 className='header--title'>Erick Askim</h2>
 			<button className='header--call'>
-				<Call />
+				<a href='tel:+15308282706'>
+					<Call />
+				</a>
 			</button>
 		</header>
 	);
