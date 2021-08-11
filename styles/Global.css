@@ -49,6 +49,7 @@ a:hover {
 	background-color: transparent;
 	border: none;
 }
+
 .index--wrapper__flavortext {
 	display: flex;
 	align-items: center;
@@ -58,6 +59,12 @@ a:hover {
 	font-size: 12px;
 	margin-bottom: -40px;
 	text-indent: 16px;
+	margin-left: 18px;
+}
+.triangle {
+	width: 18px;
+	height: 18px;
+	margin-right: 18px;
 }
 .index--ul {
 	margin-top: 39vh;

@@ -12,7 +12,10 @@ export default function home() {
 				<div className='index--first'>
 					<div className='index--slider'>
 						<div className='index--wrapper__flavortext'>
-							<Triangle></Triangle>
+							<div className='triangle'>
+								<Triangle />
+							</div>
+
 							<h3 className='index--flavortext'>Digital Dominance</h3>
 						</div>
 						<h2>Resume</h2>
@@ -29,7 +32,10 @@ export default function home() {
 				</div>
 				<div className='index--second'>
 					<div className='index--services'>
-						<Triangle className='triangle'></Triangle>
+						<div className='triangle'>
+							<Triangle />
+						</div>
+
 						<h3 className='index--second__flavortext'>Digital Dominance</h3>
 						<h2>Develop Digital Products</h2>
 						<p>

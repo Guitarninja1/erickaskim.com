@@ -15,10 +15,10 @@ export default function BlogLink(props) {
 			<Image src={image} alt={imageAlt} height='100%' width='100%' />
 			<h2>{name}</h2>
 			<p>{date}</p>
-			<FacebookShareButton url={Component}>
+			<FacebookShareButton url='#'>
 				<FacebookIcon size={32} round={true} />
 			</FacebookShareButton>
-			<TwitterShareButton url={Component}>
+			<TwitterShareButton url='#'>
 				<TwitterIcon size={32} round={true} />
 			</TwitterShareButton>
 			<h3>{title}</h3>
