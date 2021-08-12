@@ -6,9 +6,7 @@ export default function Resume() {
 			<Header />
 			<div className='resume--slider'>
 				<div className='resume--flavortext'>
-					<div className='triangle'>
-						<Triangle />
-					</div>
+					<Triangle />
 					<h3 className='resume--flavortext'>Digital Dominance</h3>
 				</div>
 				<h2>Resume</h2>
