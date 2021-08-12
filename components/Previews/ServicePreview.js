@@ -5,12 +5,12 @@ import Triangle from '../svg/Triangle';
 export default function ServicePreview() {
 	return (
 		<div className='servicepreview--wrapper'>
-			<div className='index--services'>
+			<div className='servicepreview--head'>
 				<div className='triangle'>
 					<Triangle />
 				</div>
 
-				<h3 className='index--second__flavortext'>Digital Dominance</h3>
+				<h3 className='servicepreview--flavortext'>Digital Dominance</h3>
 				<h2>Develop Digital Products</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

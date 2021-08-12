@@ -6,77 +6,56 @@ export default function Footer() {
 		<div className='footer--wrapper'>
 			<div className='footer--menu'>
 				<h2 className='footer--title'>Erick Askim</h2>
-				<ul className='footer--menu__ul'>
+				<ul className='footer--menu-ul'>
 					<li>
-						<Link href='/'>
-							<p>Home</p>
-						</Link>
+						<Link href='/'>Home</Link>
 					</li>
-					<p className='footer--social__line'>─</p>
 					<li>
-						<Link href='/about'>
-							<p>About</p>
-						</Link>
+						<Link href='/about'>About</Link>
 					</li>
-					<p className='footer--social__line'>─</p>
 					<li>
-						<Link href='/'>
-							<p>Services</p>
-						</Link>
+						<Link href='/'>Services</Link>
 					</li>
-					<p className='footer--social__line'>─</p>
-
 					<li>
-						<Link href='/'>
-							<p>Portfolio</p>
-						</Link>
+						<Link href='/'>Portfolio</Link>
 					</li>
-					<p className='footer--social__line'>─</p>
 					<li>
-						<Link href='/blog'>
-							<p>Blog</p>
-						</Link>
+						<Link href='/blog'>Blog</Link>
 					</li>
-					<p className='footer--social__line'>─</p>
 					<li>
-						<Link href='/contact'>
-							<p>Contact</p>
-						</Link>
+						<Link href='/contact'>Contact</Link>
 					</li>
 				</ul>
 			</div>
 			<div className='footer--info'>
 				<div className='footer--address'>
-					<address className='footer--address-wrap'>
-						<h3 className='footer--h3'>Address:</h3>
-						<p className='footer--p'>536 W La Strada Circle, Medford,</p>
-						<p className='footer--p'>OR 96504, USA</p>
+					<h3 className='footer--h3'>Address:</h3>
+					<address className='footer--p'>
+						536 W La Strada Circle, Medford, OR 96504, USA
 					</address>
 				</div>
 				<div className='footer--contact'>
 					<h3 className='footer--h3'>Contact</h3>
-					<p className='footer--p'>+1 530 828 2706</p>
-					<p className='footer--p'>erickaskim@gmail.com</p>
+					<Link href='tel:+15308282706' className='footer--p'>
+						+1 530 828 2706
+					</Link>
+					<Link href='mailto:erickaskim@gmail.com' className='footer--p'>
+						erickaskim@gmail.com
+					</Link>
 				</div>
 				<div className='footer--usefull-links'>
 					<h3 className='footer--h3'>Usefull Links</h3>
-					<Link href='/'>
-						<a className='footer--link'>Help And Support</a>
-					</Link>
-					<Link href='/'>
-						<a className='footer--link'>Careers</a>
-					</Link>
+					<Link href='/'>Help And Support</Link>
+					<Link href='/'>Careers</Link>
 				</div>
 			</div>
 			<div className='footer--social'>
 				<Link href='/'>
 					<a className='footer--social-link'>Fb</a>
 				</Link>
-				<p className='footer--social__line'>─</p>
 				<Link href='/'>
 					<a className='footer--social-link'>Tw</a>
 				</Link>
-				<p className='footer--social__line'>─</p>
 				<Link href='/'>
 					<a className='footer--social-link'>In</a>
 				</Link>

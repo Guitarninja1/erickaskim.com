@@ -82,7 +82,6 @@ a:hover {
 	padding: 17px;
 }
 .resume {
-	/* background: radial-gradient(circle at top right, #331b25 -2%, #0d0f16 8%); */
 	background: url(../Public/Mountain.svg),
 		radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	background-repeat: no-repeat;
@@ -119,7 +118,6 @@ a:hover {
 	background: url(../Public/blogvector.svg),
 		linear-gradient(#0d0f16 60%, #331b25 136%);
 	background-repeat: no-repeat;
-	/* background-size: cover; */
 	background-position: bottom;
 }
 .footer--wrapper {
@@ -133,7 +131,7 @@ a:hover {
 	padding: 0;
 	opacity: 0.5;
 }
-.footer--menu__ul {
+.footer--menu-ul {
 	list-style: none;
 	flex-wrap: wrap;
 	margin: 0;
