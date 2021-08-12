@@ -12,7 +12,12 @@ export default function blog() {
 		<div className='blog--wrapper'>
 			<div className='blog--items'>
 				<h2>Blog</h2>
-				<Image src='https://picsum.photos/200/300' height='100%' width='100%' />
+				<Image
+					src='https://picsum.photos/200/300'
+					height='100%'
+					width='100%'
+					alt='image'
+				/>
 				<p className='blog--p'>Erick Askim</p>
 				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 12,2021</p>
@@ -24,11 +29,18 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#'>→</Link>
+				<Link href='#' aria-label='Next'>
+					→
+				</Link>
 			</div>
 			<div className='blog--items'>
 				<h2>Blog</h2>
-				<Image src='https://picsum.photos/200/300' height='100%' width='100%' />
+				<Image
+					src='https://picsum.photos/200/300'
+					height='100%'
+					width='100%'
+					alt='image'
+				/>
 				<p className='blog--p'>Erick Askim</p>
 				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 11,2021</p>
@@ -40,11 +52,18 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#'>→</Link>
+				<Link href='#' aria-label='Next'>
+					→
+				</Link>
 			</div>
 			<div className='blog--items'>
 				<h2>Blog</h2>
-				<Image src='https://picsum.photos/200/300' height='100%' width='100%' />
+				<Image
+					src='https://picsum.photos/200/300'
+					height='100%'
+					width='100%'
+					alt='image'
+				/>
 				<p className='blog--p'>Erick Askim</p>
 				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 10,2021</p>
@@ -56,11 +75,18 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#'>→</Link>
+				<Link href='#' aria-label='Next'>
+					→
+				</Link>
 			</div>
 			<div className='blog--items'>
 				<h2>Blog</h2>
-				<Image src='https://picsum.photos/200/300' height='100%' width='100%' />
+				<Image
+					src='https://picsum.photos/200/300'
+					height='100%'
+					width='100%'
+					alt='image'
+				/>
 				<p className='blog--p'>Erick Askim</p>
 				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 10,2021</p>
@@ -72,7 +98,9 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#'>→</Link>
+				<Link href='#' aria-label='Next'>
+					→
+				</Link>
 			</div>
 		</div>
 	);
