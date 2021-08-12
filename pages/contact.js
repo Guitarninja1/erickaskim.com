@@ -17,8 +17,8 @@ export default function Contact() {
 				<div className='contact--phone'>
 					<Image src='../public/phone.svg' alt='phone' />
 					<p>Hit us up</p>
-					<p>+1 530 828 2706</p>
-					<p>erickaskim@gmail.com</p>
+					<Link href='tel:+15308282706'>+1 530 828 2706</Link>
+					<Link href='mailto:erickaskim@gmail.com'>erickaskim@gmail.com</Link>
 				</div>
 				<div className='contact--address'>
 					<Image src='../public/address.svg' alt='gps marker' />
