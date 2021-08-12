@@ -3,7 +3,7 @@ html {
 }
 h2 {
 	color: #f3f3f3;
-	font-family: raleway;
+	font-family: Raleway;
 	font-size: 36px;
 	font-weight: 700;
 	font-style: bold;
@@ -26,9 +26,15 @@ body {
 button {
 	padding: 0;
 }
+address {
+	all: initial;
+}
+p {
+	color: #989cac;
+}
 a {
 	text-decoration: none;
-	font-family: mulish;
+	font-family: Mulish;
 	color: #989cac;
 	font-size: 1.5rem;
 }
@@ -50,11 +56,11 @@ a:hover {
 	border: none;
 }
 
-.index--wrapper__flavortext {
+.resume--wrapper__flavortext {
 	display: flex;
 	align-items: center;
 	color: #ff455b;
-	font-family: 'Mulish';
+	font-family: Mulish;
 	text-transform: uppercase;
 	font-size: 12px;
 	margin-bottom: -40px;
@@ -66,27 +72,29 @@ a:hover {
 	height: 18px;
 	margin-right: 18px;
 }
-.index--ul {
+.resume--ul {
 	margin-top: 39vh;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
 	list-style: none;
 	color: #989cac;
+	padding: 17px;
 }
-.index--first {
-	background: url(../Public/Mountain.svg);
+.resume {
+	background: url(../Public/Mountain.svg),
+		radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: calc(100vh - 170px);
 }
-.index--slider {
-	margin: 0 17px;
+.resume--slider {
+	margin: 17px;
 }
-.index--resume,
+.resume--body,
 .blog--p,
 .about--p {
-	font-family: mulish;
+	font-family: Mulish;
 	color: #989cac;
 	font-size: 20px;
 	margin: 0;
@@ -106,21 +114,97 @@ a:hover {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
-.footer--footer {
+.blogpreview--wrapper {
+	background: url(../Public/blogvector.svg),
+		linear-gradient(#0d0f16 60%, #331b25 136%);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.footer--wrapper {
+	background: linear-gradient(#331b25 -50%, #0d0f16 30%);
 	color: #989cac;
-	text-align: center;
-	font-family: mulish;
-	margin: 17px 0 0 0;
+	padding: 17px;
+}
+.footer--title {
+	font-family: Mulish;
+	font-size: 16px;
+	padding: 0;
+	opacity: 0.5;
+}
+.footer--menu-ul {
+	list-style: none;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0 0 40px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+	color: #989cac;
+	align-items: center;
+	font-family: Mulish;
+}
+.footer--contact,
+.footer--address,
+.footer--usefull-links,
+.footer--menu__ul {
+	margin-bottom: 50px;
+}
+.footer--h3 {
+	font-family: Raleway;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer--p {
+	font-family: Mulish;
+	font-size: 14px;
+	line-height: 160%;
+}
+.footer--link {
+	display: flex;
+	font-family: Mulish;
+	font-size: 14px;
+	margin-bottom: 17px;
+}
+.footer--social {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.footer--social-link {
+	font-size: 18px;
+	color: #ffffff;
+	opacity: 0.5;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 160%;
+}
+.footer--social__line {
+	margin: 0 10px;
+}
+.footer--copyright {
+	color: #989cac;
+	font-family: Mulish;
+	margin: 17px 0 40px 0;
 	padding: 0;
 	font-size: 14px;
 	line-height: 1.6;
 }
 .page--wrapper {
-	background: radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
+	position: relative;
 	height: 100%;
 	margin: 0;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: inherit;
 	overflow: hidden;
 }
 .page--children {
