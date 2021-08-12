@@ -8,22 +8,34 @@ export default function Footer() {
 				<h2 className='footer--title'>Erick Askim</h2>
 				<ul className='footer--menu-ul'>
 					<li>
-						<Link href='/'>Home</Link>
+						<Link href='/'>
+							<a className='footer--p'>Home</a>
+						</Link>
 					</li>
 					<li>
-						<Link href='/about'>About</Link>
+						<Link href='/about'>
+							<a className='footer--p'>About</a>
+						</Link>
 					</li>
 					<li>
-						<Link href='/'>Services</Link>
+						<Link href='/'>
+							<a className='footer--p'>Services</a>
+						</Link>
 					</li>
 					<li>
-						<Link href='/'>Portfolio</Link>
+						<Link href='/'>
+							<a className='footer--p'>Portfolio</a>
+						</Link>
 					</li>
 					<li>
-						<Link href='/blog'>Blog</Link>
+						<Link href='/blog'>
+							<a className='footer--p'>Blog</a>
+						</Link>
 					</li>
 					<li>
-						<Link href='/contact'>Contact</Link>
+						<Link href='/contact'>
+							<a className='footer--p'>Contact</a>
+						</Link>
 					</li>
 				</ul>
 			</div>
@@ -36,17 +48,21 @@ export default function Footer() {
 				</div>
 				<div className='footer--contact'>
 					<h3 className='footer--h3'>Contact</h3>
-					<Link href='tel:+15308282706' className='footer--p'>
-						+1 530 828 2706
+					<Link href='tel:+15308282706'>
+						<a className='footer--p'>+1 530 828 2706</a>
 					</Link>
-					<Link href='mailto:erickaskim@gmail.com' className='footer--p'>
-						erickaskim@gmail.com
+					<Link href='mailto:erickaskim@gmail.com'>
+						<a className='footer--p'>erickaskim@gmail.com</a>
 					</Link>
 				</div>
 				<div className='footer--usefull-links'>
 					<h3 className='footer--h3'>Usefull Links</h3>
-					<Link href='/'>Help And Support</Link>
-					<Link href='/'>Careers</Link>
+					<Link href='/'>
+						<a className='footer--p'>Help And Support</a>
+					</Link>
+					<Link href='/'>
+						<a className='footer--p'>Careers</a>
+					</Link>
 				</div>
 			</div>
 			<div className='footer--social'>

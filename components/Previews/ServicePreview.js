@@ -9,7 +9,6 @@ export default function ServicePreview() {
 				<div className='triangle'>
 					<Triangle />
 				</div>
-
 				<h3 className='servicepreview--flavortext'>Digital Dominance</h3>
 				<h2>Develop Digital Products</h2>
 				<p>

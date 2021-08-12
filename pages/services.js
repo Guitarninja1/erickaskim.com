@@ -5,7 +5,7 @@ import Triangle from '../components/svg/Triangle';
 export default function services() {
 	return (
 		<div className='service--wrapper'>
-			<div className='services--head'>
+			<div className='service--head'>
 				<div className='triangle'>
 					<Triangle />
 				</div>

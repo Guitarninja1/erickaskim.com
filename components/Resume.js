@@ -5,11 +5,10 @@ export default function Resume() {
 		<div className='resume'>
 			<Header />
 			<div className='resume--slider'>
-				<div className='resume--wrapper__flavortext'>
+				<div className='resume--flavortext'>
 					<div className='triangle'>
 						<Triangle />
 					</div>
-
 					<h3 className='resume--flavortext'>Digital Dominance</h3>
 				</div>
 				<h2>Resume</h2>
