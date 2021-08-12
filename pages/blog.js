@@ -19,9 +19,7 @@ export default function blog() {
 					alt='image'
 				/>
 				<p className='blog--p'>Erick Askim</p>
-				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 12,2021</p>
-				<p className='blog--p'>-</p>
 				<FacebookShareButton url='#'>
 					<FacebookIcon size={32} round={true} />
 				</FacebookShareButton>
@@ -29,8 +27,8 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#' aria-label='Next'>
-					→
+				<Link href='#'>
+					<a aria-label='Next'>→</a>
 				</Link>
 			</div>
 			<div className='blog--items'>
@@ -42,9 +40,7 @@ export default function blog() {
 					alt='image'
 				/>
 				<p className='blog--p'>Erick Askim</p>
-				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 11,2021</p>
-				<p className='blog--p'>-</p>
 				<FacebookShareButton url='#'>
 					<FacebookIcon size={32} round={true} />
 				</FacebookShareButton>
@@ -52,8 +48,8 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#' aria-label='Next'>
-					→
+				<Link href='#'>
+					<a aria-label='Next'>→</a>
 				</Link>
 			</div>
 			<div className='blog--items'>
@@ -65,9 +61,7 @@ export default function blog() {
 					alt='image'
 				/>
 				<p className='blog--p'>Erick Askim</p>
-				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 10,2021</p>
-				<p className='blog--p'>-</p>
 				<FacebookShareButton url='#'>
 					<FacebookIcon size={32} round={true} />
 				</FacebookShareButton>
@@ -75,8 +69,8 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#' aria-label='Next'>
-					→
+				<Link href='#'>
+					<a aria-label='Next'>→</a>
 				</Link>
 			</div>
 			<div className='blog--items'>
@@ -88,9 +82,7 @@ export default function blog() {
 					alt='image'
 				/>
 				<p className='blog--p'>Erick Askim</p>
-				<p className='blog--p'>-</p>
 				<p className='blog--p'>Aug 10,2021</p>
-				<p className='blog--p'>-</p>
 				<FacebookShareButton url='#'>
 					<FacebookIcon size={32} round={true} />
 				</FacebookShareButton>
@@ -98,8 +90,8 @@ export default function blog() {
 					<TwitterIcon size={32} round={true} />
 				</TwitterShareButton>
 				<p className='blog--p'>Lorem ipsum</p>
-				<Link href='#' aria-label='Next'>
-					→
+				<Link href='#'>
+					<a aria-label='Next'>→</a>
 				</Link>
 			</div>
 		</div>
