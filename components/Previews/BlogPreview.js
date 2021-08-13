@@ -1,15 +1,12 @@
 import Link from 'next/link';
 import BlogLink from '../BlogLink';
-import Triangle from '../svg/Triangle';
+import Flavortext from '../Flavortext';
 
 export default function BlogPreview() {
 	return (
 		<div className='blogpreview--wrapper'>
 			<div className='blogpreview--head'>
-				<div className='flavortext--wrapper'>
-					<Triangle />
-					<h3 className='flavortext'>Blog</h3>
-				</div>
+				<Flavortext title='Blog' />
 				<h2>The Latest News In Digital</h2>
 				<Link href='#'>READ BLOG ➡️</Link>
 			</div>

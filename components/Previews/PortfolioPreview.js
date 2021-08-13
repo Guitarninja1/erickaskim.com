@@ -1,14 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Triangle from '../svg/Triangle';
+import Flavortext from '../Flavortext';
 
 export default function PortfolioPreview() {
 	return (
 		<div className='portfoliopreview--wrapper'>
-			<div className='flavortext--wrapper'>
-				<Triangle />
-				<h3 className='flavortext'>Portfolio</h3>
-			</div>
+			<Flavortext title='Portfolio' />
 			<h2>Check Our Latest Cases</h2>
 			<Link href='#'>
 				<a>View All ➡️</a>

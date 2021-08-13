@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import InTouch from '../components/Previews/InTouch';
-import Triangle from '../components/svg/Triangle';
+import Message from '../components/Message';
+import InTouch from '../components/InTouch';
 
 export default function Contact() {
 	return (
@@ -33,24 +33,7 @@ export default function Contact() {
 					<address>536 W LaStrada cir, Medford, OR, 97504, USA</address>
 				</div>
 			</div>
-			<div className='contact--flavortext'>
-				<Triangle />
-				<h3 className='flavortext'>be in touch</h3>
-			</div>
-			<div className='contact--form-wrapper'>
-				<h2>Send Us A Message</h2>
-				<p></p>
-				<form>
-					<label htmlFor='name'>Name</label>
-					<input type='text' id='name' />
-					<label htmlFor='email'>Email</label>
-					<input type='email' id='email' />
-					<label htmlFor='tel'>Phone</label>
-					<input type='tel' id='tel' />
-					<textarea defaultValue='Comment' />
-					<input type='submit' value='Submit' className='contact--submit' />
-				</form>
-			</div>
+			<Message />
 			<InTouch />
 		</div>
 	);
