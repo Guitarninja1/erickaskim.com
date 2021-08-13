@@ -1,12 +1,11 @@
-import Triangle from '../svg/Triangle';
+import Flavortext from '../Flavortext';
 import WhatWeDo from '../WhatWeDo';
 
 export default function WWDPreview() {
 	return (
 		<div className='wwdpreview--wrapper'>
 			<div className='wwdpreview--head'>
-				<Triangle />
-				<h3 className='wwdpreview--digital__flavortxt'>What We Do</h3>
+				<Flavortext title='What We Do' />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
 					fringilla facilisis tortor non eleifend. Ut.

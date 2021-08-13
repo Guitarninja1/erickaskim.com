@@ -1,13 +1,12 @@
 import Link from 'next/link';
+import Flavortext from '../Flavortext';
 import Service from '../Service';
-import Triangle from '../svg/Triangle';
 
 export default function ServicePreview() {
 	return (
 		<div className='servicepreview--wrapper'>
 			<div className='servicepreview--head'>
-				<Triangle />
-				<h3 className='servicepreview--flavortext'>Digital Dominance</h3>
+				<Flavortext title='Services' />
 				<h2>Develop Digital Products</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

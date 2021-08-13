@@ -11,6 +11,11 @@ h2 {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
+h3 {
+	font-family: Raleway;
+	font-size: 18px;
+	color: #f3f3f3;
+}
 header {
 	display: flex;
 	flex-direction: row;
@@ -55,17 +60,16 @@ a:hover {
 	background-color: transparent;
 	border: none;
 }
-
-.resume--wrapper__flavortext {
-	display: flex;
-	align-items: center;
+.flavortext {
 	color: #ff455b;
 	font-family: Mulish;
 	text-transform: uppercase;
 	font-size: 12px;
-	margin-bottom: -40px;
-	text-indent: 16px;
-	margin-left: -18px;
+	margin: 0;
+}
+.flavortext--wrapper {
+	display: flex;
+	align-items: center;
 }
 .triangle {
 	width: 18px;
@@ -82,7 +86,7 @@ a:hover {
 	padding: 17px;
 }
 .resume {
-	background: url(../Public/Mountain.svg),
+	background: url(../public/Mountain.svg),
 		radial-gradient(circle at top right, #331b25 30%, #0d0f16 80%);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -115,10 +119,16 @@ a:hover {
 	text-transform: uppercase;
 }
 .blogpreview--wrapper {
-	background: url(../Public/blogvector.svg),
+	background: url(../public/blogvector.svg),
 		linear-gradient(#0d0f16 60%, #331b25 136%);
 	background-repeat: no-repeat;
 	background-position: bottom;
+}
+.servicepreview--wrapper,
+.portfoliopreview--wrapper,
+.wwdpreview--wrapper,
+.blogpreview--wrapper {
+	padding: 17px;
 }
 .footer--wrapper {
 	background: linear-gradient(#331b25 -50%, #0d0f16 30%);
@@ -164,9 +174,11 @@ a:hover {
 	font-weight: 600;
 }
 .footer--p {
+	display: flex;
 	font-family: Mulish;
 	font-size: 14px;
 	line-height: 160%;
+	color: #989cac;
 }
 .footer--link {
 	display: flex;

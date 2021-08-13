@@ -1,14 +1,12 @@
 import Link from 'next/link';
+import Flavortext from '../components/Flavortext';
 import Service from '../components/Service';
-import Triangle from '../components/svg/Triangle';
 
 export default function services() {
 	return (
-		<div className='service--wrapper'>
-			<div className='service--head'>
-				<Triangle />
-				<h3 className='services--flavortext'>Digital Dominance</h3>
-				<h2>Develop Digital Products</h2>
+		<div className='services--wrapper'>
+			<div className='services--head'>
+				<Flavortext title='Services' />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
 					fringilla facilisis tortor non eleifend. Ut.

@@ -1,14 +1,12 @@
-import Triangle from './svg/Triangle';
 import Header from './Header';
+import Flavortext from './Flavortext';
+
 export default function Resume() {
 	return (
 		<div className='resume'>
 			<Header />
 			<div className='resume--slider'>
-				<div className='resume--flavortext'>
-					<Triangle />
-					<h3 className='resume--flavortext'>Digital Dominance</h3>
-				</div>
+				<Flavortext title='Digital Dominance' />
 				<h2>Resume</h2>
 				<p className='resume--body'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget

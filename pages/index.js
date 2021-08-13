@@ -1,7 +1,7 @@
 import Resume from '../components/Resume';
 import ServicePreview from '../components/Previews/ServicePreview';
 import PortfolioPreview from '../components/Previews/PortfolioPreview';
-import InTouch from '../components/Previews/InTouch';
+import InTouch from '../components/InTouch';
 import WWDPreview from '../components/Previews/WWDPreview';
 import BlogPreview from '../components/Previews/BlogPreview';
 
