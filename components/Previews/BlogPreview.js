@@ -6,8 +6,10 @@ export default function BlogPreview() {
 	return (
 		<div className='blogpreview--wrapper'>
 			<div className='blogpreview--head'>
-				<Triangle />
-				<h3 className='blogpreview--digital__flavortxt'>Blog</h3>
+				<div className='flavortext--wrapper'>
+					<Triangle />
+					<h3 className='flavortext'>Blog</h3>
+				</div>
 				<h2>The Latest News In Digital</h2>
 				<Link href='#'>READ BLOG ➡️</Link>
 			</div>

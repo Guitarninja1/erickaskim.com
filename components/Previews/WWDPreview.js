@@ -5,8 +5,10 @@ export default function WWDPreview() {
 	return (
 		<div className='wwdpreview--wrapper'>
 			<div className='wwdpreview--head'>
-				<Triangle />
-				<h3 className='wwdpreview--digital__flavortxt'>What We Do</h3>
+				<div className='flavortext--wrapper'>
+					<Triangle />
+					<h3 className='flavortext'>What We Do</h3>
+				</div>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
 					fringilla facilisis tortor non eleifend. Ut.

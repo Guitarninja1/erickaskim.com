@@ -4,9 +4,11 @@ import Triangle from '../svg/Triangle';
 
 export default function PortfolioPreview() {
 	return (
-		<div className='profilepreview--wrapper'>
-			<Triangle></Triangle>
-			<h3 className='portfolio--title'>Portfolio</h3>
+		<div className='portfoliopreview--wrapper'>
+			<div className='flavortext--wrapper'>
+				<Triangle />
+				<h3 className='flavortext'>Portfolio</h3>
+			</div>
 			<h2>Check Our Latest Cases</h2>
 			<Link href='#'>
 				<a>View All ➡️</a>

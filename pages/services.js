@@ -4,10 +4,12 @@ import Triangle from '../components/svg/Triangle';
 
 export default function services() {
 	return (
-		<div className='service--wrapper'>
-			<div className='service--head'>
-				<Triangle />
-				<h3 className='services--flavortext'>Digital Dominance</h3>
+		<div className='services--wrapper'>
+			<div className='services--head'>
+				<div className='flavortext--wrapper'>
+					<Triangle />
+					<h3 className='flavortext'>Services</h3>
+				</div>
 				<h2>Develop Digital Products</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
