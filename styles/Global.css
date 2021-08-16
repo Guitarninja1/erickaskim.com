@@ -264,3 +264,28 @@ a:hover {
 	font-size: 20px;
 	text-indent: 40px;
 }
+.fourzerofour--wrapper {
+	background: url(../public/blogvector.svg),
+		linear-gradient(#0d0f16 60%, #331b25 136%);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	min-height: calc(100vh - 170px);
+}
+.fourzerofour--error {
+	background: url(../public/404triangle.svg);
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+	white-space: nowrap;
+}
