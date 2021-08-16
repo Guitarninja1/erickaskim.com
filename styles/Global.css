@@ -301,7 +301,7 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	background-position: center;
-	margin: -40px 15px 0 15px;
+	margin: -60px 15px 0 15px;
 }
 .fourzerofour--h2 {
 	color: #ff455b;
@@ -318,13 +318,14 @@ a:hover {
 	line-height: 1.6;
 	transform: translateY(-55px);
 }
-.fourzerofour--ul {
+.breadcrumbs--ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
 	justify-content: flex-end;
 }
-.fourzerofour--li__with-hyphen {
+.breadcrumbs--li__with-hyphen,
+.breadcrumbs--li {
 	font-size: 16px;
 	font-family: Mulish;
 	font-style: normal;
@@ -333,6 +334,12 @@ a:hover {
 	margin: 0 20px;
 	display: flex;
 	justify-content: flex-end;
+	color: #989cac;
+}
+.breadcrumbs--li__with-hyphen::after {
+	content: '─';
+	position: absolute;
+	left: calc(100vw - 85px);
 }
 .fourzerofour--text {
 	margin: -30px 0 30px 0;
@@ -359,8 +366,8 @@ a:hover {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	left: 290px;
-	top: 535px;
+	left: 19rem;
+	top: 34rem;
 	opacity: 0.5;
 	background-color: transparent;
 	border: none;
