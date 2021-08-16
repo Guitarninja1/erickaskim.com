@@ -20,7 +20,7 @@ export default function FourZeroFour() {
 			<p>
 				It looks like nothing was found at this location. Maybe try a search?
 			</p>
-			<label htmlFor='search' hidden>
+			<label htmlFor='search' className='sr-only'>
 				Search
 			</label>
 			<input type='search' id='search' placeholder='Search' />
