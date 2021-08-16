@@ -338,6 +338,7 @@ a:hover {
 }
 .breadcrumbs--li__with-hyphen::after {
 	content: '─';
+	opacity: 0.5;
 	position: absolute;
 	left: calc(100vw - 85px);
 }
