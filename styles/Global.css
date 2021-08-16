@@ -39,7 +39,7 @@ p {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 160%;
+	line-height: 1.6;
 }
 a {
 	text-decoration: none;
@@ -118,7 +118,7 @@ a:hover {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 12px;
-	line-height: 1.6%;
+	line-height: 1.6;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
@@ -156,7 +156,7 @@ a:hover {
 	justify-content: space-between;
 	font-size: 12px;
 	font-style: normal;
-	line-height: 160%;
+	line-height: 1.6;
 	font-weight: bold;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
@@ -181,7 +181,7 @@ a:hover {
 	display: flex;
 	font-family: Mulish;
 	font-size: 14px;
-	line-height: 160%;
+	line-height: 1.6;
 	color: #989cac;
 }
 .footer--link {
@@ -202,7 +202,7 @@ a:hover {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: bold;
-	line-height: 160%;
+	line-height: 1.6;
 }
 .footer--social__line {
 	margin: 0 10px;
@@ -301,11 +301,13 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	background-position: center;
-	margin: 0 15px;
+	margin: -40px 15px 0 15px;
 }
 .fourzerofour--h2 {
 	color: #ff455b;
 	font-size: 80px;
+	margin: 0;
+	padding-top: 85px;
 }
 .fourzerofour--h3 {
 	color: #989cac;
@@ -313,7 +315,7 @@ a:hover {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 160%;
+	line-height: 1.6;
 	transform: translateY(-55px);
 }
 .fourzerofour--ul {
@@ -322,18 +324,18 @@ a:hover {
 	display: flex;
 	justify-content: flex-end;
 }
-.fourzerofour--li,
-.fourzerofour--li-home {
+.fourzerofour--li__with-hyphen {
 	font-size: 16px;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 160%;
+	line-height: 1.6;
 	margin: 0 20px;
+	display: flex;
+	justify-content: flex-end;
 }
-.fourzerofour--li-home::after {
-	content: ' 	\2000\2001\2001 ─';
-	font-size: 16px;
+.fourzerofour--text {
+	margin: -30px 0 30px 0;
 }
 .fourzerofour--search-wrapper {
 	display: flex;
@@ -353,12 +355,12 @@ a:hover {
 	text-indent: 30px;
 	min-height: 60px;
 }
-.fourzerofour--search-button {
+.fourzerofour--search-icon {
 	position: absolute;
 	width: 20px;
 	height: 20px;
 	left: 290px;
-	top: 640px;
+	top: 535px;
 	opacity: 0.5;
 	background-color: transparent;
 	border: none;

@@ -9,24 +9,15 @@ export default function FourZeroFour() {
 			<div className='fourzerofour--title-wrapper'>
 				<h1 className='fourzerofour--title'>OOPS!</h1>
 			</div>
-			<ul className='fourzerofour--ul'>
-				<li>
-					<Link href='/'>
-						<a className='fourzerofour--li-home'>Home</a>
-					</Link>
-				</li>
-				<li>
-					<Link href='/'>
-						<a className='fourzerofour--li'>404</a>
-					</Link>
-				</li>
-			</ul>
+			<Link href='/'>
+				<a className='fourzerofour--li__with-hyphen'>Home - 404</a>
+			</Link>
 			<div className='fourzerofour--error'>
 				<h2 className='fourzerofour--h2'>404</h2>
 				<h3 className='fourzerofour--h3'>Page not found</h3>
 			</div>
 			<div className='fourzerofour--search-wrapper'>
-				<p>
+				<p className='fourzerofour--text'>
 					It looks like nothing was found at this location. Maybe try a search?
 				</p>
 				<label htmlFor='search' className='sr-only'>
@@ -38,9 +29,9 @@ export default function FourZeroFour() {
 					className='fourzerofour--search'
 					placeholder='Search'
 				/>
-				<button type='submit' className='fourzerofour--search-button'>
+				<div className='fourzerofour--search-icon'>
 					<Image src='/search.svg' alt='search' layout='fill' />
-				</button>
+				</div>
 			</div>
 		</div>
 	);
