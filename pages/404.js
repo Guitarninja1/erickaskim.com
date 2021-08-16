@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Breadcrumbs from '../components/Breadcrumbs';
 import Header from '../components/Header';
 
 export default function FourZeroFour() {
@@ -10,7 +11,9 @@ export default function FourZeroFour() {
 				<h1 className='fourzerofour--title'>OOPS!</h1>
 			</div>
 			<Link href='/'>
-				<a className='fourzerofour--li__with-hyphen'>Home - 404</a>
+				<a className='fourzerofour--li__with-hyphen'>
+					Home - <Breadcrumbs page='404' />
+				</a>
 			</Link>
 			<div className='fourzerofour--error'>
 				<h2 className='fourzerofour--h2'>404</h2>
