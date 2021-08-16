@@ -20,7 +20,10 @@ export default function FourZeroFour() {
 			<p>
 				It looks like nothing was found at this location. Maybe try a search?
 			</p>
-			<input type='search' placeholder='Search' />
+			<label htmlFor='search' hidden>
+				Search
+			</label>
+			<input type='search' id='search' placeholder='Search' />
 		</div>
 	);
 }
