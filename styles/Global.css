@@ -22,7 +22,7 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 7rem;
-	margin: 0 17px 80px;
+	margin: 0 17px;
 }
 body {
 	background: #0d0f16;
@@ -36,6 +36,10 @@ address {
 }
 p {
 	color: #989cac;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 160%;
 }
 a {
 	text-decoration: none;
@@ -131,7 +135,7 @@ a:hover {
 	padding: 17px;
 }
 .footer--wrapper {
-	background: linear-gradient(#331b25 -50%, #0d0f16 30%);
+	background: #0f1118;
 	color: #989cac;
 	padding: 17px;
 }
@@ -260,16 +264,35 @@ a:hover {
 	min-width: 90vw;
 	min-height: 8vh;
 	border: solid #2c2e33;
-	font-family: mulish;
+	font-family: Mulish;
 	font-size: 20px;
 	text-indent: 40px;
 }
 .fourzerofour--wrapper {
-	background: url(../public/blogvector.svg),
-		linear-gradient(#0d0f16 60%, #331b25 136%);
+	background: url(../public/blogvector.svg), #0d0f16;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	min-height: calc(100vh - 170px);
+	min-height: calc(100vh + 20px);
+}
+.fourzerofour--title-wrapper {
+	position: relative;
+}
+.fourzerofour--title {
+	font-size: 36px;
+	font-family: Raleway;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	padding-left: 15px;
+}
+.fourzerofour--title::after {
+	content: 'OOPS!';
+	opacity: 0.05;
+	font-size: 70px;
+	position: absolute;
+	left: -10px;
+	top: -40px;
 }
 .fourzerofour--error {
 	background: url(../public/404triangle.svg);
@@ -277,6 +300,68 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-position: center;
+	margin: 0 15px;
+}
+.fourzerofour--h2 {
+	color: #ff455b;
+	font-size: 80px;
+}
+.fourzerofour--h3 {
+	color: #989cac;
+	font-size: 20px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 160%;
+	transform: translateY(-55px);
+}
+.fourzerofour--ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.fourzerofour--li,
+.fourzerofour--li-home {
+	font-size: 16px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 160%;
+	margin: 0 20px;
+}
+.fourzerofour--li-home::after {
+	content: ' 	\2000\2001\2001 ─';
+	font-size: 16px;
+}
+.fourzerofour--search-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 15px;
+}
+.fourzerofour--search {
+	background: transparent;
+	color: #989cac;
+	border: solid #2c2e33;
+	font-family: Mulish;
+	font-size: 14px;
+	min-width: 100%;
+	background-color: transparent;
+	text-indent: 30px;
+	min-height: 60px;
+}
+.fourzerofour--search-button {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 290px;
+	top: 640px;
+	opacity: 0.5;
+	background-color: transparent;
+	border: none;
 }
 .sr-only {
 	position: absolute;
