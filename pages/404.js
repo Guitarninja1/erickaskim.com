@@ -1,29 +1,36 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Breadcrumbs from '../components/Breadcrumbs';
+import Header from '../components/Header';
 
 export default function FourZeroFour() {
 	return (
 		<div className='fourzerofour--wrapper'>
-			<h1 className='fourzerofour--title'>OOPS!</h1>
-			<ul className='fourzerofour--ul'>
-				<li>
-					<Link href='/'>Home</Link>
-				</li>
-				<li>
-					<Link href='/'>404</Link>
-				</li>
-			</ul>
+			<Header />
+			<div className='fourzerofour--title-wrapper'>
+				<h1 className='fourzerofour--title'>OOPS!</h1>
+			</div>
+			<Breadcrumbs page='404' />
 			<div className='fourzerofour--error'>
 				<h2 className='fourzerofour--h2'>404</h2>
 				<h3 className='fourzerofour--h3'>Page not found</h3>
 			</div>
-			<p>
-				It looks like nothing was found at this location. Maybe try a search?
-			</p>
-			<label htmlFor='search' className='sr-only'>
-				Search
-			</label>
-			<input type='search' id='search' placeholder='Search' />
+			<div className='fourzerofour--search-wrapper'>
+				<p className='fourzerofour--text'>
+					It looks like nothing was found at this location. Maybe try a search?
+				</p>
+				<label htmlFor='search' className='sr-only'>
+					Search
+				</label>
+				<input
+					type='search'
+					id='search'
+					className='fourzerofour--search'
+					placeholder='Search'
+				/>
+				<div className='fourzerofour--search-icon'>
+					<Image src='/search.svg' alt='search' layout='fill' />
+				</div>
+			</div>
 		</div>
 	);
 }
