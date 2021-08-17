@@ -341,6 +341,7 @@ a:hover {
 	opacity: 0.5;
 	position: absolute;
 	left: calc(100vw - 85px);
+	top: 170px;
 }
 .fourzerofour--text {
 	margin: -30px 0 30px 0;
@@ -367,8 +368,8 @@ a:hover {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	left: 19rem;
-	top: 34rem;
+	right: 50px;
+	top: 548px;
 	opacity: 0.5;
 	background-color: transparent;
 	border: none;
