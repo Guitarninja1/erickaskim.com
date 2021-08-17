@@ -1,0 +1,46 @@
+.wrapper {
+	margin-left: 15px;
+}
+.title {
+	font-family: Raleway;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 1.2;
+	text-transform: initial;
+}
+.items {
+	display: grid;
+	padding-right: 15px;
+}
+.content {
+	background: transparent;
+	color: #989cac;
+	border: solid rgba(153, 153, 153, 0.05);
+	font-family: Mulish;
+	font-size: 14px;
+	min-width: 97%;
+	background-color: transparent;
+	text-indent: 30px;
+	min-height: 60px;
+	margin-bottom: 20px;
+}
+.btn {
+	font-family: Mulish;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #ffffff;
+}
+.submit {
+	background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
+	border: none;
+	display: flex;
+	position: relative;
+	height: 50px;
+	width: 134px;
+	margin-bottom: 130px;
+	align-items: center;
+	justify-content: space-around;
+}

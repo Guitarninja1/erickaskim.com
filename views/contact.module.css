@@ -1,0 +1,53 @@
+.image {
+}
+.phone,
+.address {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+}
+.content1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.content2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.text {
+	font-family: Raleway;
+	font-weight: 600;
+	font-size: 16px;
+	color: #ffffff;
+}
+.hthree {
+	font-size: 16px;
+	font-family: Mulish;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.1;
+	color: #989cac;
+	margin: 30px 0 10px 0;
+}
+.address {
+	padding: 50px 0 130px 0;
+}
+.title {
+	margin: 0 0 0 15px;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+}
+.title::after {
+	content: 'CONTACT';
+	opacity: 0.05;
+	font-size: 70px;
+	position: absolute;
+	left: -10px;
+	top: 55px;
+}
+.items {
+	padding-top: 70px;
+}
