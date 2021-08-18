@@ -10,7 +10,7 @@ export default function InTouch() {
 				available propositions.
 			</p>
 			<div className={styles.items}>
-				<label htmlFor='email' className='sr-only'>
+				<label htmlFor='intouch--email' className='sr-only'>
 					email
 				</label>
 				<input

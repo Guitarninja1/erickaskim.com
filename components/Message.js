@@ -9,27 +9,27 @@ export default function Message() {
 				laboris excepteur officia ullamco sunt nisi velit culpa.
 			</p>
 			<form className={styles.items}>
-				<label htmlFor='name' className='sr-only'>
+				<label htmlFor='message--text' className='sr-only'>
 					Name
 				</label>
 				<input
 					type='text'
-					id='message--name'
+					id='message--text'
 					placeholder='Name *'
 					className={styles.content}
 					required={true}
 				/>
-				<label htmlFor='email' className='sr-only'>
+				<label htmlFor='message--email' className='sr-only'>
 					Email
 				</label>
 				<input
-					type='message--email'
-					id='email'
+					type='email'
+					id='message--email'
 					placeholder='E-mail *'
 					className={styles.content}
 					required={true}
 				/>
-				<label htmlFor='tel' className='sr-only'>
+				<label htmlFor='message--tel' className='sr-only'>
 					Phone
 				</label>
 				<input
@@ -38,9 +38,13 @@ export default function Message() {
 					placeholder='Phone #'
 					className={styles.content}
 				/>
+				<label htmlFor='message--textarea' className='sr-only'>
+					Comment Section
+				</label>
 				<textarea
 					rows='5'
 					cols='30'
+					id='message--testarea'
 					placeholder='Comment'
 					className={styles.textarea}
 				/>
