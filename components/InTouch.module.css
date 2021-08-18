@@ -1,6 +1,8 @@
 .wrapper {
 	margin: 0;
 	padding: 0 15px;
+	background: url('../public/blogvector.svg'),
+		linear-gradient(#0d0f16 30%, #331b25 100%);
 }
 .title {
 	font-family: Raleway;
@@ -12,6 +14,11 @@
 .text {
 	margin: 0;
 	padding-bottom: 40px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
 }
 .items {
 	font-family: Mulish;
@@ -22,21 +29,24 @@
 }
 .emailinput {
 	position: relative;
-	min-height: 50px;
+	min-height: 48px;
 	min-width: 97%;
-	background: transparent;
+	background: none;
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.6;
-	border: solid rgba(153, 153, 153, 0.1);
+	border: 2px solid rgba(248, 248, 252, 0.1);
+	text-indent: 20px;
 }
 .label {
 	color: #989cac;
 }
 .terms {
 	color: #ff455b;
+	margin: 0;
+	font-size: 14px;
 }
 .checkbox {
 	-webkit-appearance: none;
@@ -52,8 +62,13 @@
 .container {
 	display: flex;
 	align-items: center;
+	font-size: 14px;
+	margin-top: 12px;
 }
 .checkbox,
 .label {
-	margin-right: 4px;
+	margin-right: 5px;
+}
+.foo {
+	display: flex;
 }
