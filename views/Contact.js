@@ -4,7 +4,7 @@ import Message from '../components/Message';
 import InTouch from '../components/InTouch';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Header from '../components/Header';
-import styles from './Contact.module.css';
+import styles from './contact.module.css';
 import Flavortext from '../components/Flavortext';
 
 export default function Contact() {
@@ -12,8 +12,12 @@ export default function Contact() {
 		<div className='contact--wrapper'>
 			<div className={styles.wrapper}>
 				<Header />
-				<h2 className={styles.title}>Contact</h2>
-				<Breadcrumbs page='Contact' />
+				<div className={styles.titlewrapper}>
+					<h2 className={styles.title}>Contact</h2>
+					<div className={styles.breadcrumb}>
+						<Breadcrumbs page='Contact' />
+					</div>
+				</div>
 				<div className={styles.items}>
 					<div className={styles.image}>
 						<div>

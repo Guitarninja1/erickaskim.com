@@ -45,12 +45,19 @@
 }
 .title::after {
 	content: 'CONTACT';
+	position: absolute;
 	opacity: 0.05;
 	font-size: 70px;
-	position: absolute;
 	left: -10px;
-	top: 55px;
+	top: 50px;
 }
 .items {
-	padding-top: 70px;
+	padding: 70px 0 0 0;
+}
+.titlewrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.breadcrumb {
+	padding-top: 60px;
 }
