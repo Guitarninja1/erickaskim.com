@@ -26,12 +26,12 @@ export default function InTouch() {
 						className={styles.checkbox}
 					></input>
 					<label htmlFor='checkbox'>
-						<div className={styles.foo}>
+						<p className={styles.accept}>
 							<span className={styles.label}>I accept all</span>
 							<Link href='/'>
 								<a className={styles.terms}>Terms and Conditions</a>
 							</Link>
-						</div>
+						</p>
 					</label>
 				</div>
 			</div>
