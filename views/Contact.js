@@ -13,7 +13,7 @@ export default function Contact() {
 			<div className={styles.wrapper}>
 				<Header />
 				<div className={styles.titlewrapper}>
-					<h2 className={styles.title}>Contact</h2>
+					<h2 className={styles.title}>CONTACT</h2>
 					<div className={styles.breadcrumb}>
 						<Breadcrumbs page='Contact' />
 					</div>
