@@ -17,7 +17,7 @@ export default function Message() {
 					id='message--name'
 					placeholder='Name *'
 					className={styles.content}
-					required='true'
+					required={true}
 				/>
 				<label htmlFor='email' className='sr-only'>
 					Email
@@ -27,7 +27,7 @@ export default function Message() {
 					id='email'
 					placeholder='E-mail *'
 					className={styles.content}
-					required='true'
+					required={true}
 				/>
 				<label htmlFor='tel' className='sr-only'>
 					Phone
