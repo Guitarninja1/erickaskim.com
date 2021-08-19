@@ -48,6 +48,11 @@
 	line-height: 1.6;
 	letter-spacing: 0.1rem;
 	color: #989cac;
+	opacity: 0.8;
+}
+.menuli:hover,
+.menulicon:hover {
+	color: #ffffff;
 }
 .menuli::after {
 	content: '–';
