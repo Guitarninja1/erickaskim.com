@@ -1,82 +1,84 @@
 import Link from 'next/link';
+import styles from './Footer.module.css';
 
 export default function Footer() {
 	const year = new Date().getFullYear();
 	return (
-		<div className='footer--wrapper'>
-			<div className='footer--menu'>
-				<h2 className='footer--title'>Erick Askim</h2>
-				<ul className='footer--menu-ul'>
+		<div className={styles.wrapper}>
+			<h2 className={styles.title}>Erick Askim</h2>
+			<div className={styles.menuwrapper}>
+				<ul className={styles.menu}>
 					<li>
 						<Link href='/'>
-							<a className='footer--p'>Home</a>
+							<a className={styles.menuli}>Home</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/about'>
-							<a className='footer--p'>About</a>
+							<a className={styles.menuli}>About</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/'>
-							<a className='footer--p'>Services</a>
+							<a className={styles.menuli}>Services</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/'>
-							<a className='footer--p'>Portfolio</a>
+							<a className={styles.menuli}>Portfolio</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/blog'>
-							<a className='footer--p'>Blog</a>
+							<a className={styles.menuli}>Blog</a>
 						</Link>
 					</li>
 					<li>
 						<Link href='/contact'>
-							<a className='footer--p'>Contact</a>
+							<a className={styles.menulicon}>Contact</a>
 						</Link>
 					</li>
 				</ul>
 			</div>
 			<div className='footer--info'>
-				<div className='footer--address'>
-					<h3 className='footer--h3'>Address:</h3>
-					<address className='footer--p'>
-						536 W La Strada Circle, Medford, OR 96504, USA
+				<div className={styles.address}>
+					<h3 className={styles.hthree}>Address:</h3>
+					<address className={styles.alink}>
+						536 W La Strada Circle, Medford,
 					</address>
+					<address className={styles.alink}>OR 96504, USA</address>
 				</div>
-				<div className='footer--contact'>
-					<h3 className='footer--h3'>Contact</h3>
+				<div className={styles.contact}>
+					<h3 className={styles.hthree}>Contact</h3>
 					<Link href='tel:+15308282706'>
-						<a className='footer--p'>+1 530 828 2706</a>
+						<a className={styles.alink}>+1 530 828 2706</a>
 					</Link>
 					<Link href='mailto:erickaskim@gmail.com'>
-						<a className='footer--p'>erickaskim@gmail.com</a>
+						<a className={styles.alink}>erickaskim@gmail.com</a>
 					</Link>
 				</div>
-				<div className='footer--usefull-links'>
-					<h3 className='footer--h3'>Usefull Links</h3>
+				<div className={styles.usefull}>
+					<h3 className={styles.hthree}>Usefull Links</h3>
 					<Link href='/'>
-						<a className='footer--p'>Help And Support</a>
+						<a className={styles.alink}>Help And Support</a>
 					</Link>
 					<Link href='/'>
-						<a className='footer--p'>Careers</a>
+						<a className={styles.alink}>Careers</a>
 					</Link>
 				</div>
 			</div>
-			<div className='footer--social'>
+			<div className={styles.social}>
 				<Link href='/'>
-					<a className='footer--social-link'>Fb</a>
+					<a className={styles.sociallink}>Fb</a>
 				</Link>
 				<Link href='/'>
-					<a className='footer--social-link'>Tw</a>
+					<a className={styles.sociallink}>Tw</a>
 				</Link>
 				<Link href='/'>
-					<a className='footer--social-link'>In</a>
+					<a className={styles.sociallinkin}>In</a>
 				</Link>
 			</div>
-			<div className='footer--copyright'>
+			<div className={styles.copyright}>
 				<p>&copy; All rights reserved. Erick Askim {year}</p>
 			</div>
 		</div>
