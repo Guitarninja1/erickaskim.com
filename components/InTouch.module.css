@@ -1,0 +1,81 @@
+.wrapper {
+	margin: 0;
+	padding: 100px 15px;
+	background: linear-gradient(
+			360deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 100%
+		),
+		url('../public/wierd.svg');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 1.3;
+}
+.text {
+	margin: 0;
+	padding-bottom: 40px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.items {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.emailinput {
+	position: relative;
+	min-height: 48px;
+	min-width: 97%;
+	background: none, url('../public/arrow.svg');
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 95%;
+	background-size: 20px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	border: 2px solid rgba(248, 248, 252, 0.1);
+	text-indent: 20px;
+}
+.label {
+	color: #989cac;
+}
+.terms {
+	color: #ff455b;
+	margin: 0;
+	font-size: 14px;
+}
+.checkbox {
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid rgba(153, 153, 153, 0.2);
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+.container {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+.checkbox,
+.label {
+	margin-right: 5px;
+}
+.accept {
+	display: flex;
+}

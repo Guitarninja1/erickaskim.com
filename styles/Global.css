@@ -8,7 +8,6 @@ h2 {
 	font-weight: 700;
 	font-style: bold;
 	line-height: 2.1;
-	text-transform: uppercase;
 	margin-bottom: 20px;
 }
 h3 {
@@ -63,17 +62,6 @@ a:hover {
 .header--call {
 	background-color: transparent;
 	border: none;
-}
-.flavortext {
-	color: #ff455b;
-	font-family: Mulish;
-	text-transform: uppercase;
-	font-size: 12px;
-	margin: 0;
-}
-.flavortext--wrapper {
-	display: flex;
-	align-items: center;
 }
 .triangle {
 	width: 18px;
@@ -317,31 +305,6 @@ a:hover {
 	font-weight: normal;
 	line-height: 1.6;
 	transform: translateY(-55px);
-}
-.breadcrumbs--ul {
-	list-style: none;
-	padding: 0;
-	display: flex;
-	justify-content: flex-end;
-}
-.breadcrumbs--li__with-hyphen,
-.breadcrumbs--li {
-	font-size: 16px;
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1.6;
-	margin: 0 20px;
-	display: flex;
-	justify-content: flex-end;
-	color: #989cac;
-}
-.breadcrumbs--li__with-hyphen::after {
-	content: '─';
-	opacity: 0.5;
-	position: absolute;
-	left: calc(100vw - 85px);
-	top: 170px;
 }
 .fourzerofour--text {
 	margin: -30px 0 30px 0;

@@ -1,11 +1,12 @@
 import Triangle from './svg/Triangle';
+import styles from './Flavortext.module.css';
 
 export default function Flavortext(props) {
 	const { title } = props;
 	return (
-		<div className='flavortext--wrapper'>
+		<div className={styles.wrapper}>
 			<Triangle />
-			<h3 className='flavortext'>{title}</h3>
+			<h3 className={styles.flavortext}>{title}</h3>
 		</div>
 	);
 }

@@ -1,0 +1,63 @@
+.wrapper {
+	background: linear-gradient(#331b25 -80%, #0d0f16 80%);
+	background-position-y: -162px;
+	background-repeat: no-repeat;
+}
+.image {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	margin-bottom: 50px;
+}
+.contenthit {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.contentadd {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 0 80px 0;
+}
+.text {
+	font-family: Raleway;
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal;
+	color: #ffffff;
+	line-height: 1.6;
+}
+.hthree {
+	font-size: 16px;
+	font-family: Mulish;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.1;
+	color: #989cac;
+	margin: 30px 0 10px 0;
+}
+.title {
+	margin: 0 0 0 15px;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+}
+.title::after {
+	content: 'CONTACT';
+	position: absolute;
+	opacity: 0.05;
+	font-size: 70px;
+	left: -10px;
+	top: 50px;
+}
+.items {
+	padding: 70px 0 0 0;
+}
+.titlewrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.breadcrumb {
+	padding-top: 60px;
+}
