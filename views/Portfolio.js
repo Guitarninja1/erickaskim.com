@@ -3,14 +3,14 @@ import Header from '../components/Header';
 import Breadcrumbs from '../components/Breadcrumbs';
 import InTouch from '../components/InTouch';
 import Link from 'next/link';
-import Arrowright from '../public/arrowRightWhite.svg';
+import Arrowright from '../public/arrowright.svg';
 import Image from 'next/image';
 
 export default function Portfolio() {
 	return (
 		<div className={styles.wrapper}>
 			<Header />
-			<h2 className={styles.title}>Portfolio</h2>
+			<h2 className={styles.title}>PORTFOLIO</h2>
 			<Breadcrumbs page='Portfolio' />
 			<div className={styles.mainimagewrap}>
 				<div className={styles.imagewrap}>
@@ -26,9 +26,9 @@ export default function Portfolio() {
 			<Link href='/'>
 				<a className={styles.more}>
 					VIEW MORE CASES
-					<div className={styles.arrow}>
-						<Arrowright />
-					</div>
+					<span>
+						<Arrowright className={styles.arrow} />
+					</span>
 				</a>
 			</Link>
 			<InTouch />
