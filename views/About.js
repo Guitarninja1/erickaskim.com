@@ -154,8 +154,8 @@ export default function About() {
 							<div className={styles.atom}>
 								<Atom />
 							</div>
+							<p className={styles.icontitle}>Huge Experience</p>
 						</div>
-						<p className={styles.icontitle}>Huge Experience</p>
 					</div>
 					<div className={styles.iconblock}>
 						<div className={styles.iconposition}>
@@ -165,8 +165,8 @@ export default function About() {
 							<div className={styles.atom}>
 								<Lightbulb />
 							</div>
+							<p className={styles.icontitle}>Clean Strategy</p>
 						</div>
-						<p className={styles.icontitle}>Clean Strategy</p>
 					</div>
 					<div className={`${styles.iconblock} ${styles.iconblockodd}`}>
 						<div className={styles.iconposition}>
@@ -176,8 +176,8 @@ export default function About() {
 							<div className={styles.atom}>
 								<Puzzle />
 							</div>
+							<p className={styles.icontitle}>Modern Approach</p>
 						</div>
-						<p className={styles.icontitle}>Modern Approach</p>
 					</div>
 					<div className={styles.iconblock}>
 						<div className={styles.iconposition}>
@@ -187,8 +187,8 @@ export default function About() {
 							<div className={styles.atom}>
 								<Glasses />
 							</div>
+							<p className={styles.icontitle}>Strong Team</p>
 						</div>
-						<p className={styles.icontitle}>Strong Team</p>
 					</div>
 				</div>
 			</div>
