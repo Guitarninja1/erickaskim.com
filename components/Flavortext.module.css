@@ -8,5 +8,5 @@
 .wrapper {
 	display: flex;
 	align-items: center;
-	margin-left: 15px;
+	padding: 0 15px;
 }

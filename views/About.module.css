@@ -1,0 +1,169 @@
+.titlewrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.breadcrumb {
+	padding: 60px 0;
+}
+.title {
+	margin: 0 0 0 15px;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+}
+.title::after {
+	content: 'ABOUT';
+	position: absolute;
+	opacity: 0.05;
+	font-size: 70px;
+	left: -10px;
+	top: 50px;
+}
+
+.subflavor1 {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #ffffff;
+	margin-top: 14px;
+	padding: 0 15px;
+}
+.largep,
+.smallp {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #989cac;
+	padding: 0 15px;
+}
+.smallp {
+	font-size: 16px;
+	margin: 0;
+}
+.statswrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-bottom: 100px;
+	padding: 0 15px;
+}
+.statnum,
+.statnumplus {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 1.3;
+	color: #ff455b;
+	margin-bottom: 0;
+}
+.statnum {
+	display: flex;
+	align-items: center;
+}
+.statnumplus {
+	margin: 0 3px;
+	font-size: 24px;
+	align-content: center;
+}
+.statnumtitle {
+	display: flex;
+	flex-direction: column;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 1.6;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+.statnumwrap {
+	padding-right: 55px;
+}
+.imagewrap {
+	position: relative;
+	display: flex;
+	width: 100vw;
+	height: 60vh;
+	margin: 0;
+	padding: 0;
+}
+.expertwrap {
+	background-color: #ffffff;
+	padding: 100px 0 0 0;
+}
+.experttitle {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #26272c;
+	padding: 14px 15px 30px 15px;
+	margin: 0;
+}
+.arrows {
+	display: flex;
+	padding-bottom: 60px;
+}
+.arrowleft {
+	display: block;
+	width: 40px;
+	margin: 0 40px 0 15px;
+}
+.arrowright {
+	display: block;
+	width: 40px;
+	color: #26272c;
+	opacity: 0.3;
+}
+.expertimagewrap {
+	position: relative;
+	display: flex;
+	width: 91vw;
+	height: 50vh;
+	margin: 0 15px;
+	padding: 0;
+}
+.expertfooter {
+	position: relative;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 100%;
+	color: #0f1118;
+	border: 0;
+	margin: 0;
+	padding: 0 0 60px 0;
+}
+.expertfooter::after {
+	content: 'EXPERTS';
+	position: absolute;
+	opacity: 0.3;
+	font-size: 130px;
+	left: -10px;
+	top: inherit;
+	bottom: 15px;
+	color: #0f1118;
+}
+.whyuswrap {
+	padding-top: 130px;
+}
+.listwrap {
+	padding: 0 20px 0 15px;
+	margin: 0;
+}
+.listitem {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 24px 1fr;
+	padding-bottom: 15px;
+}
