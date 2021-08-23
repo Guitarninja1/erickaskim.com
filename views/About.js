@@ -6,10 +6,15 @@ import Header from '../components/Header';
 import styles from './About.module.css';
 import ArrowLeft from '../public/arrowleft.svg';
 import ArrowRight from '../public/arrowright.svg';
+import TriangleBorder from '../public/404triangle.svg';
+import Glasses from '../public/glasses.svg';
+import Atom from '../public/atomman.svg';
+import Lightbulb from '../public/lightbulb.svg';
+import Puzzle from '../public/puzzle.svg';
 
 export default function About() {
 	return (
-		<main>
+		<main className={styles.wrapper}>
 			<Header />
 			<div className={styles.titlewrapper}>
 				<h2 className={styles.title}>ABOUT</h2>
@@ -139,6 +144,52 @@ export default function About() {
 							</p>
 						</li>
 					</ul>
+				</div>
+				<div className={styles.iconswrap}>
+					<div className={`${styles.iconblock} ${styles.iconblockodd}`}>
+						<div className={styles.iconposition}>
+							<div className={styles.triangle}>
+								<TriangleBorder />
+							</div>
+							<div className={styles.atom}>
+								<Atom />
+							</div>
+							<p className={styles.icontitle}>Huge Experience</p>
+						</div>
+					</div>
+					<div className={styles.iconblock}>
+						<div className={styles.iconposition}>
+							<div className={styles.triangle}>
+								<TriangleBorder />
+							</div>
+							<div className={styles.atom}>
+								<Lightbulb />
+							</div>
+							<p className={styles.icontitle}>Clean Strategy</p>
+						</div>
+					</div>
+					<div className={`${styles.iconblock} ${styles.iconblockodd}`}>
+						<div className={styles.iconposition}>
+							<div className={styles.triangle}>
+								<TriangleBorder />
+							</div>
+							<div className={styles.atom}>
+								<Puzzle />
+							</div>
+							<p className={styles.icontitle}>Modern Approach</p>
+						</div>
+					</div>
+					<div className={styles.iconblock}>
+						<div className={styles.iconposition}>
+							<div className={styles.triangle}>
+								<TriangleBorder />
+							</div>
+							<div className={styles.atom}>
+								<Glasses />
+							</div>
+							<p className={styles.icontitle}>Strong Team</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>
