@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import BlogLink from '../BlogLink';
 import Flavortext from '../Flavortext';
+import styles from './BlogPreview.module.css';
 
 export default function BlogPreview() {
 	return (
-		<div className='blogpreview--wrapper'>
+		<div className={styles.blogpreviewwrapper}>
 			<div className='blogpreview--head'>
 				<Flavortext title='Blog' />
 				<h2>The Latest News In Digital</h2>

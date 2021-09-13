@@ -1,18 +1,15 @@
 import Link from 'next/link';
 import ExitB from './svg/ExitB';
+import styles from './Nav.module.css';
 
 export default function Nav(props) {
 	const { open, setOpen } = props;
 	return (
-		<nav
-			className={`nav--menu ${
-				open ? 'nav--menu__on_screen' : 'nav--menu__off_screen'
-			}`}
-		>
-			<button className='nav--exit' onClick={() => setOpen(!open)}>
+		<nav className={`${styles.menu} ${open ? styles.on : styles.off}`}>
+			<button className={styles.exit} onClick={() => setOpen(!open)}>
 				<ExitB />
 			</button>
-			<ul className='nav--list'>
+			<ul className={styles.list}>
 				<li>
 					<Link href='/'>Home</Link>
 				</li>
@@ -20,14 +17,20 @@ export default function Nav(props) {
 					<Link href='/blog'>Blog</Link>
 				</li>
 				<li>
+					<Link href='/post'>Post</Link>
+				</li>
+				<li>
 					<Link href='/about'>About</Link>
+				</li>
+				<li>
+					<Link href='/portfolio'>Portfolio</Link>
 				</li>
 				<li>
 					<Link href='/contact'>Contact</Link>
 				</li>
 				<li>
 					<input
-						className='nav--search'
+						className={styles.search}
 						type='search'
 						placeholder='Search'
 					></input>

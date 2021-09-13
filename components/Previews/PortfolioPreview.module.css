@@ -1,0 +1,59 @@
+.imagewrap {
+	position: relative;
+	display: flex;
+	width: 330px;
+	height: 468px;
+	margin: 15px 0;
+	padding: 0;
+}
+.portfoliopreviewwrapper {
+	background-color: #ffffff;
+	padding: 130px 15px 17px 15px;
+}
+.portfoliopreviewtitle {
+	color: #26272c;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+}
+.arrow1 {
+	display: block;
+	width: 30px;
+	margin: 3px 40px 0 15px;
+	fill: #26272c;
+}
+.arrow1wrap {
+	display: flex;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1.6;
+	padding-bottom: 45px;
+}
+.casestitle {
+	font-family: Raleway;
+	position: relative;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	color: #0f1118;
+	background: #ffffff;
+	margin: 0;
+	left: -17px;
+}
+.casestitle::after {
+	content: 'CASES';
+	display: flex;
+	position: relative;
+	opacity: 0.25;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 130px;
+	left: -17px;
+	top: -65px;
+	max-height: 40px;
+}

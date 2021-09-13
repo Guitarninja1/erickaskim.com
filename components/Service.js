@@ -1,14 +1,22 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ArrowRight from '../public/arrowright.svg';
+import styles from './Service.module.css';
 
 export default function Service(props) {
 	const { imageSrc, imageAlt, text, title, link } = props;
 	return (
-		<div className='service--webdev'>
-			<Image src={imageSrc} alt={imageAlt} height='100%' width='100%' />
-			<h3 className='service--webdev__flavortxt'>{title}</h3>
-			<p>{text}</p>
-			<Link href={link}>➡️</Link>
+		<div className={styles.servicewrap}>
+			<div className={styles.servicewrap2}>
+				<Image src={imageSrc} alt={imageAlt} height='100%' width='100%' />
+				<h3 className={styles.servicetext}>{title}</h3>
+				<p>{text}</p>
+				<Link href={link}>
+					<a>
+						<ArrowRight className={styles.arrowright} />
+					</a>
+				</Link>
+			</div>
 		</div>
 	);
 }

@@ -1,12 +1,15 @@
 import Image from 'next/image';
+import styles from './WhatWeDo.module.css';
 
 export default function WhatWeDo(props) {
 	const { title, text, image, imageAlt } = props;
 	return (
-		<div className='whatwedo--items'>
+		<div className={styles.items}>
 			<Image src={image} alt={imageAlt} height='100%' width='100%' />
-			<h3>{title}</h3>
-			<p>{text}</p>
+			<div className={styles.textwrap}>
+				<h3 className={styles.title}>{title}</h3>
+				<p className={styles.text}>{text}</p>
+			</div>
 		</div>
 	);
 }

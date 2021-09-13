@@ -10,8 +10,12 @@ export default function Portfolio() {
 	return (
 		<div className={styles.wrapper}>
 			<Header />
-			<h2 className={styles.title}>PORTFOLIO</h2>
-			<Breadcrumbs page='Portfolio' />
+			<div className={styles.pagetitlewrapper}>
+				<h2 className={styles.pagetitle}>PORTFOLIO</h2>
+				<div className={styles.breadcrumbs}>
+					<Breadcrumbs page='Portfolio' />
+				</div>
+			</div>
 			<div className={styles.mainimagewrap}>
 				<div className={styles.imagewrap}>
 					<Image src='https://picsum.photos/200' layout='fill' alt='image' />

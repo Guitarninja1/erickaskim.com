@@ -1,0 +1,46 @@
+.servicepreviewwrapper {
+	margin: 0;
+	padding: 100px 15px;
+	background: linear-gradient(
+			360deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 100%
+		),
+		url(/wierd.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #ffffff;
+}
+.text {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #989cac;
+	margin: 0 0 50px 0;
+}
+.arrow {
+	fill: #ffffff;
+	width: 30px;
+}
+.view {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 0.05em;
+	opacity: 0.8;
+	color: #ffffff;
+}
+.linkwrap {
+	padding-bottom: 70px;
+}

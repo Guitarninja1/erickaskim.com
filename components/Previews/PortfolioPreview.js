@@ -1,33 +1,33 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Flavortext from '../Flavortext';
+import ArrowRight from '../../public/arrowright.svg';
+import styles from './PortfolioPreview.module.css';
 
 export default function PortfolioPreview() {
 	return (
-		<div className='portfoliopreview--wrapper'>
+		<div className={styles.portfoliopreviewwrapper}>
 			<Flavortext title='Portfolio' />
-			<h2>Check Our Latest Cases</h2>
+			<h2 className={styles.portfoliopreviewtitle}>Check Our Latest Cases</h2>
 			<Link href='#'>
-				<a>View All ➡️</a>
+				<a className={styles.arrow1wrap}>
+					View All <ArrowRight className={styles.arrow1} />
+				</a>
 			</Link>
-			<Image
-				src='https://picsum.photos/200/300'
-				width='100%'
-				height='100%'
-				alt='rando'
-			></Image>
-			<Image
-				src='https://picsum.photos/200/300'
-				width='100%'
-				height='100%'
-				alt='rando'
-			></Image>
-			<Image
-				src='https://picsum.photos/200/300'
-				width='100%'
-				height='100%'
-				alt='rando'
-			></Image>
+			<div className={styles.mainimagewrap}>
+				<div className={styles.imagewrap}>
+					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+				</div>
+				<div className={styles.imagewrap}>
+					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+				</div>
+				<div className={styles.imagewrap}>
+					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+				</div>
+			</div>
+			<div className={styles.caseswrap}>
+				<h2 className={styles.casestitle}>CASES</h2>
+			</div>
 		</div>
 	);
 }

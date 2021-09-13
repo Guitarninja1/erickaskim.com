@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './InTouch.module.css';
+import Arrow from '../public/arrow.svg';
 
 export default function InTouch() {
 	return (
@@ -18,7 +19,7 @@ export default function InTouch() {
 					id='intouch--email'
 					className={styles.emailinput}
 					placeholder='Enter Your E-mail'
-				/>
+				></input>
 				<div className={styles.container}>
 					<input
 						type='checkbox'

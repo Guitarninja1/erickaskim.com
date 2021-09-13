@@ -1,0 +1,29 @@
+.resumeul {
+	margin-top: 39vh;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	list-style: none;
+	color: #989cac;
+	padding: 17px;
+}
+.resume {
+	margin: 0;
+	background: linear-gradient(
+			180deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 100%
+		),
+		url(/Mountain.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.resumeslider {
+	margin: 17px;
+}
+.resumebody {
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 20px;
+	margin: 0;
+}

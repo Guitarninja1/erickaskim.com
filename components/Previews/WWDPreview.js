@@ -1,9 +1,10 @@
 import Flavortext from '../Flavortext';
 import WhatWeDo from '../WhatWeDo';
+import styles from './WWDPreview.module.css';
 
 export default function WWDPreview() {
 	return (
-		<div className='wwdpreview--wrapper'>
+		<div className={styles.wrapper}>
 			<div className='wwdpreview--head'>
 				<Flavortext title='What We Do' />
 				<p>

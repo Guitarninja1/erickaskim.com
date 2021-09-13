@@ -1,0 +1,15 @@
+.title {
+	font-size: 16px;
+	padding: 0;
+	text-align: center;
+	flex-grow: 1;
+	color: #ffffff;
+}
+.menu {
+	background-color: transparent;
+	border: none;
+}
+.call {
+	background-color: transparent;
+	border: none;
+}
