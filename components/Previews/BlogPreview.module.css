@@ -11,9 +11,33 @@
 	background-repeat: no-repeat;
 	padding: 17px;
 }
+.BlogHeaderWrap {
+	margin-bottom: 60px;
+}
 .BlogP {
 	font-family: Mulish;
 	color: #989cac;
 	font-size: 20px;
 	margin: 0;
+}
+.Title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #ffffff;
+}
+.BlogLink {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 0.05em;
+	color: #989cac;
+}
+.Arrow {
+	fill: #ffffff;
+	width: 30px;
 }

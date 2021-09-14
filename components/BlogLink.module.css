@@ -1,0 +1,43 @@
+.BlogPostWrap {
+	display: flex;
+}
+.BlogInfo {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #989cac;
+}
+.AuthorWrap {
+	display: flex;
+	align-items: center;
+}
+.BlogInfo::after {
+	content: '–';
+	opacity: 0.5;
+	padding: 10px 15px;
+}
+.Title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #ffffff;
+}
+.ArrowRight {
+	fill: #ffffff;
+	width: 30px;
+	padding: 40px 0;
+}
+.Title {
+	margin: 0;
+}
+.BlogImageWrap {
+	position: relative;
+	display: flex;
+	width: 330px;
+	height: 178px;
+	margin-bottom: 15px;
+}
