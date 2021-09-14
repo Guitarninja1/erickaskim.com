@@ -4,81 +4,81 @@ import styles from './Footer.module.css';
 export default function Footer() {
 	const year = new Date().getFullYear();
 	return (
-		<div className={styles.wrapper}>
-			<h2 className={styles.title}>Erick Askim</h2>
-			<div className={styles.menuwrapper}>
-				<ul className={styles.menu}>
-					<li>
+		<div className={styles.Wrapper}>
+			<h2 className={styles.Title}>Erick Askim</h2>
+			<div className={styles.MenuWrapper}>
+				<ul className={styles.Menu}>
+					<li className={styles.Li}>
 						<Link href='/'>
-							<a className={styles.menuli}>Home</a>
+							<a className={styles.MenuItem}>Home</a>
 						</Link>
 					</li>
-					<li>
+					<li className={styles.Li}>
 						<Link href='/about'>
-							<a className={styles.menuli}>About</a>
+							<a className={styles.MenuItem}>About</a>
 						</Link>
 					</li>
-					<li>
+					<li className={styles.Li}>
 						<Link href='/'>
-							<a className={styles.menuli}>Services</a>
+							<a className={styles.MenuItem}>Services</a>
 						</Link>
 					</li>
-					<li>
+					<li className={styles.Li}>
 						<Link href='/'>
-							<a className={styles.menuli}>Portfolio</a>
+							<a className={styles.MenuItem}>Portfolio</a>
 						</Link>
 					</li>
-					<li>
+					<li className={styles.Li}>
 						<Link href='/blog'>
-							<a className={styles.menuli}>Blog</a>
+							<a className={styles.MenuItem}>Blog</a>
 						</Link>
 					</li>
-					<li>
+					<li className={styles.Li}>
 						<Link href='/contact'>
-							<a className={styles.menulicon}>Contact</a>
+							<a className={styles.MenuItem}>Contact</a>
 						</Link>
 					</li>
 				</ul>
 			</div>
-			<div className='footer--info'>
-				<div className={styles.address}>
-					<h3 className={styles.hthree}>Address:</h3>
-					<address className={styles.alink}>
+			<div className={styles.Footer}>
+				<div className={styles.Address}>
+					<h3 className={styles.H3}>Address:</h3>
+					<address className={styles.Link}>
 						536 W La Strada Circle, Medford,
 					</address>
-					<address className={styles.alink}>OR 96504, USA</address>
+					<address className={styles.Link}>OR 96504, USA</address>
 				</div>
-				<div className={styles.contact}>
-					<h3 className={styles.hthree}>Contact</h3>
+				<div className={styles.Contact}>
+					<h3 className={styles.H3}>Contact</h3>
 					<Link href='tel:+15308282706'>
-						<a className={styles.alink}>+1 530 828 2706</a>
+						<a className={styles.Link}>+1 530 828 2706</a>
 					</Link>
 					<Link href='mailto:erickaskim@gmail.com'>
-						<a className={styles.alink}>erickaskim@gmail.com</a>
+						<a className={styles.Link}>erickaskim@gmail.com</a>
 					</Link>
 				</div>
-				<div className={styles.usefull}>
-					<h3 className={styles.hthree}>Usefull Links</h3>
+				<div className={styles.Usefull}>
+					<h3 className={styles.H3}>Usefull Links</h3>
 					<Link href='/'>
-						<a className={styles.alink}>Help And Support</a>
+						<a className={styles.Link}>Help And Support</a>
 					</Link>
 					<Link href='/'>
-						<a className={styles.alink}>Careers</a>
+						<a className={styles.Link}>Careers</a>
 					</Link>
 				</div>
 			</div>
-			<div className={styles.social}>
+			<div className={styles.Social}>
 				<Link href='/'>
-					<a className={styles.sociallink}>Fb</a>
+					<a className={styles.SocialLink}>Fb</a>
 				</Link>
 				<Link href='/'>
-					<a className={styles.sociallink}>Tw</a>
+					<a className={styles.SocialLink}>Tw</a>
 				</Link>
 				<Link href='/'>
-					<a className={styles.sociallinkin}>In</a>
+					<a className={styles.SocialLink}>In</a>
 				</Link>
 			</div>
-			<div className={styles.copyright}>
+			<div className={styles.Copyright}>
 				<p>&copy; All rights reserved. Erick Askim {year}</p>
 			</div>
 		</div>

@@ -56,8 +56,9 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
-
-			<Flavortext title='BE IN TOUCH' />
+			<div className={styles.intouch}>
+				<Flavortext title='BE IN TOUCH' />
+			</div>
 			<Message />
 			<InTouch />
 		</div>

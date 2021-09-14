@@ -12,9 +12,6 @@ export default function home() {
 				<Resume />
 				<ServicePreview />
 				<PortfolioPreview />
-				<div className='cases--wrapper'>
-					<h2 className='cases--title'>CASES</h2>
-				</div>
 				<InTouch />
 				<div className='digital--wrapper'>
 					<h2 className='digital--title'>DIGITAL</h2>

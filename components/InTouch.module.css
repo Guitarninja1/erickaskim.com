@@ -1,4 +1,4 @@
-.wrapper {
+.Wrapper {
 	margin: 0;
 	padding: 100px 15px;
 	background: linear-gradient(
@@ -10,14 +10,15 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
 	line-height: 1.3;
+	color: #ffffff;
 }
-.text {
+.Text {
 	margin: 0;
 	padding-bottom: 40px;
 	font-family: Mulish;
@@ -26,18 +27,18 @@
 	font-size: 16px;
 	line-height: 1.6;
 }
-.items {
+.Inputs {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.6;
 }
-.emailinput {
+.EmailInput {
 	position: relative;
 	min-height: 48px;
 	min-width: 97%;
-	background: none, url('../public/arrow.svg');
+	background: none, url(/arrow.svg);
 	background-repeat: no-repeat;
 	background-position-y: center;
 	background-position-x: 95%;
@@ -50,15 +51,15 @@
 	border: 2px solid rgba(248, 248, 252, 0.1);
 	text-indent: 20px;
 }
-.label {
+.Label {
 	color: #989cac;
 }
-.terms {
+.Terms {
 	color: #ff455b;
 	margin: 0;
 	font-size: 14px;
 }
-.checkbox {
+.Checkbox {
 	appearance: none;
 	background-color: transparent;
 	border: 2px solid rgba(153, 153, 153, 0.2);
@@ -67,15 +68,15 @@
 	position: relative;
 	margin: 0;
 }
-.container {
+.Container {
 	display: flex;
 	align-items: center;
 	font-size: 14px;
 }
-.checkbox,
-.label {
+.Checkbox,
+.Label {
 	margin-right: 5px;
 }
-.accept {
+.Accept {
 	display: flex;
 }

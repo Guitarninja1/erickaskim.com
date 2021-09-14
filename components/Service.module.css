@@ -1,0 +1,11 @@
+.ArrowRight {
+	width: 30px;
+	fill: #989cac;
+}
+.ServiceWrapper {
+	border: 2px solid rgba(248, 248, 252, 0.1);
+	margin: 0 0 30px 0;
+}
+.Service {
+	padding: 61px 55px;
+}

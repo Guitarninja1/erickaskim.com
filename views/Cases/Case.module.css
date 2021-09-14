@@ -1,0 +1,197 @@
+.PageTitleWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.PageTitle {
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+	margin: 0;
+	color: #ffffff;
+	margin-left: 15px;
+}
+.PageTitle::after {
+	content: 'CASE';
+	position: absolute;
+	opacity: 0.05;
+	font-size: 70px;
+	left: -10px;
+	top: 50px;
+}
+.TopWrap {
+	margin: 0;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 69, 91, 0.08) 0%,
+		rgba(255, 144, 69, 0) 10%
+	);
+}
+.CaseImageWrap {
+	position: relative;
+	display: flex;
+	width: 330px;
+	height: 178px;
+	padding: 0;
+	margin: 50px 15px 0 15px;
+}
+.ArrowLeft,
+.ArrowRight {
+	fill: #ffffff;
+	width: 30px;
+}
+.ArrowLeft {
+	margin-right: 40px;
+}
+.ArrowWrap {
+	margin: 30px 15px 70px 15px;
+}
+.AboutWrap {
+	margin: 0 15px;
+}
+.Title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0 0 30px 0;
+	color: #ffffff;
+}
+.Text {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #989cac;
+	margin: 0;
+}
+.Submit {
+	background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
+	border: none;
+	display: flex;
+	position: relative;
+	height: 50px;
+	width: 179px;
+	margin: 50px 0 70px 0;
+	align-items: center;
+	justify-content: space-around;
+}
+.Button {
+	font-family: Mulish;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #ffffff;
+}
+.ClientInfoWrap {
+	margin: 0 15px;
+}
+.BorderTop,
+.BorderBottom {
+	border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.BorderTop {
+	margin-bottom: 60px;
+}
+.BorderBottom {
+	margin: 60px 0 80px 0;
+}
+.InfoTitle {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #ffffff;
+	margin: 0;
+}
+.InfoTitleShare {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #ffffff;
+	margin: 20px 0 15px 0;
+}
+.InfoWrap {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+.InfoText {
+	margin: 12px 10px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.Social {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.SocialLink {
+	font-size: 18px;
+	color: #ffffff;
+	opacity: 0.5;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.6;
+}
+.SocialLink:not(:last-child):after {
+	content: '–';
+	opacity: 0.5;
+	margin: 0 15px;
+}
+.RelatedWrap {
+	background-color: #ffffff;
+	padding-top: 130px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.RelatedTitle {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #26272c;
+}
+.PreviewImageWrap {
+	position: relative;
+	display: flex;
+	width: 330px;
+	height: 468px;
+	margin: 15px;
+	padding: 0;
+	right: 15px;
+}
+.Related {
+	position: relative;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 100%;
+	color: #0f1118;
+	border: 0;
+	margin: 0;
+	padding: 0 0 60px 0;
+	left: -17px;
+}
+.Related::after {
+	content: 'EXPERTS';
+	position: absolute;
+	opacity: 0.3;
+	font-size: 130px;
+	left: -17px;
+	top: inherit;
+	bottom: 15px;
+	color: #0f1118;
+}

@@ -1,0 +1,19 @@
+.BlogPreviewWrapper {
+	margin: 0;
+	padding: 100px 15px;
+	background: linear-gradient(
+			360deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 100%
+		),
+		url(/wierd.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	padding: 17px;
+}
+.BlogP {
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 20px;
+	margin: 0;
+}
