@@ -1,4 +1,4 @@
-.wrapper {
+.Wrapper {
 	margin: 0;
 	padding: 0 0 450px 0;
 	background: linear-gradient(
@@ -10,10 +10,10 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
-.titlewrapper {
+.TitleWrapper {
 	position: relative;
 }
-.title {
+.Title {
 	font-size: 36px;
 	font-family: Raleway;
 	font-weight: 900;
@@ -22,7 +22,7 @@
 	margin: 0;
 	padding-left: 15px;
 }
-.title::after {
+.Title::after {
 	content: 'OOPS!';
 	opacity: 0.05;
 	font-size: 70px;
@@ -30,7 +30,7 @@
 	left: -10px;
 	top: -40px;
 }
-.error {
+.FourOhFourError {
 	background: url(/404triangle.svg);
 	background-repeat: no-repeat;
 	display: flex;
@@ -39,13 +39,13 @@
 	background-position: center;
 	margin: 0 15px;
 }
-.htwo {
+.h2 {
 	color: #ff455b;
 	font-size: 80px;
 	margin: 0;
 	padding-top: 85px;
 }
-.hthree {
+.h3 {
 	color: #989cac;
 	font-size: 20px;
 	font-family: Mulish;
@@ -54,17 +54,17 @@
 	line-height: 1.6;
 	transform: translateY(-35px);
 }
-.text {
+.Text {
 	margin: 10px 0 30px 0;
 }
-.searchwrapper {
+.SearchWrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	margin: 0 15px;
 }
-.search {
+.Search {
 	position: relative;
 	min-height: 48px;
 	min-width: 97%;

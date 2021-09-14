@@ -1,4 +1,4 @@
-.blogpreviewwrapper {
+.BlogPreviewWrapper {
 	margin: 0;
 	padding: 100px 15px;
 	background: linear-gradient(
@@ -11,7 +11,7 @@
 	background-repeat: no-repeat;
 	padding: 17px;
 }
-.blogp {
+.BlogP {
 	font-family: Mulish;
 	color: #989cac;
 	font-size: 20px;

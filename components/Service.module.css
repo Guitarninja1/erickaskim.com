@@ -1,11 +1,11 @@
-.arrowright {
+.ArrowRight {
 	width: 30px;
 	fill: #989cac;
 }
-.servicewrap {
+.ServiceWrapper {
 	border: 2px solid rgba(248, 248, 252, 0.1);
 	margin: 0 0 30px 0;
 }
-.servicewrap2 {
+.Service {
 	padding: 61px 55px;
 }

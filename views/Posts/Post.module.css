@@ -1,4 +1,4 @@
-.blogtopwrap {
+.BlogTopWrap {
 	margin: 0;
 	background: linear-gradient(
 		180deg,
@@ -6,7 +6,7 @@
 		rgba(255, 144, 69, 0) 10%
 	);
 }
-.bottomwrap {
+.BottomWrap {
 	margin: 0;
 	padding: 0 0 130px 0;
 	background: linear-gradient(
@@ -18,14 +18,14 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
-.post {
+.Post {
 	margin: 0 15px;
 }
-.pagetitlewrapper {
+.PageTitleWrapper {
 	display: flex;
 	justify-content: space-between;
 }
-.pagetitle {
+.PageTitle {
 	font-family: Raleway;
 	font-weight: 900;
 	font-size: 36px;
@@ -34,7 +34,7 @@
 	color: #ffffff;
 	margin-left: 15px;
 }
-.pagetitle::after {
+.PageTitle::after {
 	content: 'POST';
 	position: absolute;
 	opacity: 0.05;
@@ -42,13 +42,13 @@
 	left: -10px;
 	top: 50px;
 }
-.textwrap {
+.TextWrap {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 0px;
 }
-.text {
+.Text {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -57,12 +57,12 @@
 	color: #989cac;
 	margin: 0;
 }
-.text::after {
+.Text::after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 10px;
 }
-.imagewrap1 {
+.TitleImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
@@ -70,7 +70,7 @@
 	padding: 0;
 	margin-top: 50px;
 }
-.imagewrap {
+.RelatedImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
@@ -78,25 +78,25 @@
 	padding: 0;
 	margin-top: 0;
 }
-.datawrap {
+.DataWrap {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 0px;
 }
-.blogbody {
+.BlogBody {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 1.6;
 }
-.quotewrap {
+.QuoteWrap {
 	border: 2px solid #ff455b;
 
 	margin: 50px 0;
 }
-.quote {
+.Quote {
 	padding: 30px 30px 0 30px;
 	font-family: Mulish;
 	font-style: normal;
@@ -105,7 +105,7 @@
 	line-height: 1.6;
 	margin: 0;
 }
-.quoteauth {
+.QuoteAuth {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -118,7 +118,7 @@
 	background-size: 200px;
 	background-position: bottom 20px right 20px;
 }
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -127,10 +127,10 @@
 	margin: 0 0 30px 0;
 	color: #ffffff;
 }
-.blogol {
+.BlogOl {
 	padding: 30px 0 0 15px;
 }
-.blogli {
+.BlogLi {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -140,7 +140,7 @@
 	padding-left: 10px;
 	margin-bottom: 30px;
 }
-.blogul {
+.BlogUl {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -148,7 +148,7 @@
 	padding: 0;
 	list-style: none;
 }
-.blogultitle {
+.BlogUlTitle {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -157,7 +157,7 @@
 	color: #ffffff;
 	padding-right: 20px;
 }
-.blogtagsli {
+.BlogTagsLi {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -165,33 +165,30 @@
 	line-height: 1.6;
 	color: #989cac;
 }
-.blogtagsli::before {
+.BlogTagsLi::before {
 	content: '#';
 	padding: 0 5px 0 0;
 }
-.blogliafter::after {
+.BlogLiAfter::after {
 	content: '–';
 	opacity: 0.5;
 	padding: 0 15px;
 }
-.authwrap {
+.AuthWrap {
 	border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.authheader {
+.AuthHeader {
 	padding: 30px 0 15px 30px;
 	display: flex;
 	align-items: center;
 }
-.authimagewrap {
+.AuthImageWrap {
 	position: relative;
 	width: 50px;
 	height: 50px;
 	background: #989cac;
 }
-/* .img[alt='blogauthor'] {
-	border-radius: 50px;
-} */
-.aboutauth {
+.AboutAuth {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -200,7 +197,7 @@
 	color: #ffffff;
 	margin: 0 0 0 20px;
 }
-.authbody {
+.AuthBody {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -208,14 +205,13 @@
 	line-height: 1.6;
 	margin: 0 30px;
 }
-.social {
+.Social {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	padding: 20px 0 30px 30px;
 }
-.sociallink,
-.sociallinkin {
+.SocialLink {
 	font-size: 18px;
 	color: #ffffff;
 	opacity: 0.5;
@@ -224,12 +220,12 @@
 	font-weight: bold;
 	line-height: 1.6;
 }
-.sociallink::after {
+.SocialLink:not(:last-child):after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 15px;
 }
-.nextprevpost {
+.NextPrevPost {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -237,8 +233,8 @@
 	padding: 30px 0;
 	margin-bottom: 140px;
 }
-.prevblog,
-.nextblog {
+.PrevBlog,
+.NextBlog {
 	display: flex;
 	font-family: Mulish;
 	font-style: normal;
@@ -249,27 +245,27 @@
 	color: #ffffff;
 	opacity: 0.5;
 }
-.blogarrowleft,
-.blogarrowright {
+.BlogArrowLeft,
+.BlogArrowRight {
 	fill: #989cac;
 	display: block;
 	width: 40px;
 }
-.blogarrowleft {
+.BlogArrowLeft {
 	padding-right: 10px;
 }
-.blogarrowright {
+.BlogArrowRight {
 	padding-left: 10px;
 }
-.prevwrap {
+.PrevWrap {
 	grid-row: 1;
 }
-.nextwrap {
+.NextWrap {
 	grid-row: 1;
 	grid-column: 2;
 	justify-self: end;
 }
-.relatedtitle {
+.RelatedTitle {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
@@ -278,10 +274,10 @@
 	color: #ffffff;
 	margin: 14px 0 40px 0;
 }
-.datawrap {
+.DataWrap {
 	padding: 30px 0 10px 0;
 }
-.blogarrow {
+.BlogArrow {
 	fill: #989cac;
 	display: block;
 	width: 40px;

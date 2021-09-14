@@ -1,8 +1,8 @@
-.pagetitlewrapper {
+.PageTitleWrapper {
 	display: flex;
 	justify-content: space-between;
 }
-.pagetitle {
+.PageTitle {
 	font-family: Raleway;
 	font-weight: 900;
 	font-size: 36px;
@@ -11,7 +11,7 @@
 	color: #ffffff;
 	margin-left: 15px;
 }
-.pagetitle::after {
+.PageTitle::after {
 	content: 'CASE';
 	position: absolute;
 	opacity: 0.05;
@@ -19,7 +19,7 @@
 	left: -10px;
 	top: 50px;
 }
-.topwrap {
+.TopWrap {
 	margin: 0;
 	background: linear-gradient(
 		180deg,
@@ -27,7 +27,7 @@
 		rgba(255, 144, 69, 0) 10%
 	);
 }
-.imagewrap {
+.CaseImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
@@ -35,21 +35,21 @@
 	padding: 0;
 	margin: 50px 15px 0 15px;
 }
-.arrowleft,
-.arrowright {
+.ArrowLeft,
+.ArrowRight {
 	fill: #ffffff;
 	width: 30px;
 }
-.arrowleft {
+.ArrowLeft {
 	margin-right: 40px;
 }
-.arrowwrap {
+.ArrowWrap {
 	margin: 30px 15px 70px 15px;
 }
-.aboutwrap {
+.AboutWrap {
 	margin: 0 15px;
 }
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -58,7 +58,7 @@
 	margin: 0 0 30px 0;
 	color: #ffffff;
 }
-.text {
+.Text {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -67,7 +67,7 @@
 	color: #989cac;
 	margin: 0;
 }
-.submit {
+.Submit {
 	background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
 	border: none;
 	display: flex;
@@ -78,7 +78,7 @@
 	align-items: center;
 	justify-content: space-around;
 }
-.btn {
+.Button {
 	font-family: Mulish;
 	font-weight: 600;
 	font-style: normal;
@@ -86,20 +86,20 @@
 	line-height: 1.6;
 	color: #ffffff;
 }
-.clientinfowrap {
+.ClientInfoWrap {
 	margin: 0 15px;
 }
-.border1,
-.border2 {
+.BorderTop,
+.BorderBottom {
 	border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.border1 {
+.BorderTop {
 	margin-bottom: 60px;
 }
-.border2 {
+.BorderBottom {
 	margin: 60px 0 80px 0;
 }
-.infotitle {
+.InfoTitle {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 400;
@@ -108,7 +108,7 @@
 	color: #ffffff;
 	margin: 0;
 }
-.infotitleshare {
+.InfoTitleShare {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 400;
@@ -117,12 +117,12 @@
 	color: #ffffff;
 	margin: 20px 0 15px 0;
 }
-.infowrap {
+.InfoWrap {
 	display: flex;
 	align-items: center;
 	margin-right: 10px;
 }
-.infotext {
+.InfoText {
 	margin: 12px 10px;
 	font-family: Mulish;
 	font-style: normal;
@@ -130,13 +130,12 @@
 	font-size: 16px;
 	line-height: 1.6;
 }
-.social {
+.Social {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-.sociallink,
-.sociallinkin {
+.SocialLink {
 	font-size: 18px;
 	color: #ffffff;
 	opacity: 0.5;
@@ -145,18 +144,18 @@
 	font-weight: bold;
 	line-height: 1.6;
 }
-.sociallink::after {
+.SocialLink:not(:last-child):after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 15px;
 }
-.relatedwrap {
+.RelatedWrap {
 	background-color: #ffffff;
 	padding-top: 130px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.relatedtitle {
+.RelatedTitle {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
@@ -164,7 +163,7 @@
 	line-height: 1.2;
 	color: #26272c;
 }
-.imagewrap2 {
+.PreviewImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
@@ -173,7 +172,7 @@
 	padding: 0;
 	right: 15px;
 }
-.related {
+.Related {
 	position: relative;
 	font-family: Raleway;
 	font-style: normal;
@@ -186,7 +185,7 @@
 	padding: 0 0 60px 0;
 	left: -17px;
 }
-.related::after {
+.Related::after {
 	content: 'EXPERTS';
 	position: absolute;
 	opacity: 0.3;

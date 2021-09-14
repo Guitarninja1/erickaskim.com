@@ -6,17 +6,17 @@ import styles from './ServicePreview.module.css';
 
 export default function ServicePreview() {
 	return (
-		<div className={styles.servicepreviewwrapper}>
-			<div className={styles.servicepreviewhead}>
+		<div className={styles.ServicePreviewWrapper}>
+			<div className={styles.ServicePreviewHead}>
 				<Flavortext title='Services' />
-				<h2 className={styles.title}>Develop Digital Products</h2>
-				<p className={styles.text}>
+				<h2 className={styles.Title}>Develop Digital Products</h2>
+				<p className={styles.Text}>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
-				<div className={styles.linkwrap}>
+				<div className={styles.LinkWrap}>
 					<Link href='#'>
-						<a className={styles.view}>
-							VIEW ALL <ArrowRight className={styles.arrow} />
+						<a className={styles.View}>
+							VIEW ALL <ArrowRight className={styles.ArrowRight} />
 						</a>
 					</Link>
 				</div>

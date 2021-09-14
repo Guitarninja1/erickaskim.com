@@ -1,4 +1,4 @@
-.wrapper {
+.Wrapper {
 	background: linear-gradient(
 		180deg,
 		rgba(255, 69, 91, 0.08) 0%,
@@ -6,7 +6,7 @@
 	);
 	padding: 0 15px;
 }
-.title {
+.Title {
 	font-family: Mulish;
 	font-size: 20px;
 	padding: 50px 0 40px 0;
@@ -14,12 +14,12 @@
 	margin: 0;
 	color: #989cac;
 }
-.menuwrapper {
+.MenuWrapper {
 	display: flex;
 	justify-content: flex-end;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
-.menu {
+.Menu {
 	list-style: none;
 	margin: 0;
 	padding: 0 0 40px 0;
@@ -31,16 +31,18 @@
 	align-items: center;
 	font-family: Mulish;
 }
-.contact,
-.address,
-.usefull {
+.Contact,
+.Address,
+.Usefull {
 	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
 }
-.address {
+.Address {
 	margin-top: 50px;
 }
-.menuli,
-.menulicon {
+.Li,
+.MenuItem {
 	display: flex;
 	flex-direction: row;
 	padding: 10px 0;
@@ -52,22 +54,15 @@
 	color: #989cac;
 	opacity: 0.8;
 }
-.menuli:hover,
-.menulicon:hover {
-	color: #ffffff;
-}
-.menuli::after {
+.Li:not(:last-child):after {
 	content: '–';
 	opacity: 0.5;
-	padding: 0 15px;
+	padding: 10px 15px;
 }
-.contact,
-.address,
-.usefull {
-	display: flex;
-	flex-direction: column;
+.Li:hover {
+	color: #ffffff;
 }
-.hthree {
+.h3 {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -75,13 +70,12 @@
 	line-height: 1.5;
 	color: #ffffff;
 }
-.social {
+.Social {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-.sociallink,
-.sociallinkin {
+.SocialLink {
 	font-size: 18px;
 	color: #ffffff;
 	opacity: 0.5;
@@ -90,12 +84,12 @@
 	font-weight: bold;
 	line-height: 1.6;
 }
-.sociallink::after {
+.SocialLink:not(:last-child):after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 15px;
 }
-.copyright {
+.Copyright {
 	color: #989cac;
 	font-family: Mulish;
 	margin: 17px 0 40px 0;
@@ -103,7 +97,7 @@
 	font-size: 14px;
 	line-height: 1.6;
 }
-.alink {
+.Link {
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
@@ -111,7 +105,4 @@
 	line-height: 1.6;
 	font-family: Mulish;
 	color: #989cac;
-}
-.info {
-	display: block;
 }

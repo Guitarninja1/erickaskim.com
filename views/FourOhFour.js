@@ -4,18 +4,18 @@ import styles from './FourOhFour.module.css';
 
 export default function FourZeroFour() {
 	return (
-		<div className={styles.wrapper}>
+		<div className={styles.Wrapper}>
 			<Header />
-			<div className={styles.titlewrapper}>
-				<h1 className={styles.title}>OOPS!</h1>
+			<div className={styles.TitleWrapper}>
+				<h1 className={styles.Title}>OOPS!</h1>
 			</div>
 			<Breadcrumbs page='404' />
-			<div className={styles.error}>
-				<h2 className={styles.htwo}>404</h2>
-				<h3 className={styles.hthree}>Page not found</h3>
+			<div className={styles.FourOhFourError}>
+				<h2 className={styles.h2}>404</h2>
+				<h3 className={styles.h3}>Page not found</h3>
 			</div>
-			<div className={styles.searchwrapper}>
-				<p className={styles.text}>
+			<div className={styles.SearchWrapper}>
+				<p className={styles.Text}>
 					It looks like nothing was found at this location. Maybe try a search?
 				</p>
 				<label htmlFor='search' className='sr-only'>
@@ -24,7 +24,7 @@ export default function FourZeroFour() {
 				<input
 					type='search'
 					id='search'
-					className={styles.search}
+					className={styles.Search}
 					placeholder='Search'
 				/>
 			</div>

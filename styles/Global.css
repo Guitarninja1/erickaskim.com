@@ -53,11 +53,6 @@ a:hover {
 	font-size: 20px;
 	margin: 0;
 }
-
-.servicepreview--wrapper,
-.wwdpreview--wrapper {
-	padding: 17px;
-}
 .digital--wrapper {
 	background: #989cac;
 }
@@ -100,99 +95,4 @@ a:hover {
 	clip: rect(0, 0, 0, 0);
 	border: 0;
 	white-space: nowrap;
-}
-.topwrap {
-	margin: 0;
-	background: linear-gradient(
-		180deg,
-		rgba(255, 69, 91, 0.08) 0%,
-		rgba(255, 144, 69, 0) 9%
-	);
-}
-.post {
-	margin: 0 15px;
-}
-.pagetitlewrapper {
-	display: flex;
-	justify-content: space-between;
-}
-.pagetitle {
-	font-family: Raleway;
-	font-weight: 900;
-	font-size: 36px;
-	font-style: normal;
-	margin: 0;
-}
-.pagetitle::after {
-	content: 'POST';
-	position: absolute;
-	opacity: 0.05;
-	font-size: 70px;
-	left: -10px;
-	top: 50px;
-}
-.textwrap {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px;
-}
-.text {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 1.6;
-	color: #989cac;
-	margin: 0;
-}
-.text::after {
-	content: '–';
-	opacity: 0.5;
-	margin: 0 10px;
-}
-.imagewrap {
-	position: relative;
-	display: flex;
-	width: 330px;
-	height: 178px;
-	padding: 0;
-}
-.datawrap {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0px;
-}
-.blogbody {
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 1.6;
-}
-.quotewrap {
-	border: 2px solid #ff455b;
-	background: url(/quotetriangles.svg);
-	background-repeat: no-repeat;
-	background-size: 60%;
-	background-position: bottom 20px right 20px;
-	margin: 50px 0;
-}
-.quote {
-	padding: 30px 30px 0 30px;
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 1.6;
-	margin: 0;
-}
-.quoteauth {
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 20px 0 40px 30px;
 }

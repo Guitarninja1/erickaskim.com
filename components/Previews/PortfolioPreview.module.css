@@ -1,4 +1,4 @@
-.imagewrap {
+.ImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
@@ -6,11 +6,11 @@
 	margin: 15px 0;
 	padding: 0;
 }
-.portfoliopreviewwrapper {
+.PortfolioPreviewWrapper {
 	background-color: #ffffff;
 	padding: 130px 15px 17px 15px;
 }
-.portfoliopreviewtitle {
+.PortfolioPreviewTitle {
 	color: #26272c;
 	font-family: Raleway;
 	font-style: normal;
@@ -18,13 +18,13 @@
 	font-size: 32px;
 	line-height: 1.2;
 }
-.arrow1 {
+.Arrow {
 	display: block;
 	width: 30px;
 	margin: 3px 40px 0 15px;
 	fill: #26272c;
 }
-.arrow1wrap {
+.ViewArrowWrap {
 	display: flex;
 	font-family: Mulish;
 	font-style: normal;
@@ -33,7 +33,7 @@
 	line-height: 1.6;
 	padding-bottom: 45px;
 }
-.casestitle {
+.CasesTitle {
 	font-family: Raleway;
 	position: relative;
 	font-style: normal;
@@ -44,7 +44,7 @@
 	margin: 0;
 	left: -17px;
 }
-.casestitle::after {
+.CasesTitle::after {
 	content: 'CASES';
 	display: flex;
 	position: relative;

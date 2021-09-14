@@ -1,4 +1,4 @@
-.servicepreviewwrapper {
+.ServicePreviewWrapper {
 	margin: 0;
 	padding: 100px 15px;
 	background: linear-gradient(
@@ -10,7 +10,7 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
@@ -18,7 +18,7 @@
 	line-height: 1.2;
 	color: #ffffff;
 }
-.text {
+.Text {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -27,11 +27,11 @@
 	color: #989cac;
 	margin: 0 0 50px 0;
 }
-.arrow {
+.ArrowRight {
 	fill: #ffffff;
 	width: 30px;
 }
-.view {
+.View {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: 800;
@@ -41,6 +41,6 @@
 	opacity: 0.8;
 	color: #ffffff;
 }
-.linkwrap {
+.LinkWrap {
 	padding-bottom: 70px;
 }

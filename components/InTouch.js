@@ -1,36 +1,31 @@
 import Link from 'next/link';
 import styles from './InTouch.module.css';
-import Arrow from '../public/arrow.svg';
 
 export default function InTouch() {
 	return (
-		<div className={styles.wrapper}>
-			<h2 className={styles.title}>Always Be In Touch</h2>
-			<p className={styles.text}>
+		<div className={styles.Wrapper}>
+			<h2 className={styles.Title}>Always Be In Touch</h2>
+			<p className={styles.Text}>
 				Subscribe if you want always to be known about all the news and
 				available propositions.
 			</p>
-			<div className={styles.items}>
+			<div className={styles.Inputs}>
 				<label htmlFor='intouch--email' className='sr-only'>
 					email
 				</label>
 				<input
 					type='email'
 					id='intouch--email'
-					className={styles.emailinput}
+					className={styles.EmailInput}
 					placeholder='Enter Your E-mail'
-				></input>
-				<div className={styles.container}>
-					<input
-						type='checkbox'
-						id='checkbox'
-						className={styles.checkbox}
-					></input>
+				/>
+				<div className={styles.Container}>
+					<input type='checkbox' id='checkbox' className={styles.Checkbox} />
 					<label htmlFor='checkbox'>
-						<p className={styles.accept}>
-							<span className={styles.label}>I accept all</span>
+						<p className={styles.Accept}>
+							<span className={styles.Label}>I accept all</span>
 							<Link href='/'>
-								<a className={styles.terms}>Terms and Conditions</a>
+								<a className={styles.Terms}>Terms and Conditions</a>
 							</Link>
 						</p>
 					</label>

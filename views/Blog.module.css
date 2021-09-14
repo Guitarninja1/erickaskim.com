@@ -1,4 +1,4 @@
-.wrapper {
+.TopWrapper {
 	margin: 0;
 	background: linear-gradient(
 		180deg,
@@ -6,7 +6,7 @@
 		rgba(255, 144, 69, 0) 9%
 	);
 }
-.bottomwrapper {
+.BottomWrapper {
 	margin: 0;
 	padding: 0 0 100px 0;
 	background: linear-gradient(
@@ -18,11 +18,11 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
-.pagetitlewrapper {
+.PageTitleWrapper {
 	display: flex;
 	justify-content: space-between;
 }
-.pagetitle {
+.PageTitle {
 	font-family: Raleway;
 	font-weight: 900;
 	font-size: 36px;
@@ -30,7 +30,7 @@
 	margin: 0;
 	color: #ffff;
 }
-.pagetitle::after {
+.PageTitle::after {
 	content: 'BLOG';
 	position: absolute;
 	opacity: 0.05;
@@ -38,19 +38,19 @@
 	left: -10px;
 	top: 50px;
 }
-.datawrap {
+.PostAuthorDataWrap {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 0px;
 }
-.textwrap {
+.TextWrap {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	padding: 0px;
 }
-.text {
+.Text {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;
@@ -59,12 +59,12 @@
 	color: #989cac;
 	margin: 0;
 }
-.text::after {
+.Text::after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 10px;
 }
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -73,33 +73,33 @@
 	margin: 0 0 30px 0;
 	color: #ffff;
 }
-.arrow {
+.ArrowRight {
 	display: block;
 	width: 30px;
 	margin: 3px 40px 0 0;
 	fill: #989cac;
 	opacity: 0.5;
 }
-.imagewrap {
+.ImageWrap {
 	position: relative;
 	display: flex;
 	width: 330px;
 	height: 178px;
 	padding: 0;
 }
-.previewwrap {
+.PreviewWrap {
 	margin: 40px 15px 40px 15px;
 }
-.paginationul {
+.PaginationUl {
 	display: flex;
 	list-style: none;
 	padding: 0;
 	justify-content: center;
 }
-.paginationli {
+.PaginationLi {
 	padding: 0 10px 0 0;
 }
-.link {
+.Link {
 	font-family: Mulish;
 	font-style: normal;
 	font-weight: normal;

@@ -2,9 +2,9 @@ import styles from './Comment.module.css';
 
 export default function Message() {
 	return (
-		<div className={styles.wrapper}>
-			<h2 className={styles.title}>Leave A Comment</h2>
-			<form className={styles.items}>
+		<div className={styles.Wrapper}>
+			<h2 className={styles.Title}>Leave A Comment</h2>
+			<form className={styles.Form}>
 				<label htmlFor='message--text' className='sr-only'>
 					Name
 				</label>
@@ -12,7 +12,7 @@ export default function Message() {
 					type='text'
 					id='message--text'
 					placeholder='Name *'
-					className={styles.content}
+					className={styles.Input}
 					required={true}
 				/>
 				<label htmlFor='message--email' className='sr-only'>
@@ -22,7 +22,7 @@ export default function Message() {
 					type='email'
 					id='message--email'
 					placeholder='E-mail *'
-					className={styles.content}
+					className={styles.Input}
 					required={true}
 				/>
 				<label htmlFor='message--tel' className='sr-only'>
@@ -32,7 +32,7 @@ export default function Message() {
 					type='tel'
 					id='message--tel'
 					placeholder='Phone #'
-					className={styles.content}
+					className={styles.Input}
 				/>
 				<label htmlFor='message--textarea' className='sr-only'>
 					Comment Section
@@ -40,17 +40,17 @@ export default function Message() {
 				<textarea
 					rows='5'
 					cols='30'
-					id='message--testarea'
+					id='message--textarea'
 					placeholder='Comment'
-					className={styles.textarea}
+					className={`${styles.TextArea} ${styles.Input}`}
 				/>
 				<button
 					type='submit'
 					id='submit'
 					value='Submit'
-					className={styles.submit}
+					className={styles.Submit}
 				>
-					<p className={styles.btn}>Post Comment</p>
+					<span className={styles.Button}>Post Comment</span>
 				</button>
 			</form>
 		</div>

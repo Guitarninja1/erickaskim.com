@@ -1,4 +1,4 @@
-.title {
+.Title {
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 500;
@@ -7,12 +7,11 @@
 	color: #ffffff;
 	margin-top: 60px;
 }
-.items {
+.Form {
 	display: grid;
 	padding-right: 15px;
 }
-.content,
-.textarea {
+.Input {
 	background: none;
 	color: #989cac;
 	border: solid rgba(153, 153, 153, 0.1);
@@ -23,13 +22,10 @@
 	min-height: 60px;
 	margin-bottom: 20px;
 }
-.textarea {
+.Textarea {
 	resize: none;
 }
-.textarea::placeholder {
-	padding-top: 12px;
-}
-.btn {
+.Button {
 	font-family: Mulish;
 	font-weight: 600;
 	font-style: normal;
@@ -37,7 +33,7 @@
 	line-height: 1.6;
 	color: #ffffff;
 }
-.submit {
+.Submit {
 	background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
 	border: none;
 	display: flex;
@@ -48,7 +44,7 @@
 	align-items: center;
 	justify-content: space-around;
 }
-.text {
+.Text {
 	font-size: 20px;
 	margin-bottom: 40px;
 }
