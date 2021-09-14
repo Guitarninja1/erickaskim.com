@@ -7,8 +7,8 @@ export default function WhatWeDo(props) {
 		<div className={styles.WhatWeDo}>
 			<Image src={image} alt={imageAlt} height='100%' width='100%' />
 			<div className={styles.TextWrap}>
-				<h3 className={styles.title}>{title}</h3>
-				<p className={styles.text}>{text}</p>
+				<h3 className={styles.Title}>{title}</h3>
+				<p className={styles.Text}>{text}</p>
 			</div>
 		</div>
 	);

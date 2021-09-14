@@ -42,14 +42,14 @@ export default function Footer() {
 			</div>
 			<div className={styles.Footer}>
 				<div className={styles.Address}>
-					<h3 className={styles.h3}>Address:</h3>
+					<h3 className={styles.H3}>Address:</h3>
 					<address className={styles.Link}>
 						536 W La Strada Circle, Medford,
 					</address>
 					<address className={styles.Link}>OR 96504, USA</address>
 				</div>
 				<div className={styles.Contact}>
-					<h3 className={styles.h3}>Contact</h3>
+					<h3 className={styles.H3}>Contact</h3>
 					<Link href='tel:+15308282706'>
 						<a className={styles.Link}>+1 530 828 2706</a>
 					</Link>
@@ -58,7 +58,7 @@ export default function Footer() {
 					</Link>
 				</div>
 				<div className={styles.Usefull}>
-					<h3 className={styles.h3}>Usefull Links</h3>
+					<h3 className={styles.H3}>Usefull Links</h3>
 					<Link href='/'>
 						<a className={styles.Link}>Help And Support</a>
 					</Link>
