@@ -6,13 +6,13 @@ import {
 	TwitterIcon,
 	TwitterShareButton,
 } from 'react-share';
-import Breadcrumbs from '../../components/Breadcrumbs';
-import Header from '../../components/Header';
-import Comment from '../../components/Comment';
+import Breadcrumbs from '../components/Breadcrumbs';
+import Header from '../components/Header';
+import Comment from '../components/Comment';
 import ArrowLeft from '../../public/arrowleft.svg';
 import ArrowRight from '../../public/arrowright.svg';
-import Flavortext from '../../components/Flavortext';
-import styles from './Post.module.css';
+import Flavortext from '../components/Flavortext';
+import styles from './Posts.module.css';
 
 export default function Post() {
 	return (

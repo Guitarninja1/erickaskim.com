@@ -9,11 +9,11 @@ export default function Header() {
 	return (
 		<header>
 			<Nav open={open} setOpen={setOpen} />
-			<button className={styles.menu} onClick={() => setOpen(!open)}>
+			<button className={styles.Menu} onClick={() => setOpen(!open)}>
 				<Bmenu />
 			</button>
-			<h2 className={styles.title}>Erick Askim</h2>
-			<button className={styles.call}>
+			<h2 className={styles.Title}>Erick Askim</h2>
+			<button className={styles.Call}>
 				<a href='tel:+15308282706'>
 					<Call />
 				</a>
