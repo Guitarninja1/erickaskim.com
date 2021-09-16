@@ -1,0 +1,18 @@
+.Circle {
+	fill: none;
+	stroke-linecap: round;
+	position: relative;
+}
+.SVG {
+	overflow: visible;
+	height: 40px;
+}
+.PercentWrap {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+}
+.PercentCircle {
+	position: absolute;
+}
