@@ -13,6 +13,7 @@
 	font-weight: 300;
 	font-size: 18px;
 }
-.PercentCircle {
-	position: absolute;
+.PercentWrap::after {
+	content: '%';
+	color: white;
 }

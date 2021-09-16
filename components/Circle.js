@@ -1,7 +1,8 @@
 import styles from './Circle.module.css';
 
 export default function Circle(props) {
-	const { percent, PercentGap } = props;
+	const { percent } = props;
+	let value = ([percent] / 100) * 270 - 270;
 	return (
 		<svg
 			className={styles.SVG}
@@ -20,7 +21,7 @@ export default function Circle(props) {
 				cy='50'
 				r='43'
 				stroke='#5a5a5a5c'
-				strokeDasharray='10000'
+				strokeDasharray='1000'
 				strokeWidth='15px'
 				fill='none'
 			/>
@@ -30,7 +31,7 @@ export default function Circle(props) {
 				cy='50'
 				r='43'
 				stroke='rgba(255, 255, 255, 0.1)'
-				strokeDasharray='10000'
+				strokeDasharray='1000'
 				strokeWidth='2px'
 				fill='none'
 			/>
@@ -44,11 +45,11 @@ export default function Circle(props) {
 				strokeLinecap='round'
 				fill='none'
 				transform='rotate(-90 50 50)'
-				strokeDasharray='314.159 314.159'
-				strokeDashoffset={PercentGap}
+				strokeDasharray='270.176, 270.176'
+				strokeDashoffset={value}
 			/>
 			<text className={styles.PercentWrap} x='33' y='57' fill='#ffffff'>
-				{percent}
+				{percent}%
 			</text>
 		</svg>
 	);

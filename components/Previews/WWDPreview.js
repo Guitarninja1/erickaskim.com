@@ -15,27 +15,22 @@ export default function WWDPreview() {
 			</div>
 			<div className={styles.WhatWeDoWrap}>
 				<WhatWeDo
-					className={styles.WWDItem}
-					PercentGap='-100px'
-					percent='63%'
+					percent='67'
 					title='Branding'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
 				/>
 				<WhatWeDo
-					PercentGap='-33px'
-					percent='87%'
+					percent='87'
 					title='Strategy'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
 				<WhatWeDo
-					PercentGap='-37px'
-					percent='85%'
+					percent='85'
 					title='ECommerce'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
 				<WhatWeDo
-					PercentGap='-10px'
-					percent='99%'
+					percent='95'
 					title='Support'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
