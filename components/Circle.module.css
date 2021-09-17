@@ -12,8 +12,5 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 18px;
-}
-.PercentWrap::after {
-	content: '%';
 	color: white;
 }

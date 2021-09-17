@@ -15,22 +15,22 @@ export default function WWDPreview() {
 			</div>
 			<div className={styles.WhatWeDoWrap}>
 				<WhatWeDo
-					percent='67'
+					percent={67}
 					title='Branding'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
 				/>
 				<WhatWeDo
-					percent='87'
+					percent={87}
 					title='Strategy'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
 				<WhatWeDo
-					percent='85'
+					percent={85}
 					title='ECommerce'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
 				<WhatWeDo
-					percent='95'
+					percent={95}
 					title='Support'
 					text='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 				/>
