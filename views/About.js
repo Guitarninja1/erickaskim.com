@@ -23,7 +23,9 @@ export default function About() {
 				</div>
 			</div>
 			<div className={styles.aboutwrap}>
-				<Flavortext title='WHO I AM' />
+				<div className={styles.flavorTextWrap}>
+					<Flavortext title='WHO I AM' />
+				</div>
 				<h2 className={styles.subflavor1}>Digital Professional</h2>
 				<p className={styles.largep}>
 					Our web design company specializes in the professional creation of
@@ -69,35 +71,13 @@ export default function About() {
 						</p>
 					</div>
 				</div>
-				<div className={styles.imagewrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
-				</div>
-				<div className={styles.expertwrap}>
-					<Flavortext title='DIGITAL EXPERT' />
-					<h2 className={styles.experttitle}>Our Creative Team</h2>
-					<div className={styles.arrows}>
-						<Link href='/'>
-							<a className={styles.arrowleft}>
-								<ArrowLeft />
-							</a>
-						</Link>
-						<Link href='/'>
-							<a className={styles.arrowright}>
-								<ArrowRight />
-							</a>
-						</Link>
-					</div>
-					<div className={styles.expertimagewrap}>
-						<Image src='https://picsum.photos/200' layout='fill' alt='image' />
-					</div>
-
-					<h2 className={styles.expertfooter}>EXPERTS</h2>
-				</div>
 				<div className={styles.whyuswrap}>
-					<Flavortext title='WHY US' />
+					<div className={styles.flavorTextWrap}>
+						<Flavortext title='WHY US' />
+					</div>
 					<h2 className={styles.subflavor1}>Why People Choose Us</h2>
 					<p className={styles.largep}>
-						We appreciate every client and ready to help with all the issues
+						I appreciate every client and am ready to help with all the issues
 						that they have.
 					</p>
 					<ul className={styles.listwrap}>
@@ -111,8 +91,8 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								The approach to each new project is individual, we treat equally
-								every customer.
+								The approach to each new project is individual, I treat every
+								customer equally.
 							</p>
 						</li>
 						<li className={styles.listitem}>
@@ -125,8 +105,8 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								Our web design company specializes in the professional creation
-								of unique sites and mobile applicatoins.
+								Open lines of communication and a strong work ethic for all who
+								choose me.
 							</p>
 						</li>
 						<li className={styles.listitem}>

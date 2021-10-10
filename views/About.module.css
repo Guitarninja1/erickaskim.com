@@ -5,6 +5,9 @@
 		rgba(255, 144, 69, 0) 5%
 	);
 }
+.flavorTextWrap {
+	margin: 0 15px;
+}
 .titlewrapper {
 	display: flex;
 	justify-content: space-between;

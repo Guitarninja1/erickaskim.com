@@ -20,11 +20,6 @@ export default function Footer() {
 					</li>
 					<li className={styles.Li}>
 						<Link href='/'>
-							<a className={styles.MenuItem}>Services</a>
-						</Link>
-					</li>
-					<li className={styles.Li}>
-						<Link href='/'>
 							<a className={styles.MenuItem}>Portfolio</a>
 						</Link>
 					</li>

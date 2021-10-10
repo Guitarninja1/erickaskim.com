@@ -1,3 +1,3 @@
-import Post from '../views/Posts/Post';
+import Post from '../views/Posts';
 
 export default Post;
