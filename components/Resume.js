@@ -14,6 +14,11 @@ export default function Resume() {
 					erat luctus, condimentum lectus eu, egestas tortor.
 				</p>
 			</div>
+			<ul className={styles.ResumeUl}>
+				<li>01.</li>
+				<li>02.</li>
+				<li>03.</li>
+			</ul>
 		</div>
 	);
 }

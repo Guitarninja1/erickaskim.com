@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Breadcrumbs from '../components/Breadcrumbs';
+import InTouch from '../components/InTouch';
 import Link from 'next/link';
 import Arrowright from '../public/arrowright.svg';
 import Image from 'next/image';
@@ -34,6 +35,7 @@ export default function Portfolio() {
 					</span>
 				</a>
 			</Link>
+			<InTouch />
 		</div>
 	);
 }

@@ -2,7 +2,7 @@ import styles from './Circle.module.css';
 
 export default function Circle(props) {
 	const { percent } = props;
-	const value = (percent / 100) * 270 - 270;
+	const value = ([percent] / 100) * 270 - 270;
 	return (
 		<svg
 			className={styles.SVG}

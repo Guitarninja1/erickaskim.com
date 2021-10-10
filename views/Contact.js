@@ -60,6 +60,7 @@ export default function Contact() {
 				<Flavortext title='BE IN TOUCH' />
 			</div>
 			<Message />
+			<InTouch />
 		</div>
 	);
 }
