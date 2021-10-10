@@ -1,7 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import Message from '../components/Message';
-import InTouch from '../components/InTouch';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Header from '../components/Header';
 import styles from './contact.module.css';
@@ -21,12 +19,7 @@ export default function Contact() {
 				<div className={styles.items}>
 					<div className={styles.image}>
 						<div>
-							<Image
-								src='/phone.svg'
-								alt='phone'
-								height='100px'
-								width='100px'
-							/>
+							<img src='/phone.svg' alt='phone' height='100px' width='100px' />
 						</div>
 						<div className={styles.contenthit}>
 							<h3 className={styles.hthree}>Hit us up</h3>
@@ -40,7 +33,7 @@ export default function Contact() {
 					</div>
 					<div className={styles.image}>
 						<div>
-							<Image
+							<img
 								src='/address.svg'
 								alt='gps marker'
 								height='100px'

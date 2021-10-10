@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import {
 	FacebookShareButton,
@@ -11,7 +10,7 @@ export default function BlogLink(props) {
 	const { image, imageAlt, name, date, share, title, link } = props;
 	return (
 		<div className='bloglink--wrapper'>
-			<Image src={image} alt={imageAlt} height='100%' width='100%' />
+			<img src='https:\\via.placeholder.com/150' alt={imageAlt} />
 			<h2>{name}</h2>
 			<p>{date}</p>
 			<FacebookShareButton url='#'>

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Flavortext from '../components/Flavortext';
 import Header from '../components/Header';
@@ -80,7 +79,7 @@ export default function About() {
 					<ul className={styles.listwrap}>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'
@@ -94,7 +93,7 @@ export default function About() {
 						</li>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'
@@ -108,7 +107,7 @@ export default function About() {
 						</li>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'
