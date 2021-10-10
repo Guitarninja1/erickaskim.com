@@ -1,0 +1,42 @@
+.menu {
+	transition: transform 0.5s ease-in;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 700;
+	background-color: #0f1118;
+}
+.on {
+	top: 0;
+	left: 0;
+}
+.off {
+	top: -110vh;
+	left: 0;
+}
+.exit {
+	background-color: transparent;
+	border: none;
+	margin: 17px 0 0 17px;
+}
+.list {
+	color: #989cac;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	padding: 0;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	min-height: 80vh;
+}
+.search {
+	background-color: #0f1118;
+	color: #626367;
+	min-width: 90vw;
+	min-height: 8vh;
+	border: solid #2c2e33;
+	font-family: Mulish;
+	font-size: 20px;
+	text-indent: 40px;
+}

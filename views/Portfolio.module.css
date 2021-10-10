@@ -1,0 +1,59 @@
+.Wrapper {
+	background: linear-gradient(
+		180deg,
+		rgba(255, 69, 91, 0.07) 0%,
+		rgba(255, 144, 69, 0) 15%
+	);
+}
+.PageTitle {
+	margin: 0 0 0 15px;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+	color: #ffffff;
+}
+.PageTitle::after {
+	content: 'PORTFOLIO';
+	position: absolute;
+	opacity: 0.05;
+	font-size: 70px;
+	left: -10px;
+	top: 50px;
+}
+.MainImageWrap {
+	margin: 0 0 70px 0;
+}
+.ImageWrap {
+	position: relative;
+	display: flex;
+	width: 330px;
+	height: 468px;
+	margin: 15px;
+	padding: 0;
+}
+.More {
+	display: flex;
+	justify-content: center;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+.Arrow {
+	display: block;
+	width: 40px;
+	margin: 3px 40px 0 15px;
+	fill: #ffffff;
+}
+.Breadcrumbs {
+	padding: 60px 0;
+	margin-left: -50px;
+}
+.PageTitleWrapper {
+	display: flex;
+	justify-content: space-between;
+}

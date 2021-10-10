@@ -1,0 +1,24 @@
+.Wrapper {
+	margin: 130px 15px;
+}
+.PageTitle {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+	color: #ffffff;
+	margin: 15px 0 20px 0;
+}
+.Text {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #989cac;
+	margin-bottom: 60px;
+}
+.WWDItem {
+	display: flex;
+}

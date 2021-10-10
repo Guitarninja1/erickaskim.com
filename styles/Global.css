@@ -1,0 +1,98 @@
+html {
+	height: 100%;
+}
+h2,
+h3 {
+	color: #ffffff;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 7rem;
+	margin: 0 17px;
+}
+body {
+	background: #0d0f16;
+	margin: -20px 0;
+}
+button {
+	padding: 0;
+}
+address {
+	all: initial;
+}
+p {
+	color: #989cac;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.6;
+}
+a {
+	text-decoration: none;
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 1.5rem;
+}
+a:hover {
+	color: rgb(223, 222, 224);
+}
+.triangle {
+	width: 18px;
+	height: 18px;
+	margin-right: 18px;
+}
+
+.resume--body,
+.about--p {
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 20px;
+	margin: 0;
+}
+.digital--wrapper {
+	background: #989cac;
+}
+.digital--title {
+	position: relative;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 3.8;
+	color: #0f1118;
+	transform: rotate(-90deg);
+	left: -184px;
+	margin: 0;
+	top: 74px;
+}
+.digital--title::after {
+	content: 'DIGITAL';
+	position: relative;
+	opacity: 0.25;
+	font-size: 130px;
+	left: -239px;
+	top: 68px;
+}
+.page--wrapper {
+	position: relative;
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	overflow: hidden;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+	white-space: nowrap;
+}

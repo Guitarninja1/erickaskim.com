@@ -1,0 +1,50 @@
+.Title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.6;
+	color: #ffffff;
+	margin-top: 60px;
+}
+.Form {
+	display: grid;
+	padding-right: 15px;
+}
+.Input {
+	background: none;
+	color: #989cac;
+	border: solid rgba(153, 153, 153, 0.1);
+	font-family: Mulish;
+	font-size: 14px;
+	min-width: 100%;
+	text-indent: 30px;
+	min-height: 60px;
+	margin-bottom: 20px;
+}
+.TextArea {
+	resize: none;
+}
+.Button {
+	font-family: Mulish;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #ffffff;
+}
+.Submit {
+	background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
+	border: none;
+	display: flex;
+	position: relative;
+	height: 50px;
+	width: 191px;
+	margin-bottom: 60px;
+	align-items: center;
+	justify-content: space-around;
+}
+.Text {
+	font-size: 20px;
+	margin-bottom: 40px;
+}

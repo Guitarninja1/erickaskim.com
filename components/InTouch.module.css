@@ -1,0 +1,84 @@
+.TopWrap {
+	background: linear-gradient(
+			360deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 100%
+		),
+		url(/wierd.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.Wrapper {
+	margin: 0;
+	padding: 100px 15px;
+}
+.Title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 1.3;
+	color: #ffffff;
+}
+.Text {
+	margin: 0;
+	padding-bottom: 40px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.Inputs {
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+}
+.EmailInput {
+	position: relative;
+	min-height: 48px;
+	min-width: 97%;
+	background: none, url(/arrow.svg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 95%;
+	background-size: 20px;
+	font-family: Mulish;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	border: 2px solid rgba(248, 248, 252, 0.1);
+	text-indent: 20px;
+}
+.Label {
+	color: #989cac;
+}
+.Terms {
+	color: #ff455b;
+	margin: 0;
+	font-size: 14px;
+}
+.Checkbox {
+	appearance: none;
+	background-color: transparent;
+	border: 2px solid rgba(153, 153, 153, 0.2);
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+.Container {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+}
+.Checkbox,
+.Label {
+	margin-right: 5px;
+}
+.Accept {
+	display: flex;
+}

@@ -1,0 +1,15 @@
+.Title {
+	font-size: 16px;
+	padding: 0;
+	text-align: center;
+	flex-grow: 1;
+	color: #ffffff;
+}
+.Menu {
+	background-color: transparent;
+	border: none;
+}
+.Call {
+	background-color: transparent;
+	border: none;
+}

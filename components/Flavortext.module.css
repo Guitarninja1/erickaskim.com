@@ -1,0 +1,11 @@
+.flavortext {
+	color: #ff455b;
+	font-family: Mulish;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: 0;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+}
