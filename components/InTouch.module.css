@@ -1,6 +1,4 @@
-.Wrapper {
-	margin: 0;
-	padding: 100px 15px;
+.TopWrap {
 	background: linear-gradient(
 			360deg,
 			rgba(255, 69, 91, 0.07) 0%,
@@ -9,6 +7,10 @@
 		url(/wierd.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
+}
+.Wrapper {
+	margin: 0;
+	padding: 100px 15px;
 }
 .Title {
 	font-family: Raleway;

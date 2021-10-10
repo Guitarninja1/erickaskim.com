@@ -3,10 +3,10 @@ import styles from './Message.module.css';
 export default function Message() {
 	return (
 		<div className={styles.wrapper}>
-			<h2 className={styles.title}>Send Us A Message</h2>
+			<h2 className={styles.title}>Send Me A Message</h2>
 			<p className={styles.text}>
-				Pariatur voluptate occaecat nostrud est exercitation. Culpa culpa
-				laboris excepteur officia ullamco sunt nisi velit culpa.
+				Interested in having a site made? Want to have work done on an existing
+				site? Send me a message!
 			</p>
 			<form className={styles.items}>
 				<label htmlFor='message--text' className='sr-only'>
