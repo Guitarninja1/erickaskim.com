@@ -1,11 +1,8 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Flavortext from '../components/Flavortext';
 import Header from '../components/Header';
 import styles from './About.module.css';
-import ArrowLeft from '../public/arrowleft.svg';
-import ArrowRight from '../public/arrowright.svg';
 import TriangleBorder from '../public/404triangle.svg';
 import Glasses from '../public/glasses.svg';
 import Atom from '../public/atomman.svg';
@@ -75,7 +72,7 @@ export default function About() {
 					<div className={styles.flavorTextWrap}>
 						<Flavortext title='WHY US' />
 					</div>
-					<h2 className={styles.subflavor1}>Why People Choose Me</h2>
+					<h2 className={styles.subflavor1}>Why People Choose Us</h2>
 					<p className={styles.largep}>
 						I appreciate every client and am ready to help with all the issues
 						that they have.
@@ -105,8 +102,8 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								My web design company specializes in the professional creation
-								of unique sites and mobile applicatoins.
+								Open lines of communication and a strong work ethic for all who
+								choose me.
 							</p>
 						</li>
 						<li className={styles.listitem}>
@@ -119,8 +116,8 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								Open lines of communication and a strong work ethic for all who
-								choose me.
+								The approach to each new project is individual, we treat equally
+								every customer.
 							</p>
 						</li>
 					</ul>

@@ -1,20 +1,15 @@
 import Link from 'next/link';
 import BlogLink from '../BlogLink';
 import Flavortext from '../Flavortext';
-import ArrowRight from '../../public/arrowright.svg';
 import styles from './BlogPreview.module.css';
 
 export default function BlogPreview() {
 	return (
 		<div className={styles.BlogPreviewWrapper}>
-			<div className={styles.BlogHeaderWrap}>
+			<div>
 				<Flavortext title='Blog' />
-				<h2 className={styles.Title}>The Latest News In Digital</h2>
-				<Link href='#'>
-					<a className={styles.BlogLink}>
-						READ BLOG <ArrowRight className={styles.Arrow} />
-					</a>
-				</Link>
+				<h2>The Latest News In Digital</h2>
+				<Link href='#'>READ BLOG ➡️</Link>
 			</div>
 			<div className={styles.BlogP}>
 				<BlogLink
