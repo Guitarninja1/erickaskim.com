@@ -71,6 +71,30 @@ export default function About() {
 						</p>
 					</div>
 				</div>
+				{/* <div className={styles.imagewrap}>
+					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+				</div>
+				<div className={styles.expertwrap}>
+					<Flavortext title='DIGITAL EXPERT' />
+					<h2 className={styles.experttitle}>Our Creative Team</h2>
+					<div className={styles.arrows}>
+						<Link href='/'>
+							<a className={styles.arrowleft}>
+								<ArrowLeft />
+							</a>
+						</Link>
+						<Link href='/'>
+							<a className={styles.arrowright}>
+								<ArrowRight />
+							</a>
+						</Link>
+					</div>
+					<div className={styles.expertimagewrap}>
+						<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					</div>
+
+					<h2 className={styles.expertfooter}>EXPERTS</h2>
+				</div> */}
 				<div className={styles.whyuswrap}>
 					<div className={styles.flavorTextWrap}>
 						<Flavortext title='WHY US' />
