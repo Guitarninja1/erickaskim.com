@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import {
 	FacebookIcon,
@@ -25,11 +24,7 @@ export default function blog() {
 					</div>
 					<div className={styles.PreviewWrap}>
 						<div className={styles.ImageWrap}>
-							<Image
-								src='https://picsum.photos/200'
-								layout='fill'
-								alt='image'
-							/>
+							<img src='https://picsum.photos/200' layout='fill' alt='image' />
 						</div>
 						<div className={styles.PostAuthorDataWrap}>
 							<div className={styles.TextWrap}>
@@ -52,11 +47,7 @@ export default function blog() {
 					</div>
 					<div className={styles.PreviewWrap}>
 						<div className={styles.ImageWrap}>
-							<Image
-								src='https://picsum.photos/200'
-								layout='fill'
-								alt='image'
-							/>
+							<img src='https://picsum.photos/200' layout='fill' alt='image' />
 						</div>
 						<div className={styles.PostAuthorDataWrap}>
 							<div className={styles.TextWrap}>
@@ -79,11 +70,7 @@ export default function blog() {
 					</div>
 					<div className={styles.PreviewWrap}>
 						<div className={styles.ImageWrap}>
-							<Image
-								src='https://picsum.photos/200'
-								layout='fill'
-								alt='image'
-							/>
+							<img src='https://picsum.photos/200' layout='fill' alt='image' />
 						</div>
 						<div className={styles.PostAuthorDataWrap}>
 							<div className={styles.TextWrap}>
@@ -106,11 +93,7 @@ export default function blog() {
 					</div>
 					<div className={styles.PreviewWrap}>
 						<div className={styles.ImageWrap}>
-							<Image
-								src='https://picsum.photos/200'
-								layout='fill'
-								alt='image'
-							/>
+							<img src='https://picsum.photos/200' layout='fill' alt='image' />
 						</div>
 						<div className={styles.PostAuthorDataWrap}>
 							<div className={styles.TextWrap}>

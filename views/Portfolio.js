@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Link from 'next/link';
 import Arrowright from '../public/arrowright.svg';
-import Image from 'next/image';
 import styles from './Portfolio.module.css';
 
 export default function Portfolio() {
@@ -17,13 +16,13 @@ export default function Portfolio() {
 			</div>
 			<div className={styles.MainImageWrap}>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 			</div>
 			<Link href='/'>
