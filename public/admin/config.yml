@@ -4,18 +4,18 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: 'pages'
-    label: 'Pages'
+  - name: 'blogs'
+    label: 'Blogs'
     files:
-      - label: 'Home'
-        name: 'home'
-        file: 'content/home.md'
+      - label: 'Posts'
+        name: 'posts'
+        file: 'content/posts.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-          - label: 'Cats'
-            name: 'cats'
+          - label: 'Posts'
+            name: 'posts'
             widget: list
             fields:
               - { label: 'Name', name: 'name', widget: 'string' }
