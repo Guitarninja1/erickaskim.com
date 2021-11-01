@@ -71,7 +71,7 @@ export default function About() {
 					<div className={styles.flavorTextWrap}>
 						<Flavortext title='WHY US' />
 					</div>
-					<h2 className={styles.subflavor1}>Why People Choose Us</h2>
+					<h2 className={styles.subflavor1}>Why People Choose Me</h2>
 					<p className={styles.largep}>
 						I appreciate every client and am ready to help with all the issues
 						that they have.
@@ -115,8 +115,8 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								The approach to each new project is individual, we treat equally
-								every customer.
+								Open lines of communication and a strong work ethic for all who
+								choose me.
 							</p>
 						</li>
 					</ul>
