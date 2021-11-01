@@ -1,22 +1,28 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+name: git-gateway
+branch: main # Branch to update (optional; defaults to master)
 media_folder: public/img
 public_folder: img
 collections:
-  - name: 'blogs'
-    label: 'Blogs'
+  - name: 'pages'
+    label: 'Pages'
     files:
-      - label: 'Posts'
-        name: 'posts'
+      - label: 'Home'
+        name: 'home'
         file: 'content/posts.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-          - label: 'Posts'
-            name: 'posts'
-            widget: list
-            fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'text' }
+          - { image: true, label: 'Image', name: 'image', widget: 'image' }
+  - label: 'Posts'
+    name: 'posts'
+    folder: 'content/posts'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
