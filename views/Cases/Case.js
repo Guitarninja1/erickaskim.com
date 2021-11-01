@@ -1,7 +1,5 @@
 import Header from '../../components/Header';
 import Breadcrumbs from '../../components/Breadcrumbs';
-import InTouch from '../../components/InTouch';
-import Image from 'next/dist/client/image';
 import styles from './Case.module.css';
 import ArrowLeft from '../../public/arrowleft.svg';
 import ArrowRight from '../../public/arrowright.svg';
@@ -17,7 +15,7 @@ export default function Case() {
 				<Breadcrumbs page='Case' />
 			</div>
 			<div className={styles.CaseImageWrap}>
-				<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+				<img src='https://picsum.photos/200' layout='fill' alt='image' />
 			</div>
 			<div className={styles.ArrowWrap}>
 				<Link href='/'>
@@ -89,18 +87,17 @@ export default function Case() {
 				<h2 className={styles.RelatedTitle}>Related Cases</h2>
 				<div className={styles.MainImageWrap}>
 					<div className={styles.PreviewImageWrap}>
-						<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+						<img src='https://picsum.photos/200' layout='fill' alt='image' />
 					</div>
 					<div className={styles.PreviewImageWrap}>
-						<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+						<img src='https://picsum.photos/200' layout='fill' alt='image' />
 					</div>
 					<div className={styles.PreviewImageWrap}>
-						<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+						<img src='https://picsum.photos/200' layout='fill' alt='image' />
 					</div>
 				</div>
 				<h2 className={styles.Related}>RELATED</h2>
 			</div>
-			<InTouch />
 		</div>
 	);
 }

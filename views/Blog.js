@@ -1,20 +1,22 @@
-import Header from '../components/Header';
 import Head from 'next/head';
-import styles from './Blog.module.css';
+import Header from '../components/Header';
 import { attributes, react as HomeContent } from '../content/posts.md';
+import styles from './Blog.module.css';
 
 export default function blog() {
-	let { title, posts } = attributes;
+	let { title, posts, body, date } = attributes;
 	return (
 		<div className={styles.TopWrapper}>
-			<Header />
+			<Head>
+				<script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script>
+			</Head>
 			<div className={styles.BottomWrapper}>
-				<Head>
-					<script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script>
-				</Head>
+				<Header />
 				<article>
 					<h1>{title}</h1>
 					<HomeContent />
+					<p>{body}</p>
+					<p>{date}</p>
 					<ul>
 						{posts.map((post, k) => (
 							<li key={k}>

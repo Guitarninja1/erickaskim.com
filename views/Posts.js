@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import {
 	FacebookIcon,
@@ -26,11 +25,7 @@ export default function Post() {
 					</div>
 					<div className={styles.Post}>
 						<div className={styles.TitleImageWrap}>
-							<Image
-								src='https://picsum.photos/200'
-								layout='fill'
-								alt='image'
-							/>
+							<img src='https://picsum.photos/200' layout='fill' alt='image' />
 						</div>
 						<div className={styles.DataWrap}>
 							<div className={styles.TextWrap}>
@@ -116,7 +111,7 @@ export default function Post() {
 						<div className={styles.AuthWrap}>
 							<div className={styles.AuthHeader}>
 								<div className={styles.AuthImageWrap}>
-									<Image src='/me.jpeg' alt='blogauthor' layout='fill' />
+									<img src='/me.jpeg' alt='blogauthor' layout='fill' />
 								</div>
 								<h5 className={styles.AboutAuth}>Erick Askim</h5>
 							</div>
@@ -163,7 +158,7 @@ export default function Post() {
 							<h2 className={styles.RelatedTitle}>Related Posts</h2>
 							<div className={styles.RelatedPost}>
 								<div className={styles.RelatedImageWrap}>
-									<Image
+									<img
 										src='https://picsum.photos/200'
 										layout='fill'
 										alt='image'
@@ -192,7 +187,7 @@ export default function Post() {
 							</div>
 							<div className={styles.RelatedPost}>
 								<div className={styles.RelatedImageWrap}>
-									<Image
+									<img
 										src='https://picsum.photos/200'
 										layout='fill'
 										alt='image'
