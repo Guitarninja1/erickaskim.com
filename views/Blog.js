@@ -14,17 +14,9 @@ export default function blog() {
 				<Header />
 				<article>
 					<h1>{title}</h1>
-					<HomeContent />
+					{/* <HomeContent /> */}
 					<p>{body}</p>
 					<p>{date}</p>
-					<ul>
-						{posts.map((post, k) => (
-							<li key={k}>
-								<h2>{post.name}</h2>
-								<p>{post.description}</p>
-							</li>
-						))}
-					</ul>
 				</article>
 			</div>
 		</div>
