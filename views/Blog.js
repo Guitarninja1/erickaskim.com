@@ -4,7 +4,7 @@ import { attributes, react as HomeContent } from '../content/posts.md';
 import styles from './Blog.module.css';
 
 export default function blog() {
-	let { title, posts, body, date } = attributes;
+	let { title, body, date } = attributes;
 	return (
 		<div className={styles.TopWrapper}>
 			<Head>
