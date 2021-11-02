@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import {
 	FacebookIcon,
@@ -11,7 +12,7 @@ import Comment from '../components/Comment';
 import ArrowLeft from '../public/arrowleft.svg';
 import ArrowRight from '../public/arrowright.svg';
 import Flavortext from '../components/Flavortext';
-import styles from './Posts.module.css';
+import styles from './Post.module.css';
 
 export default function Post() {
 	return (
@@ -25,7 +26,11 @@ export default function Post() {
 					</div>
 					<div className={styles.Post}>
 						<div className={styles.TitleImageWrap}>
-							<img src='https://picsum.photos/200' layout='fill' alt='image' />
+							<Image
+								src='https://picsum.photos/200'
+								layout='fill'
+								alt='image'
+							/>
 						</div>
 						<div className={styles.DataWrap}>
 							<div className={styles.TextWrap}>
@@ -111,7 +116,7 @@ export default function Post() {
 						<div className={styles.AuthWrap}>
 							<div className={styles.AuthHeader}>
 								<div className={styles.AuthImageWrap}>
-									<img src='/me.jpeg' alt='blogauthor' layout='fill' />
+									<Image src='/me.jpeg' alt='blogauthor' layout='fill' />
 								</div>
 								<h5 className={styles.AboutAuth}>Erick Askim</h5>
 							</div>
@@ -158,7 +163,7 @@ export default function Post() {
 							<h2 className={styles.RelatedTitle}>Related Posts</h2>
 							<div className={styles.RelatedPost}>
 								<div className={styles.RelatedImageWrap}>
-									<img
+									<Image
 										src='https://picsum.photos/200'
 										layout='fill'
 										alt='image'
@@ -187,7 +192,7 @@ export default function Post() {
 							</div>
 							<div className={styles.RelatedPost}>
 								<div className={styles.RelatedImageWrap}>
-									<img
+									<Image
 										src='https://picsum.photos/200'
 										layout='fill'
 										alt='image'
