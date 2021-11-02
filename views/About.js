@@ -1,11 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import Breadcrumbs from '../components/Breadcrumbs';
 import Flavortext from '../components/Flavortext';
 import Header from '../components/Header';
 import styles from './About.module.css';
-import ArrowLeft from '../public/arrowleft.svg';
-import ArrowRight from '../public/arrowright.svg';
 import TriangleBorder from '../public/404triangle.svg';
 import Glasses from '../public/glasses.svg';
 import Atom from '../public/atomman.svg';
@@ -83,7 +79,7 @@ export default function About() {
 					<ul className={styles.listwrap}>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'
@@ -97,7 +93,7 @@ export default function About() {
 						</li>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'
@@ -105,13 +101,13 @@ export default function About() {
 								/>
 							</div>
 							<p className={styles.smallp}>
-								My web design company specializes in the professional creation
-								of unique sites and mobile applicatoins.
+								Open lines of communication and a strong work ethic for all who
+								choose me.
 							</p>
 						</li>
 						<li className={styles.listitem}>
 							<div className={styles.listimage}>
-								<Image
+								<img
 									src='/checkmark.svg'
 									alt='checkmark'
 									width='24px'

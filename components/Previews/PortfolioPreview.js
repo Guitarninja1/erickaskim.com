@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import Flavortext from '../Flavortext';
 import ArrowRight from '../../public/arrowright.svg';
@@ -16,13 +15,13 @@ export default function PortfolioPreview() {
 			</Link>
 			<div className={styles.MainImageWrap}>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 				<div className={styles.ImageWrap}>
-					<Image src='https://picsum.photos/200' layout='fill' alt='image' />
+					<img src='https://picsum.photos/200' layout='fill' alt='image' />
 				</div>
 			</div>
 			<div className={styles.CasesWrap}>
