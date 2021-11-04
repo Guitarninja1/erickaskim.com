@@ -17,7 +17,7 @@ collections:
           - { image: true, label: 'Image', name: 'image', widget: 'image' }
   - label: 'Posts'
     name: 'posts'
-    folder: 'content/posts'
+    folder: '/posts'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -30,4 +30,3 @@ collections:
           required: false,
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }
