@@ -2,7 +2,7 @@
 title: Hipster Ipsum
 description: Hipster Ipsum
 image: /public/blog-placeholder_gbawbh.jpg
-date: 2021-11-02T21:12:58.441Z
+date: 2021-11-05T21:16:26.803Z
 ---
 
 Normcore organic taxidermy, raclette fixie bicycle rights YOLO asymmetrical
