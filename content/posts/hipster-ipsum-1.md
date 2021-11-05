@@ -1,6 +1,7 @@
 ---
 title: Hipster Ipsum
 description: Hipster Ipsum
+image: /public/blog-placeholder_gbawbh.jpg
 date: 2021-11-02T21:12:32.814Z
 ---
 

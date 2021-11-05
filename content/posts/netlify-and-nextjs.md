@@ -1,6 +1,7 @@
 ---
 title: Netlify and Nextjs
 description: Image file loading with Nextjs and Netlify
+image: /public/blog-placeholder_gbawbh.jpg
 date: 2021-11-02T20:36:25.665Z
 ---
 

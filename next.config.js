@@ -2,7 +2,7 @@ module.exports = {
 	reactStrictMode: true,
 	images: {
 		loader: 'cloudinary',
-		path: 'https://api.cloudinary.com/v1_1/dxurxdtth',
+		path: 'https://res.cloudinary.com/dxurxdtth',
 	},
 	webpack(config) {
 		config.module.rules.push(
