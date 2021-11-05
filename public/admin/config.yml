@@ -17,7 +17,7 @@ collections:
           - { image: true, label: 'Image', name: 'image', widget: 'image' }
   - label: 'Posts'
     name: 'posts'
-    folder: '/posts'
+    folder: 'content/posts'
     create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
