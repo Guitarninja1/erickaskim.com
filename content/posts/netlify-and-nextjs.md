@@ -2,7 +2,7 @@
 title: Netlify and Nextjs
 description: Image file loading with Nextjs and Netlify
 image: /public/blog-placeholder_gbawbh.jpg
-date: 2021-11-02T20:36:25.665Z
+date: 2021-11-05T21:17:00.480Z
 ---
 
 Talk about madness... Trying to navigate documents can be a real pain for a
