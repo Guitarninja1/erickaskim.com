@@ -30,4 +30,3 @@ collections:
           required: false,
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Slug', name: 'slug', widget: 'string' }

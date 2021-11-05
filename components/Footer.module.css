@@ -5,6 +5,7 @@
 		rgba(255, 144, 69, 0) 34%
 	);
 	padding: 0 15px;
+	border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
 .Title {
 	font-family: Mulish;
