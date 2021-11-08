@@ -1,14 +1,129 @@
 import Header from '../../components/Header';
 import { getAllPosts, getPostBySlug } from '../../lib/api';
 import markdownToHtml from '../../lib/markdownToHtml';
+import Image from 'next/image';
+import {
+	FacebookShareButton,
+	FacebookIcon,
+	TwitterShareButton,
+	TwitterIcon,
+} from 'react-share';
 
 const Post = (props) => {
 	return (
-		<>
-			<Header />
-			<h2 dangerouslySetInnerHTML={{ __html: props.post.title }} />
-			<div dangerouslySetInnerHTML={{ __html: props.post.content }} />
-		</>
+		<div
+			style={{
+				backgroundImage: `linear-gradient(
+					180deg,
+					rgba(255, 69, 91, 0.08) 0%,
+					rgba(255, 144, 69, 0) 9%
+					)`,
+			}}
+		>
+			<div
+				style={{
+					backgroundImage: `linear-gradient(
+						360deg,
+						rgba(255, 69, 91, 0.07) 0%,
+						rgba(255, 144, 69, 0) 15%
+					)`,
+				}}
+			>
+				<Header />
+				<div
+					style={{
+						position: 'relative',
+						opacity: 0.05,
+						fontSize: '70px',
+						left: '-10px',
+						top: '36px',
+						color: 'white',
+						ariaHidden: true,
+					}}
+				>
+					{props.post.title}
+				</div>
+				<div
+					style={{
+						fontFamily: 'Raleway',
+						fontWeight: 900,
+						fontSize: '36px',
+						fontStyle: 'normal',
+						margin: '0 10vw',
+						color: '#ffff',
+						ariaHidden: true,
+					}}
+				>
+					{props.post.title}
+				</div>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'column',
+						alignItems: 'center',
+					}}
+				>
+					<div
+						style={{
+							margin: '0 15px',
+							display: 'inline-flex',
+							flexDirection: 'column',
+							alignItems: 'center',
+						}}
+					>
+						<div
+							style={{
+								position: 'relative',
+								maxHeight: '353px',
+								maxWidth: '750px',
+								minHeight: '170px',
+								minWidth: '360px',
+								marginTop: '50px',
+							}}
+						>
+							<Image
+								src={props.post.image}
+								alt={props.post.title}
+								layout='fill'
+							/>
+						</div>
+						<div
+							style={{
+								display: 'flex',
+								flexDirection: 'row',
+								alignItems: 'center',
+							}}
+						>
+							<p style={{ fontSize: '14px' }}>{props.post.date}</p>
+							<div style={{ margin: '0 6px' }}>
+								<FacebookShareButton url={props.post.slug}>
+									<FacebookIcon size={22} round={true} />
+								</FacebookShareButton>
+							</div>
+							<TwitterShareButton url={props.post.slug}>
+								<TwitterIcon size={22} round={true} />
+							</TwitterShareButton>
+						</div>
+						<h2
+							styl={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
+							dangerouslySetInnerHTML={{ __html: props.post.title }}
+						/>
+						<div
+							style={{
+								position: 'relative',
+								maxWidth: '360px',
+								minWidth: '360px',
+								margin: '0 0 100px 0',
+								fontSize: '16px',
+								lineHeight: '1.5',
+								fontFamily: 'Mulish',
+							}}
+							dangerouslySetInnerHTML={{ __html: props.post.content }}
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
 
@@ -17,7 +132,7 @@ export default Post;
 export async function getStaticProps(args) {
 	const { params } = args;
 	const paramsSlug = params.slug;
-	const postData = ['title', 'slug', 'content'];
+	const postData = ['title', 'slug', 'content', 'image', 'date'];
 	const post = getPostBySlug(paramsSlug, postData);
 	const postContent = post.content;
 	const postContentWithDefault = postContent || '';

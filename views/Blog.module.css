@@ -120,9 +120,6 @@
 	flex-direction: column;
 	margin: 15px;
 }
-.BlogListText {
-	/* margin: 0 15px; */
-}
 .BlogData {
 	display: flex;
 	align-items: center;
