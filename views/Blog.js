@@ -8,10 +8,10 @@ import {
 	TwitterIcon,
 } from 'react-share';
 import Image from 'next/image';
-import { formatISO9075 } from 'date-fns';
 
 export default function blog(props) {
 	const allPosts = props.allPosts;
+
 	return (
 		<div className={styles.TopWrapper}>
 			<div className={styles.BottomWrapper}>
@@ -29,15 +29,18 @@ export default function blog(props) {
 								</a>
 							</div>
 							<div className={styles.BlogListText}>
-								<p className={styles.PostDescription}>{post.description}</p>
-								<p>{formatISO9075(new Date(post.date))}</p>
-								<div className={styles.Share}>
-									<FacebookShareButton url={post.slug}>
-										<FacebookIcon size={22} round={true} />
-									</FacebookShareButton>
-									<TwitterShareButton url={post.slug}>
-										<TwitterIcon size={22} round={true} />
-									</TwitterShareButton>
+								<div className={styles.BlogData}>
+									<p>{post.date}</p>
+									<div className={styles.Share}>
+										<div className={styles.FB}>
+											<FacebookShareButton url={post.slug}>
+												<FacebookIcon size={22} round={true} />
+											</FacebookShareButton>
+										</div>
+										<TwitterShareButton url={post.slug}>
+											<TwitterIcon size={22} round={true} />
+										</TwitterShareButton>
+									</div>
 								</div>
 								<a className={styles.Link} href={`/posts/${post.slug}`}>
 									<h3 className={styles.PostTitle}>{post.title}</h3>

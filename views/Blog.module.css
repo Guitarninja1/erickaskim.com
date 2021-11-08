@@ -80,8 +80,8 @@
 .ImageWrap {
 	position: relative;
 	display: flex;
-	width: 20vw;
-	height: 25vh;
+	width: 200px;
+	height: 200px;
 	padding: 0;
 }
 .PreviewWrap {
@@ -117,8 +117,23 @@
 }
 .BlogListLi {
 	display: flex;
+	flex-direction: column;
 	margin: 15px;
 }
 .BlogListText {
-	margin: 0 15px;
+	/* margin: 0 15px; */
+}
+.BlogData {
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+.FB {
+	padding: 6px;
+}
+.PostTitle {
+	margin: 0;
+}
+.Share {
+	display: flex;
 }
