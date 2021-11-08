@@ -1,7 +1,6 @@
 import styles from './Blog.module.css';
 import Header from '../components/Header';
 import Breadcrumbs from '../components/Breadcrumbs';
-import DateFormatter from '../lib/date-formatter';
 import {
 	FacebookShareButton,
 	FacebookIcon,
@@ -9,6 +8,7 @@ import {
 	TwitterIcon,
 } from 'react-share';
 import Image from 'next/image';
+import { formatISO9075 } from 'date-fns';
 
 export default function blog(props) {
 	const allPosts = props.allPosts;
@@ -30,7 +30,7 @@ export default function blog(props) {
 							</div>
 							<div className={styles.BlogListText}>
 								<p className={styles.PostDescription}>{post.description}</p>
-
+								<p>{formatISO9075(new Date(post.date))}</p>
 								<div className={styles.Share}>
 									<FacebookShareButton url={post.slug}>
 										<FacebookIcon size={22} round={true} />
