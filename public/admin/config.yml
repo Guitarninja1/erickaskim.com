@@ -27,11 +27,6 @@ collections:
           label: 'Publish Date', 
           name: 'date', 
           widget: 'datetime', 
-          default: "",
-          date_format: "DD.MM.YYYY", # e.g. 24.12.2021
-          time_format: "HH:mm", # e.g. 21:07
-          format: "LLL", # e.g. 21:07, 24.12.2021 
-          picker_utc: false, # e.g. true}
       - {
           label: 'Image',
           name: 'image',
