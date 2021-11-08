@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
 						rel='stylesheet'
 					/>
 				</Head>
-				<title>☠️ErickAskim.com☠️</title>
+				<title>☠️Erick Askim☠️</title>
 				<body>
 					<Main />
 					<NextScript />
