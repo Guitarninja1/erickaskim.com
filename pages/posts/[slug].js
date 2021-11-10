@@ -26,7 +26,7 @@ const Post = (props) => {
 						360deg,
 						rgba(255, 69, 91, 0.07) 0%,
 						rgba(255, 144, 69, 0) 15%
-					)`,
+					), url(/wierd.svg)`,
 				}}
 			>
 				<Header />
