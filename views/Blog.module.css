@@ -24,7 +24,7 @@
 	font-weight: 900;
 	font-size: 36px;
 	font-style: normal;
-	margin: 0;
+	margin: 0 15px;
 	color: #ffff;
 }
 .PageTitle::after {
@@ -32,7 +32,7 @@
 	position: absolute;
 	opacity: 0.05;
 	font-size: 70px;
-	left: -10px;
+	left: -15px;
 	top: 70px;
 }
 .PostAuthorDataWrap {
@@ -80,8 +80,8 @@
 .ImageWrap {
 	position: relative;
 	display: flex;
-	width: 200px;
-	height: 200px;
+	width: 555px;
+	height: 300px;
 	padding: 0;
 }
 .PreviewWrap {

@@ -32,7 +32,11 @@ export default function Breadcrumbs(props) {
 					);
 				}
 				if (index === crumbs.length - 1) {
-					return <li className={styles.home}>{page}</li>;
+					return (
+						<li key={index} className={styles.home}>
+							{page}
+						</li>
+					);
 				}
 			})}
 		</ul>

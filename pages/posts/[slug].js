@@ -31,7 +31,6 @@ const Post = (props) => {
 				}}
 			>
 				<Header />
-				<Breadcrumbs page={props.post.title} />
 				<div
 					style={{
 						position: 'relative',
@@ -58,6 +57,7 @@ const Post = (props) => {
 				>
 					{props.post.title}
 				</div>
+				<Breadcrumbs page={props.post.title} />
 				<div
 					style={{
 						display: 'flex',
@@ -76,10 +76,8 @@ const Post = (props) => {
 						<div
 							style={{
 								position: 'relative',
-								maxHeight: '353px',
-								maxWidth: '750px',
-								minHeight: '170px',
-								minWidth: '360px',
+								minHeight: '300px',
+								minWidth: '555px',
 								marginTop: '50px',
 							}}
 						>
@@ -113,8 +111,7 @@ const Post = (props) => {
 						<div
 							style={{
 								position: 'relative',
-								maxWidth: '360px',
-								minWidth: '360px',
+								maxWidth: '555px',
 								margin: '0 0 100px 0',
 								fontSize: '16px',
 								lineHeight: '1.5',

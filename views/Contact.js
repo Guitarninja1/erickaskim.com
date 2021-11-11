@@ -22,7 +22,7 @@ export default function Contact() {
 							<img src='/phone.svg' alt='phone' height='100px' width='100px' />
 						</div>
 						<div className={styles.contenthit}>
-							<h3 className={styles.hthree}>Hit us up</h3>
+							<h3 className={styles.hthree}>Hit me up</h3>
 							<Link href='tel:+15308282706'>
 								<a className={styles.text}>+1 530 828 2706</a>
 							</Link>
@@ -49,10 +49,6 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
-			<div className={styles.intouch}>
-				<Flavortext title='BE IN TOUCH' />
-			</div>
-			<Message />
 		</div>
 	);
 }
