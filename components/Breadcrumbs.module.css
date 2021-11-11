@@ -7,7 +7,7 @@
 	line-height: 1.6;
 	color: #989cac;
 }
-.home::after {
+.home:not(:last-child):after {
 	content: '–';
 	opacity: 0.5;
 	margin: 0 25px;

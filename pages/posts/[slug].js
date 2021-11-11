@@ -8,6 +8,7 @@ import {
 	TwitterShareButton,
 	TwitterIcon,
 } from 'react-share';
+import Breadcrumbs from '../../components/Breadcrumbs';
 
 const Post = (props) => {
 	return (
@@ -30,6 +31,7 @@ const Post = (props) => {
 				}}
 			>
 				<Header />
+				<Breadcrumbs page={props.post.title} />
 				<div
 					style={{
 						position: 'relative',
