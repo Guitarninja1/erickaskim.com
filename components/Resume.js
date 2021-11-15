@@ -46,7 +46,7 @@ export default function Resume() {
 				</ul>
 				<h3>Education</h3>
 				<ul className={styles.educationUl}>
-					<li>
+					<li className={styles.kyle}>
 						Apprenticeship Under Kyle Melton: July 6th 2020 - Current <br></br>
 						<a className={styles.kylesLink} href='https://kylemelton.dev/'>
 							KyleMelton.dev

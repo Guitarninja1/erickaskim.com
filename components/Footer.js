@@ -52,15 +52,6 @@ export default function Footer() {
 						<a className={styles.Link}>erickaskim@gmail.com</a>
 					</Link>
 				</div>
-				<div className={styles.Usefull}>
-					<h3 className={styles.H3}>Usefull Links</h3>
-					<Link href='/'>
-						<a className={styles.Link}>Help And Support</a>
-					</Link>
-					<Link href='/'>
-						<a className={styles.Link}>Careers</a>
-					</Link>
-				</div>
 			</div>
 			<div className={styles.Social}>
 				<Link href='https://www.facebook.com/erick.askim.3/'>
