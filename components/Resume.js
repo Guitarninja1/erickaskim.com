@@ -31,6 +31,18 @@ export default function Resume() {
 				<h3>Experience</h3>
 				<ul className={styles.experienceUl}>
 					<li>Complete Web Design Solution: June 2021 - Current</li>
+					<ul>
+						<li>
+							Update HTML to drive SEO and keeping the site accessible as
+							described by WCAG 2.1
+						</li>
+						<li>Optimize images for the web</li>
+						<li>Add and remove products from site</li>
+						<li>Update data on site to reflect the changes in inventory</li>
+						<li>
+							Create product sets linking individual products to an overall set
+						</li>
+					</ul>
 				</ul>
 				<h3>Education</h3>
 				<ul className={styles.educationUl}>
@@ -41,47 +53,92 @@ export default function Resume() {
 						</a>
 					</li>
 					<li>
-						<h4>Wes Bos Courses</h4>
+						<span className={styles.wes}>Wes Bos Courses</span>
 						<ul>
 							<li>
-								<a href='https://beginnerjavascript.com/'>
+								<a
+									className={styles.linkLi}
+									href='https://beginnerjavascript.com/'
+								>
 									Beginner JavaScript
 								</a>
 							</li>
 							<li>
-								<a href='https://javascript30.com/'>
+								<a className={styles.linkLi} href='https://javascript30.com/'>
 									JavaScript 30 day vanilla JS coding challenge
 								</a>
 							</li>
 							<li>
-								<a href='https://reactforbeginners.com/'>React For Beginners</a>
+								<a
+									className={styles.linkLi}
+									href='https://reactforbeginners.com/'
+								>
+									React For Beginners
+								</a>
 							</li>
 							<li>
-								<a href='https://cssgrid.io/'>CSS Grid</a>
+								<a className={styles.linkLi} href='https://cssgrid.io/'>
+									CSS Grid
+								</a>
 							</li>
 							<li>
-								<a href='https://flexbox.io/'>What the Flexbox?!</a>
+								<a className={styles.linkLi} href='https://flexbox.io/'>
+									What the Flexbox?!
+								</a>
 							</li>
 							<li>
-								<a href='https://advancedreact.com/'>
+								<a className={styles.linkLi} href='https://advancedreact.com/'>
 									Fullstack Advanced React & GraphQL
 								</a>
 							</li>
 							<li>
-								<a href='https://learnnode.com/'>Learn Node!</a>
+								<a className={styles.linkLi} href='https://learnnode.com/'>
+									Learn Node!
+								</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
-				<h3>Projects</h3>
-				<ul></ul>
+				{/* <h3>Projects</h3>
+				<ul></ul> */}
 				<h3>Refrences</h3>
-				<ul></ul>
-				{/* 
-					projects
-					education
-					contact
-				*/}
+				<ul className={styles.refrenceUl}>
+					<li>Wade Harned</li>
+					<ul>
+						<li>
+							<a
+								className={styles.linkLi}
+								href='https://completewebdesignsolution.com/'
+							>
+								{' '}
+								Complete Web Design Solution
+							</a>
+						</li>
+						<li>
+							Phone:{' '}
+							<a className={styles.linkLi} href='tel:+1-951-892-0893'>
+								1-951-892-0893
+							</a>
+						</li>
+					</ul>
+				</ul>
+				<ul className={styles.refrenceUl}>
+					<li>Kyle Melton</li>
+					<ul>
+						<li>
+							<a className={styles.linkLi} href='https://kylemelton.dev/'>
+								{' '}
+								KyleMelton.dev
+							</a>
+						</li>
+						<li>
+							Phone:{' '}
+							<a className={styles.linkLi} href='tel:+1-951-212-7174'>
+								1-951-212-7174
+							</a>
+						</li>
+					</ul>
+				</ul>
 			</div>
 		</div>
 	);

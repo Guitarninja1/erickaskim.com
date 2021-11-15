@@ -16,7 +16,7 @@ export default function Nav(props) {
 				<li>
 					<Link href='/blog'>Blog</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link href='/post'>Post</Link>
 				</li>
 				<li>
@@ -24,17 +24,17 @@ export default function Nav(props) {
 				</li>
 				<li>
 					<Link href='/portfolio'>Portfolio</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link href='/contact'>Contact</Link>
 				</li>
-				<li>
+				{/* <li>
 					<input
 						className={styles.search}
 						type='search'
 						placeholder='Search'
 					></input>
-				</li>
+				</li> */}
 			</ul>
 		</nav>
 	);

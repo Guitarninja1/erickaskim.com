@@ -13,24 +13,19 @@ export default function Footer() {
 							<a className={styles.MenuItem}>Home</a>
 						</Link>
 					</li>
-					<li className={styles.Li}>
+					{/* <li className={styles.Li}>
 						<Link href='/about'>
 							<a className={styles.MenuItem}>About</a>
 						</Link>
-					</li>
-					<li className={styles.Li}>
+					</li> */}
+					{/* <li className={styles.Li}>
 						<Link href='/portfolio'>
 							<a className={styles.MenuItem}>Portfolio</a>
 						</Link>
-					</li>
+					</li> */}
 					<li className={styles.Li}>
 						<Link href='/blog'>
 							<a className={styles.MenuItem}>Blog</a>
-						</Link>
-					</li>
-					<li className={styles.Li}>
-						<Link href='/about'>
-							<a className={styles.MenuItem}>About</a>
 						</Link>
 					</li>
 					<li className={styles.Li}>
@@ -68,14 +63,11 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className={styles.Social}>
-				<Link href='/'>
+				<Link href='https://www.facebook.com/erick.askim.3/'>
 					<a className={styles.SocialLink}>Fb</a>
 				</Link>
-				<Link href='/'>
+				<Link href='https://twitter.com/ErickAskim'>
 					<a className={styles.SocialLink}>Tw</a>
-				</Link>
-				<Link href='/'>
-					<a className={styles.SocialLink}>In</a>
 				</Link>
 			</div>
 			<div className={styles.Copyright}>
