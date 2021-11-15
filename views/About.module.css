@@ -5,6 +5,17 @@
 		rgba(255, 144, 69, 0) 5%
 	);
 }
+.bottomwrap {
+	background: linear-gradient(
+			360deg,
+			rgba(255, 69, 91, 0.07) 0%,
+			rgba(255, 144, 69, 0) 30%
+		),
+		url(/wierd.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .flavorTextWrap {
 	margin: 0 15px;
 }
@@ -181,15 +192,6 @@
 .iconswrap {
 	margin: 0;
 	padding: 0 0 130px 0;
-	background: linear-gradient(
-			360deg,
-			rgba(255, 69, 91, 0.07) 0%,
-			rgba(255, 144, 69, 0) 30%
-		),
-		url(/wierd.svg);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 .iconblock {
 	position: relative;
@@ -235,4 +237,28 @@
 }
 .flavorTextWrap {
 	margin: 0 15px;
+}
+
+@media screen and (min-width: 600px) {
+	.whyusmegawrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.iconswrap {
+		flex-grow: 0.5;
+		margin: 0;
+		padding: 0 0 130px 0;
+	}
+	.iconblock {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		width: 100%;
+	}
+	.iconblockodd {
+		justify-content: flex-start;
+	}
 }

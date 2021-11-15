@@ -1,12 +1,3 @@
-.ResumeUl {
-	margin-top: 39vh;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
-	list-style: none;
-	color: #989cac;
-	padding: 17px;
-}
 .ResumeWrapper {
 	margin: 0;
 	background: linear-gradient(
@@ -17,13 +8,41 @@
 		url(/Mountain.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
-}
-.ResumeSlider {
-	margin: 17px;
+	background-size: cover;
+	padding: 0 15px;
 }
 .ResumeBody {
 	font-family: Mulish;
 	color: #989cac;
 	font-size: 20px;
 	margin: 0;
+}
+.selfPromo {
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 16px;
+	margin: 0;
+}
+.frontEndTitle {
+	font-family: Mulish;
+	color: #989cac;
+	font-size: 16px;
+	margin: 0;
+	text-decoration: underline;
+}
+.frontEndUl {
+	color: #989cac;
+}
+.experienceUl {
+	color: #989cac;
+}
+.educationUl {
+	color: #989cac;
+}
+.resumeUl {
+	font-size: 16px;
+}
+.kylesLink {
+	color: #989cac;
+	text-decoration: underline;
 }

@@ -16,17 +16,9 @@ export default function FourZeroFour() {
 			</div>
 			<div className={styles.SearchWrapper}>
 				<p className={styles.Text}>
-					It looks like nothing was found at this location. Maybe try a search?
+					It looks like nothing was found at this location. Maybe try a kneeling
+					before Zod?
 				</p>
-				<label htmlFor='search' className='sr-only'>
-					Search
-				</label>
-				<input
-					type='search'
-					id='search'
-					className={styles.Search}
-					placeholder='Search'
-				/>
 			</div>
 		</div>
 	);
