@@ -9,7 +9,7 @@ export default function Resume() {
 			<div className={styles.ResumeSlider}>
 				<Flavortext title='Digital Dominance' />
 				<h2>Resume</h2>
-				<p>
+				<p className={styles.resumeBody}>
 					Effective verbal and written communication in English. Strategically
 					coordinate and collaborate with various professionals to maximize
 					performance in facilitating goals and attaining operational
