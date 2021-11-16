@@ -14,13 +14,8 @@
 	background-color: transparent;
 	border: none;
 }
-@media screen and (max-width: 400px) {
-	.Cell {
-		display: none;
-	}
-	.Call {
-		display: initial;
-	}
+.Cell {
+	display: none;
 }
 @media screen and (min-width: 400px) {
 	.Call {

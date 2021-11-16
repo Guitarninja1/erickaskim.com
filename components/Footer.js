@@ -45,8 +45,9 @@ export default function Footer() {
 							<h3 className={styles.H3}>Address:</h3>
 							<address className={styles.Link}>
 								536 W La Strada Circle, Medford,
+								<br />
+								OR 96504, USA
 							</address>
-							<address className={styles.Link}>OR 96504, USA</address>
 						</div>
 						<div className={styles.Contact}>
 							<h3 className={styles.H3}>Contact</h3>
@@ -65,6 +66,9 @@ export default function Footer() {
 						<Link href='https://twitter.com/ErickAskim'>
 							<a className={styles.SocialLink}>Tw</a>
 						</Link>
+						<Link href='https://www.linkedin.com/in/erick-askim'>
+							<a className={styles.SocialLink}>in</a>
+						</Link>
 					</div>
 					<div className={styles.Copyright}>
 						<p>&copy; All rights reserved. Erick Askim {year}</p>
@@ -79,6 +83,9 @@ export default function Footer() {
 							<Link href='https://twitter.com/ErickAskim'>
 								<a className={styles.SocialLink}>Tw</a>
 							</Link>
+							<Link href='https://www.linkedin.com/in/erick-askim'>
+								<a className={styles.SocialLink}>in</a>
+							</Link>
 						</div>
 						<div className={styles.Copyright}>
 							<p>&copy; All rights reserved. Erick Askim {year}</p>
@@ -88,8 +95,9 @@ export default function Footer() {
 						<h3 className={styles.H3}>Address:</h3>
 						<address className={styles.Link}>
 							536 W La Strada Circle, Medford,
+							<br />
+							OR 96504, USA
 						</address>
-						<address className={styles.Link}>OR 96504, USA</address>
 					</div>
 					<div className={styles.Contact}>
 						<h3 className={styles.H3}>Contact</h3>
