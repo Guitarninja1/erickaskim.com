@@ -76,7 +76,7 @@ const Post = (props) => {
 						<div
 							style={{
 								position: 'relative',
-								minHeight: '300px',
+								minHeight: '555px',
 								minWidth: '555px',
 								marginTop: '50px',
 							}}

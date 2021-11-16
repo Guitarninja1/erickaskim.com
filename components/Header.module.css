@@ -1,4 +1,5 @@
 .Title {
+	font-family: Raleway;
 	font-size: 16px;
 	padding: 0;
 	text-align: center;
@@ -12,4 +13,41 @@
 .Call {
 	background-color: transparent;
 	border: none;
+}
+@media screen and (max-width: 400px) {
+	.Cell {
+		display: none;
+	}
+	.Call {
+		display: initial;
+	}
+}
+@media screen and (min-width: 400px) {
+	.Call {
+		display: none;
+	}
+	.Cell {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		flex-wrap: nowrap;
+	}
+	.number {
+		display: flex;
+		color: #ffffff;
+		font-family: Mulish;
+		font-size: 18px;
+	}
+	.CellImage {
+		position: relative;
+		height: 24px;
+		padding-right: 10px;
+	}
+	.Title {
+		text-align: left;
+		padding-left: 8vw;
+	}
 }
