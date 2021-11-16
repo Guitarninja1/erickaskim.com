@@ -24,7 +24,7 @@ export default function blog(props) {
 					{allPosts.map((post) => (
 						<li className={styles.BlogListLi} key={post.slug}>
 							<div className={styles.ImageWrap}>
-								<a href={`/posts/${post.slug}`}>
+								<a className={styles.ImageWrap} href={`/posts/${post.slug}`}>
 									<Image src={post.image} alt={post.title} layout='fill' />
 								</a>
 							</div>

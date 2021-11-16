@@ -3,6 +3,7 @@ html {
 }
 h2,
 h3 {
+	font-family: Raleway;
 	color: #ffffff;
 }
 
@@ -24,7 +25,8 @@ button {
 address {
 	all: initial;
 }
-p {
+p,
+li {
 	color: #989cac;
 	font-family: Mulish;
 	font-style: normal;
