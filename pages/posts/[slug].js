@@ -8,7 +8,7 @@ import {
 	TwitterShareButton,
 	TwitterIcon,
 } from 'react-share';
-import Breadcrumbs from '../../components/Breadcrumbs';
+import Title_BCrumbs from '../../components/Title_BCrumbs';
 
 const Post = (props) => {
 	return (
@@ -28,36 +28,12 @@ const Post = (props) => {
 						rgba(255, 69, 91, 0.07) 0%,
 						rgba(255, 144, 69, 0) 15%
 					), url(/wierd.svg)`,
+					backgroundRepeat: 'no-repeat',
+					backgroundPosition: 'bottom',
 				}}
 			>
 				<Header />
-				<div
-					style={{
-						position: 'relative',
-						opacity: 0.05,
-						fontSize: '70px',
-						left: '-10px',
-						top: '36px',
-						color: 'white',
-						ariaHidden: true,
-					}}
-				>
-					{props.post.title}
-				</div>
-				<div
-					style={{
-						fontFamily: 'Raleway',
-						fontWeight: 900,
-						fontSize: '36px',
-						fontStyle: 'normal',
-						margin: '0 10vw',
-						color: '#ffff',
-						ariaHidden: true,
-					}}
-				>
-					{props.post.title}
-				</div>
-				<Breadcrumbs page={props.post.title} />
+				<Title_BCrumbs page={props.post.title} />
 				<div
 					style={{
 						display: 'flex',
@@ -76,8 +52,8 @@ const Post = (props) => {
 						<div
 							style={{
 								position: 'relative',
-								minHeight: '555px',
-								minWidth: '555px',
+								minHeight: '178px',
+								minWidth: '330px',
 								marginTop: '50px',
 							}}
 						>

@@ -48,10 +48,12 @@
 .kylesLink {
 	color: #989cac;
 	text-decoration: underline;
+	text-decoration-color: #ff455b;
 }
 .linkLi {
 	text-decoration: underline;
 	font-size: 16px;
+	text-decoration-color: #ff455b;
 }
 .linkLi:hover {
 	color: rgb(223, 222, 224);

@@ -8,18 +8,15 @@ import {
 	TwitterIcon,
 } from 'react-share';
 import Image from 'next/image';
+import Title_BCrumbs from '../components/Title_BCrumbs';
 
 export default function blog(props) {
 	const allPosts = props.allPosts;
-
 	return (
 		<div className={styles.TopWrapper}>
 			<div className={styles.BottomWrapper}>
 				<Header />
-				<div className={styles.PageTitleWrapper}>
-					<h2 className={styles.PageTitle}>The Blogening</h2>
-				</div>
-				<Breadcrumbs page='Blog' />
+				<Title_BCrumbs page='Blog' />
 				<ul className={styles.BlogList}>
 					{allPosts.map((post) => (
 						<li className={styles.BlogListLi} key={post.slug}>
