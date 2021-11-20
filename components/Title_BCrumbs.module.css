@@ -1,0 +1,56 @@
+.title {
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: normal;
+	color: #ffff;
+}
+.title::after {
+	content: attr(data-after-content);
+	position: absolute;
+	opacity: 0.05;
+	font-size: 70px;
+	left: -15px;
+	top: 100px;
+	text-transform: uppercase;
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 0 9vw;
+	margin-bottom: 50px;
+}
+@media screen and (max-width: 666px) {
+	.container {
+		display: block;
+	}
+	.title {
+		font-family: Raleway;
+		font-weight: 900;
+		font-size: 36px;
+		font-style: normal;
+		margin: 0 15px;
+		color: #ffff;
+	}
+	.title::after {
+		content: 'THE BLOGENING';
+		position: absolute;
+		opacity: 0.05;
+		font-size: 70px;
+		left: -15px;
+		top: 70px;
+		width: 200vw;
+	}
+}
+@media screen and (min-width: 900px) {
+	.title::after {
+		font-size: 180px;
+		left: -30px;
+	}
+	.title {
+		font-size: 60px;
+	}
+}
