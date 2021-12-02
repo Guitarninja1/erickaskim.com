@@ -108,7 +108,7 @@ export default function Resume() {
 					</ul>
 					{/* <h3>Projects</h3>
 				<ul></ul> */}
-					<h3>Refrences</h3>
+					<h3>References</h3>
 					<ul className={styles.refrenceUl}>
 						<li>Wade Harned</li>
 						<ul>
