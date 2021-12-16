@@ -1,38 +1,58 @@
-import Header from '../components/Header';
-import Breadcrumbs from '../components/Breadcrumbs';
-import Link from 'next/link';
-import Arrowright from '../public/arrowright.svg';
 import styles from './Portfolio.module.css';
+import Header from '../components/Header';
+import {
+	FacebookShareButton,
+	FacebookIcon,
+	TwitterShareButton,
+	TwitterIcon,
+} from 'react-share';
+import Image from 'next/image';
+import Title_BCrumbs from '../components/Title_BCrumbs';
 
-export default function Portfolio() {
+export default function portfolio(props) {
+	const allProjects = props.allProjects;
 	return (
-		<div className={styles.Wrapper}>
-			<Header />
-			<div className={styles.PageTitleWrapper}>
-				<h2 className={styles.PageTitle}>PORTFOLIO</h2>
-				<div className={styles.Breadcrumbs}>
-					<Breadcrumbs page='Portfolio' />
-				</div>
+		<div className={styles.TopWrapper}>
+			<div className={styles.BottomWrapper}>
+				<Header />
+				<Title_BCrumbs page='Portfolio' />
+				<ul className={styles.ProjectList}>
+					{allProjects.map((project) => (
+						<li className={styles.ProjectListLi} key={project.slug}>
+							<div className={styles.ImageWrap}>
+								<a
+									className={styles.ImageWrap}
+									href={`/projects/${project.slug}`}
+								>
+									<Image
+										src={project.image}
+										alt={project.title}
+										layout='fill'
+									/>
+								</a>
+							</div>
+							<div className={styles.ProjectListText}>
+								<div className={styles.ProjectData}>
+									<p>{project.date}</p>
+									<div className={styles.Share}>
+										<div className={styles.FB}>
+											<FacebookShareButton url={project.slug}>
+												<FacebookIcon size={22} round={true} />
+											</FacebookShareButton>
+										</div>
+										<TwitterShareButton url={project.slug}>
+											<TwitterIcon size={22} round={true} />
+										</TwitterShareButton>
+									</div>
+								</div>
+								<a className={styles.Link} href={`/projects/${project.slug}`}>
+									<h3 className={styles.projectTitle}>{project.title}</h3>
+								</a>
+							</div>
+						</li>
+					))}
+				</ul>
 			</div>
-			<div className={styles.MainImageWrap}>
-				<div className={styles.ImageWrap}>
-					<img src='https://picsum.photos/200' layout='fill' alt='image' />
-				</div>
-				<div className={styles.ImageWrap}>
-					<img src='https://picsum.photos/200' layout='fill' alt='image' />
-				</div>
-				<div className={styles.ImageWrap}>
-					<img src='https://picsum.photos/200' layout='fill' alt='image' />
-				</div>
-			</div>
-			<Link href='/'>
-				<a className={styles.More}>
-					VIEW MORE CASES
-					<span>
-						<Arrowright className={styles.Arrow} />
-					</span>
-				</a>
-			</Link>
 		</div>
 	);
 }

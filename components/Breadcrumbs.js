@@ -31,6 +31,16 @@ export default function Breadcrumbs(props) {
 						</li>
 					);
 				}
+				if (crumb === 'projects') {
+					crumb = 'Portfolio';
+					return (
+						<li key={index} className={styles.home}>
+							<Link href='/portfolio'>
+								<a>{crumb}</a>
+							</Link>
+						</li>
+					);
+				}
 				if (index === crumbs.length - 1) {
 					return (
 						<li key={index} className={styles.home}>

@@ -1,6 +1,5 @@
 import styles from './Blog.module.css';
 import Header from '../components/Header';
-import Breadcrumbs from '../components/Breadcrumbs';
 import {
 	FacebookShareButton,
 	FacebookIcon,

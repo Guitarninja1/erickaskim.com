@@ -54,3 +54,6 @@
 		font-size: 60px;
 	}
 }
+.titleContainer {
+	pointer-events: none;
+}
