@@ -21,10 +21,10 @@ export default function Nav(props) {
 				</li>
 				<li>
 					<Link href='/about'>About</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link href='/portfolio'>Portfolio</Link>
-				</li> */}
+				</li>
 				<li>
 					<Link href='/contact'>Contact</Link>
 				</li>

@@ -1,5 +1,5 @@
 import Header from '../../components/Header';
-import { getAllPosts, getPostBySlug } from '../../lib/api';
+import { getAllProjects, getProjectBySlug } from '../../lib/api';
 import markdownToHtml from '../../lib/markdownToHtml';
 import Image from 'next/image';
 import {
@@ -10,7 +10,8 @@ import {
 } from 'react-share';
 import Title_BCrumbs from '../../components/Title_BCrumbs';
 
-const Post = (props) => {
+const Project = (props) => {
+	const { title, slug, image, date, content } = props;
 	return (
 		<div
 			style={{
@@ -33,7 +34,7 @@ const Post = (props) => {
 				}}
 			>
 				<Header />
-				<Title_BCrumbs page={props.post.title} />
+				<Title_BCrumbs page={title} />
 				<div
 					style={{
 						display: 'flex',
@@ -57,11 +58,7 @@ const Post = (props) => {
 								marginTop: '50px',
 							}}
 						>
-							<Image
-								src={props.post.image}
-								alt={props.post.title}
-								layout='fill'
-							/>
+							<Image src={image} alt={title} layout='fill' />
 						</div>
 						<div
 							style={{
@@ -70,19 +67,19 @@ const Post = (props) => {
 								alignItems: 'center',
 							}}
 						>
-							<p style={{ fontSize: '14px' }}>{props.post.date}</p>
+							<p style={{ fontSize: '14px' }}>{date}</p>
 							<div style={{ margin: '0 6px' }}>
-								<FacebookShareButton url={props.post.slug}>
+								<FacebookShareButton url={slug}>
 									<FacebookIcon size={22} round={true} />
 								</FacebookShareButton>
 							</div>
-							<TwitterShareButton url={props.post.slug}>
+							<TwitterShareButton url={slug}>
 								<TwitterIcon size={22} round={true} />
 							</TwitterShareButton>
 						</div>
 						<h2
 							style={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
-							dangerouslySetInnerHTML={{ __html: props.post.title }}
+							dangerouslySetInnerHTML={{ __html: title }}
 						/>
 						<div
 							style={{
@@ -93,7 +90,7 @@ const Post = (props) => {
 								lineHeight: '1.5',
 								fontFamily: 'Mulish',
 							}}
-							dangerouslySetInnerHTML={{ __html: props.post.content }}
+							dangerouslySetInnerHTML={{ __html: content }}
 						/>
 					</div>
 				</div>
@@ -102,33 +99,31 @@ const Post = (props) => {
 	);
 };
 
-export default Post;
+export default Project;
 
 export async function getStaticProps(args) {
 	const { params } = args;
 	const paramsSlug = params.slug;
-	const postData = ['title', 'slug', 'content', 'image', 'date'];
-	const post = getPostBySlug(paramsSlug, postData);
-	const postContent = post.content;
-	const postContentWithDefault = postContent || '';
-	const content = await markdownToHtml(postContentWithDefault);
+	const projectData = ['title', 'slug', 'content', 'image', 'date'];
+	const project = getProjectBySlug(paramsSlug, projectData);
+	const projectContent = project.content;
+	const projectContentWithDefault = projectContent || '';
+	const content = await markdownToHtml(projectContentWithDefault);
 	const p = {
 		props: {
-			post: {
-				...post,
-				content,
-			},
+			...project,
+			content,
 		},
 	};
 	return p;
 }
 export async function getStaticPaths() {
-	const posts = getAllPosts(['slug']);
+	const projects = getAllProjects(['slug']);
 	return {
-		paths: posts.map((post) => {
+		paths: projects.map((project) => {
 			return {
 				params: {
-					slug: post.slug,
+					slug: project.slug,
 				},
 			};
 		}),

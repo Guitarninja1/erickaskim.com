@@ -4,17 +4,6 @@ backend:
 media_folder: public/img
 public_folder: img
 collections:
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      - label: 'Home'
-        name: 'home'
-        file: 'content/posts.md'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
-          - { image: true, label: 'Image', name: 'image', widget: 'image' }
   - label: 'Posts'
     name: 'posts'
     folder: 'content/posts'
@@ -28,6 +17,23 @@ collections:
           label: 'Image',
           name: 'image',
           default: /public/blog-placeholder_gbawbh.jpg,
+          widget: 'image',
+          required: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Projects'
+    name: 'projects'
+    folder: 'content/projects'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Image',
+          name: 'image',
+          default: /public/me_dmoraf.jpg,
           widget: 'image',
           required: false,
         }

@@ -20,11 +20,11 @@ export default function Footer() {
 							<a className={styles.MenuItem}>About</a>
 						</Link>
 					</li> */}
-							{/* <li className={styles.Li}>
-						<Link href='/portfolio'>
-							<a className={styles.MenuItem}>Portfolio</a>
-						</Link>
-					</li> */}
+							<li className={styles.Li}>
+								<Link href='/portfolio'>
+									<a className={styles.MenuItem}>Portfolio</a>
+								</Link>
+							</li>
 							<li className={styles.Li}>
 								<Link href='/blog'>
 									<a className={styles.MenuItem}>Blog</a>
