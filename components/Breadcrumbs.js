@@ -11,33 +11,29 @@ export default function Breadcrumbs(props) {
 	return (
 		<ul className={styles.unordered}>
 			{crumbs.map((crumb, index) => {
-				let xcrumb = crumb;
-				if (xcrumb === '') {
-					xcrumb = 'Home';
+				if (crumb === '') {
 					return (
 						<li key={index} className={styles.home}>
 							<Link href='/'>
-								<a>{xcrumb}</a>
+								<a>Home</a>
 							</Link>
 						</li>
 					);
 				}
-				if (xcrumb === 'posts') {
-					xcrumb = 'Blog';
+				if (crumb === 'posts') {
 					return (
 						<li key={index} className={styles.home}>
 							<Link href='/blog'>
-								<a>{xcrumb}</a>
+								<a>Blog</a>
 							</Link>
 						</li>
 					);
 				}
-				if (xcrumb === 'projects') {
-					xcrumb = 'Portfolio';
+				if (crumb === 'projects') {
 					return (
 						<li key={index} className={styles.home}>
 							<Link href='/portfolio'>
-								<a>{xcrumb}</a>
+								<a>Portfolio</a>
 							</Link>
 						</li>
 					);
