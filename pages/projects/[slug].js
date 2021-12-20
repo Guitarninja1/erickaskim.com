@@ -78,7 +78,7 @@ const Project = (props) => {
 							</TwitterShareButton>
 						</div>
 						<h2
-							styl={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
+							style={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
 							dangerouslySetInnerHTML={{ __html: title }}
 						/>
 						<div

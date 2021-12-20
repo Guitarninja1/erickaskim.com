@@ -81,7 +81,7 @@ const Post = (props) => {
 							</TwitterShareButton>
 						</div>
 						<h2
-							styl={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
+							style={{ fontFamily: 'Raleway', fontSize: '24px', color: '#fff' }}
 							dangerouslySetInnerHTML={{ __html: props.post.title }}
 						/>
 						<div
