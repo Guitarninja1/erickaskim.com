@@ -13,3 +13,5 @@ challenge. I have been trying to do normal vanilla JavaScript projects as
 React.js projects to familiarize myself with React.js more. Though this ended up
 being more of a CSS project than a React.js one. The base calculations and code
 for retrieving a randomized dice roll was easy.
+
+\[GitHub Repo Here](https://github.com/Guitarninja1/dice-roller)
