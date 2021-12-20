@@ -3,7 +3,6 @@ title: Netlify and Nextjs
 description: Image file loading with Nextjs and Netlify
 excerpt: Netlify Image loading
 date: 2021-11-05T21:17:00.480Z
-image: /public/img/me.jpg
 ---
 
 Talk about madness... Trying to navigate documents can be a real pain for a

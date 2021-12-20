@@ -5,7 +5,6 @@ excerpt:
   Though this ended up being more of a CSS project than a React.js one. The base
   calculations and code for retrieving a randomized dice roll was easy.
 date: 2021-12-20T17:34:43.466Z
-image: /public/img/Dice-Roller.jpeg
 ---
 
 The hardest part about this project was animating the dice. Was an extremely fun
