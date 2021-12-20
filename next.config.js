@@ -1,9 +1,9 @@
 module.exports = {
 	reactStrictMode: true,
-	images: {
-		loader: 'cloudinary',
-		path: 'https://res.cloudinary.com/dxurxdtth',
-	},
+	// images: {
+	// 	loader: 'cloudinary',
+	// 	path: 'https://res.cloudinary.com/dxurxdtth',
+	// },
 	webpack(config) {
 		config.module.rules.push(
 			{
